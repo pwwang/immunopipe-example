@@ -13,7 +13,7 @@ outdir = './output'
 # dirsig = 1
 # error_strategy = 'ignore'
 # num_retries = 3
-forks = 2
+# forks = 2
 # submission_batch = 8
 # name = 'immunopipe'
 # scheduler = 'local'
@@ -21,7 +21,7 @@ forks = 2
 # plugins = []
 # template_opts = {}
 [plugin_opts]
-report_forks = 2
+# report_forks = 1
 args_hide = true
 
 # General process options
@@ -124,7 +124,7 @@ L6_top_5 = ["LN6", "LT6"]
 
 [SeuratPreparing.envs]
 # # Number of cores to use
-ncores = 2
+ncores = 1
 # # Seurat routine: sct or integrate
 # # sct routine - SelectIntegrationFeatures -> PrepSCTIntegration -> FindIntegrationAnchors -> IntegrateData -> RunPCA -> RunUMAP
 # # integrate routine - NormalizeData -> FindVariableFeatures -> FindIntegrationAnchors -> ScaleData -> RunPCA -> RunUMAP
@@ -140,7 +140,7 @@ IntegrateData = {"k.weight" = 20}
 
 [MarkersForClustersOfAllCells.envs]
 # # Number of cores to use
-ncores = 2
+ncores = 1
 # # The dbs to do enrichment analysis for significant markers
 # # See: https://maayanlab.cloud/Enrichr/#libraries
 dbs = ["KEGG_2021_Human"]
@@ -156,7 +156,7 @@ indicator_gene = "CD3E"
 
 [MarkersForClustersOfTCells.envs]
 # # Same as MarkersForClustersOfAllCells
-ncores = 2
+ncores = 1
 dbs = ["KEGG_2021_Human"]
 
 [SeuratClusterStats.envs]
@@ -349,7 +349,7 @@ devpars = {res = 100, height = 1000, width = 1200}
 [MetaMarkersForClones.envs]
 # # Find markers for multiple groups (> 2)
 # # Number of cores to use
-ncores = 24
+ncores = 1
 # # cases
 [MetaMarkersForClones.envs.cases.Top5_10_Rest]
 "group.by" = "CloneGroup"
