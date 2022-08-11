@@ -37,6 +37,7 @@ You need to clone this repository to run the example.
     -v $(pwd)/:/workdir \
     -v /tmp \
     -v $(pwd)/prepared-data:/mnt \
+    --rm -it \
     justold/immunopipe:dev \
     --config config.toml
 ```
