@@ -34,7 +34,18 @@ You need to clone this repository to run the example.
     -v $(pwd)/:/workdir \
     -v /tmp \
     -v $(pwd)/prepared-data:/mnt \
-    justold/immunopipe:<tag> \
+    justold/immunopipe:dev \
+    --config config.toml
+```
+
+## Running the example using singularity
+
+```bash
+> singularity run \
+    -c -e -w -H /home/immunopipe_user \
+    --pwd /workdir \
+    -B .:/workdir,prepared-data/:/mnt,/tmp \
+    docker://justold/immunopipe:dev \
     --config config.toml
 ```
 
