@@ -44,7 +44,7 @@ args_hide = true
 # # The only start process of immunopipe is 'SampleInfo'
 # # See: https://pwwang.github.io/immunopipe/input
 [SampleInfo.in]
-infile = ["data/sample.txt"]
+infile = ["data/sample-local.txt"]
 
 # Process environments
 # --------------------

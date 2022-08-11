@@ -1,0 +1,13 @@
+Sample	TCRDir	RNADir	patient	region
+LN1	prepared-data/LN1/	prepared-data/LN1/	Lung1	Normal
+LN2	prepared-data/LN2/	prepared-data/LN2/	Lung2	Normal
+LN3	prepared-data/LN3/	prepared-data/LN3/	Lung3	Normal
+LN4	prepared-data/LN4/	prepared-data/LN4/	Lung4	Normal
+LN5	prepared-data/LN5/	prepared-data/LN5/	Lung5	Normal
+LN6	prepared-data/LN6/	prepared-data/LN6/	Lung6	Normal
+LT1	prepared-data/LT1/	prepared-data/LT1/	Lung1	Tumor
+LT2	prepared-data/LT2/	prepared-data/LT2/	Lung2	Tumor
+LT3	prepared-data/LT3/	prepared-data/LT3/	Lung3	Tumor
+LT4	prepared-data/LT4/	prepared-data/LT4/	Lung4	Tumor
+LT5	prepared-data/LT5/	prepared-data/LT5/	Lung5	Tumor
+LT6	prepared-data/LT6/	prepared-data/LT6/	Lung6	Tumor

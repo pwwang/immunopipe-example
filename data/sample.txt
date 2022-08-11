@@ -1,0 +1,13 @@
+Sample	TCRDir	RNADir	patient	region
+LN1	/mnt/LN1/	/mnt/LN1/	Lung1	Normal
+LN2	/mnt/LN2/	/mnt/LN2/	Lung2	Normal
+LN3	/mnt/LN3/	/mnt/LN3/	Lung3	Normal
+LN4	/mnt/LN4/	/mnt/LN4/	Lung4	Normal
+LN5	/mnt/LN5/	/mnt/LN5/	Lung5	Normal
+LN6	/mnt/LN6/	/mnt/LN6/	Lung6	Normal
+LT1	/mnt/LT1/	/mnt/LT1/	Lung1	Tumor
+LT2	/mnt/LT2/	/mnt/LT2/	Lung2	Tumor
+LT3	/mnt/LT3/	/mnt/LT3/	Lung3	Tumor
+LT4	/mnt/LT4/	/mnt/LT4/	Lung4	Tumor
+LT5	/mnt/LT5/	/mnt/LT5/	Lung5	Tumor
+LT6	/mnt/LT6/	/mnt/LT6/	Lung6	Tumor

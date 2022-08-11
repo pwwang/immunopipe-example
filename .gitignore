@@ -120,3 +120,6 @@ tests/
 .pipen*
 
 docs/index.md
+
+/prepared-data
+/output
