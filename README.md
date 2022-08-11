@@ -3,13 +3,21 @@
 You need to clone this repository to run the example.
 
 ```bash
-> git clone https://github.com/pwwang/immunopipe
+> git clone https://github.com/pwwang/immunopipe-example
+
+# cd immunopipe-example/
 ```
 
 ## Preparing the data
 
 ```bash
 > bash prepare-data.sh
+
+# The data from GSE139555 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139555) will be downloaded and extracted into:
+# ./prepared-data/LN1
+# ./prepared-data/LN2
+# ...
+# Only first 12 samples are used.
 ```
 
 ## Running the example with immunopipe install locally:
