@@ -1,0 +1,5 @@
+Quantile	Tumor	Normal
+q1	39	41
+q2	97	69
+q3	135	177
+q4	290	387

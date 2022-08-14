@@ -1,0 +1,7 @@
+
+	Fisher's Exact Test for Count Data
+
+data:  conttable
+p-value = 3.341e-10
+alternative hypothesis: two.sided
+

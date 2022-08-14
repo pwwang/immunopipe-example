@@ -1,0 +1,86 @@
+4	1	5	2	3	16	0	11	6	10	12	7	8	13	9	18	14	17	15
+Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Citrate cycle (TCA cycle)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pentose phosphate pathway	0	0	0	0	0	0	0	0	0	0.0896	0	0	0	0	0	0	0	0	0
+Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0	0	0	0	8e-04	0	0	0	0	0	0	0
+Fructose and mannose metabolism	0	0	0	0	0	0	0	0	0	0	2e-04	0	0	0	0	0	0	0	0.4834
+Galactose metabolism	0	0	0	0	0	0	0	4e-04	0	0.0794	0	0	0	0	0	0	0	0	0
+Ascorbate and aldarate metabolism	0	0	0.0014	0	0	0	0	0	0	0	0.3794	0	0	0.0944	0	0	0	0	0
+Starch and sucrose metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0	0	0	0	0	0	0.3384	6e-04	0	0	0	0	0	0	0	0
+Pyruvate metabolism	0	0	0	0	0	0	0	0	0	0	0	0.0306	0	0	0	0	0	0	0
+Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0	0	0	0.0096	0.0076	0	0	0	0	0	0	2e-04
+Propanoate metabolism	0	0	0	0	0	0	0	0	0	0	0.2634	0	0	0	0	0	0	0	0.0022
+Butanoate metabolism	0	0	0	0	0	0	0	0	0	0	0.3046	0	0	0.0084	0.1748	0	0.0016	0	0
+Inositol phosphate metabolism	0	0	0	0	0	0	0	0	0	0	0.0436	0	0	0.0714	0	0	0	0	0
+Oxidative phosphorylation	0	0	0	0	0	0	0	0	0	0.0022	0	0	0	0	0	0	0	0	0
+Nitrogen metabolism	0	0.1866	0	0	0	0	0	0	0	0.231	0	0	0	0	0	0	0	0	0
+Sulfur metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fatty acid biosynthesis	0	0	0	0	0	0	0	0	0	0	0.1162	2e-04	0	0.002	0	0	0	0	0
+Fatty acid elongation	0	0	0	0	0	0	0	0	0	0.1158	8e-04	0	0	0	0	0	0	0.0032	0
+Fatty acid degradation	0	0	0	0	0	0	0	0	0	0	0.1752	0	0	0.1222	0	0	0	0	0
+Synthesis and degradation of ketone bodies	0	0	0.0892	0	0	0	0	0	0	0	0	0	0	0.005	0	0	0.011	0	0
+Steroid biosynthesis	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0142	0.1638	0.011	0	0.0278	0.3274
+Primary bile acid biosynthesis	0	0	0	0	0	0	0	0	0	0	0.0208	0.0072	0	4e-04	0	0	0	0	0.0038
+Steroid hormone biosynthesis	0	0	0	0	0	0	0	0.0412	0	0	0.0388	0	0	0	0	0	0	0	0
+Glycerolipid metabolism	0	0	0.0054	0	0	0	0	0	0	0	0.007	0	0	0	0	0	0	0.443	0.0054
+Glycerophospholipid metabolism	0	0	2e-04	0	0	0	0	0	0	0	0.0112	0	0	0.0056	0	0	0	0	0
+Ether lipid metabolism	0	0	0	0	0	0	0	0	0	0.406	8e-04	0	0	0	0.4288	0	0	0	0.0032
+Sphingolipid metabolism	0	0	0.0026	0	0	0	0	0	0	0	0.2766	0	0	0.0048	0	0	0	0.002	0
+Arachidonic acid metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Linoleic acid metabolism	0	0	0	0	0.485	0	0.0012	0	0	0	0.0666	0	0	0	0.4478	0	0	0.197	0
+alpha-Linolenic acid metabolism	0	0	0	0	0	0	0	0.0034	0	0	0	0	0	0	0	0	0	0.0348	0.0244
+Biosynthesis of unsaturated fatty acids	0	0	0	0	0.256	0	0	0	0	0.1258	0	0.001	0	0.0366	0.019	0	0	2e-04	0
+Purine metabolism	0	0	0	0	0	0	0	0	0	0	0.0664	0	0	0.0016	0	0	0	0.0018	0.0056
+Pyrimidine metabolism	0	0	0	0	0	0	0	0	0	0	0.0234	0	0	0.0014	0	0	0	0.4628	0.055
+Alanine, aspartate and glutamate metabolism	0	0	0	0	0	0	0	0	0	0	8e-04	0	0	0	0	0	0	0.3936	0.0802
+Glycine, serine and threonine metabolism	0	0	0.4468	0	0	0	0	0	0	0	0.4758	0.2684	0	0.0304	0	0	0	0	0
+Cysteine and methionine metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Valine, leucine and isoleucine degradation	0	0	0	0	0	0	0	0	0	0	0.4178	0	0	2e-04	0	0	0	0	0.0082
+Valine, leucine and isoleucine biosynthesis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Lysine degradation	0	0	0	0	0	0	0	0	0	0.0012	0.0054	0	0	0.1574	0.0222	0	0	0	0
+Arginine biosynthesis	0	0	0	2e-04	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Arginine and proline metabolism	0	0	0	0	0	0	0	0	0	0.0024	2e-04	0	0	0	0	0	0	0	0
+Histidine metabolism	0	0	0	0	0	0	0	0.0012	0	2e-04	0	0.241	0	0	0	0	0	0	0
+Tyrosine metabolism	0	0	0	0	0	0	0	0.1538	0	0	0	0	0	0	0	0	0	0	0
+Phenylalanine metabolism	0	0	0	0	0	0	0	0	0	0	8e-04	0	0	0.1082	0	0.0062	0	0	0
+Tryptophan metabolism	0	0	0	0	0	0	0	0	0	0	8e-04	0	0	0	0	0	0	0	0
+Phenylalanine, tyrosine and tryptophan biosynthesis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+beta-Alanine metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Taurine and hypotaurine metabolism	0	0.014	0	0	0	0	0	0	0	0	0	0	0.1626	0	0	0.0018	0.004	0	0.3528
+Phosphonate and phosphinate metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Selenocompound metabolism	0	0	0	0	0	0	0	0	0	0	0.0018	0	0	0	0	0	0	0	0
+D-Glutamine and D-glutamate metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+D-Arginine and D-ornithine metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Glutathione metabolism	0	0	0	0	0	0	0	0	0	0.0164	0	0	0	0	0	0	0	0	0
+N-Glycan biosynthesis	0	0	0	0	0	0	0	0	0	0.0034	0	0.2252	0	0	0	0	0	0	0.0194
+Mucin type O-glycan biosynthesis	0	0	0	0	0	0	0	0	0	0	0.023	0	0	0.0226	0	0	0	0	0
+Mannose type O-glycan biosynthesis	0	0	0	0	0	0	0	0	0	0	0	0.0056	0	0	0.4742	0.3572	0	0	0
+Other types of O-glycan biosynthesis	0	0	2e-04	0	0	0	0	0	0	0	0.0158	0	0	0.3776	0.0304	0	0	0.467	0
+Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	0	0	0	0	0	0	0	0	0	0	0.004	0	0	0	0	0.474	0	0.0238	0
+Glycosaminoglycan biosynthesis - heparan sulfate / heparin	0	0	0	0	0	0	0	0	0	0	0.0636	0	0	0	0	0.0388	0	0	0
+Glycosaminoglycan biosynthesis - keratan sulfate	0	0	0.0272	0	0.0048	0	0	0	0	0	0	2e-04	0	0	0.1022	0	0	0	0
+Glycosaminoglycan degradation	0	0	0	0	0	0	0	0.2892	0	0	0	0.0332	0	0	0	0	0	0.0078	0
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	0	0	0	0	0	0	0	0	0	0	0.1574	0	0	0.0104	0	0	0	0	0.0194
+Glycosphingolipid biosynthesis - lacto and neolacto series	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glycosphingolipid biosynthesis - globo and isoglobo series	0	0	0	0	0	0	0	0	0	0.0018	0	0	0	0	0	0	0	4e-04	0
+Glycosphingolipid biosynthesis - ganglio series	0	0	0.0222	0	0	0	0	0	0	0	0	0	0	0	6e-04	0	0	0	0
+Other glycan degradation	0	0	0	0	0	8e-04	0	0.0018	0	0	0	0.014	0	0	0	0	0	0	0
+Thiamine metabolism	0	0	0	0	0	0	0	0	0	0	0.001	0	0	0	0	0	0	0	0
+Riboflavin metabolism	0	0	0	0	0	0	0	0	0	2e-04	0	0	0	0	0	0	0	0	0
+Vitamin B6 metabolism	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0016	0	0	0	0.3148	0
+Nicotinate and nicotinamide metabolism	0	0	0	0	0	0	0	0	0	0.0016	0.0028	0	0	0	0	0	0	0	0
+Pantothenate and CoA biosynthesis	0	0	0	0	0	0	0	0	0	0.2838	0.3092	0	0	0.0096	4e-04	0	0	0	0
+Biotin metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Lipoic acid metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Folate biosynthesis	0	0	0	0	0	0	0	0	0	0.1078	0.017	0	0	0	0	0	0	0	0.3456
+One carbon pool by folate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Retinol metabolism	0	0	0	0	0	0	0	0.0016	0	0.387	0.3728	0.009	0	0	0	0	0	0	0
+Porphyrin and chlorophyll metabolism	0	0	0	0	0	0	0	0	0	0.1188	0.0392	0	0	0	0	0	0	0	0
+Ubiquinone and other terpenoid-quinone biosynthesis	0	0	0	0	0	0	0	0	0	0	0.2842	0	0	0	0	0	0	0	0.3178
+Terpenoid backbone biosynthesis	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0998	0.0016	0	0	0	0.4008
+Caffeine metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Neomycin, kanamycin and gentamicin biosynthesis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Metabolism of xenobiotics by cytochrome P450	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2e-04
+Drug metabolism - cytochrome P450	0	0	0	0	0	0	0	0	0	0.1814	0	0	0	0	0	0.0066	0	0	4e-04
+Drug metabolism - other enzymes	0	0	0	0	0	0	0	0	0	0.026	0	0.0018	0	0	0	0	0	0	0

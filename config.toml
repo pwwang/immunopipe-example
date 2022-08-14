@@ -398,6 +398,8 @@ Tumor_vs_Normal = ["Tumor", "Normal"]
 
 # Options for module processes
 # ----------------------------
+[MetabolicPathwayActivity.envs]
+ncores = 16
 
 [MetabolicPathwayActivity.envs.heatmap_devpars]
 width = 1200
