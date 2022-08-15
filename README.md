@@ -55,6 +55,6 @@ You need to clone this repository to run the example.
 
 ## Checking out the reports
 
-https://pwwang.github.io/immunopipe-example/
+https://pwwang.github.io/immunopipe-example/output/REPORTS/
 
 [1]: https://github.com/pwwang/immunopipe
