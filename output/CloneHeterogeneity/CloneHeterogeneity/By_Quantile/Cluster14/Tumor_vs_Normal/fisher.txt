@@ -2,6 +2,6 @@
 	Fisher's Exact Test for Count Data
 
 data:  conttable
-p-value = 0.458
+p-value = 1.858e-12
 alternative hypothesis: two.sided
 

@@ -2,5 +2,5 @@
 	Pearson's Chi-squared test
 
 data:  conttable
-X-squared = 14.074, df = 3, p-value = 0.002806
+X-squared = 92.94, df = 3, p-value < 2.2e-16
 

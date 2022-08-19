@@ -1,0 +1,6 @@
+
+	Pearson's Chi-squared test
+
+data:  conttable
+X-squared = 5.6255, df = 3, p-value = 0.1313
+

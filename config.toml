@@ -147,7 +147,7 @@ dbs = ["KEGG_2021_Human"]
 
 [SelectTCells.envs]
 # Clonotype percentage threshold to filter cells
-tcell_filter = "Clonotype_pct > 0.1"
+tcell_filter = "Clonotype_pct > 0.3"
 # Gene expression used to filter cells
 indicator_gene = "CD3E"
 
