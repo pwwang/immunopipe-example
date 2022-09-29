@@ -205,7 +205,7 @@ Ident = {"group.by" = "ident", devpars = {res = 100, width = 1000, height = 1000
 
 [TCRClustering.envs]
 # # The tool used to do the clustering, either GIANA or ClusTCR
-tool = "ClusTCR"
+tool = "GIANA"
 # # Arguments for GIANA/ClusTCR
 # # For GIANA, they will be passed to `python GIAna.py <args>`
 # # For ClusTCR, they will be passed to `clustcr.Clustering(<args>)`
@@ -349,7 +349,7 @@ devpars = {res = 100, height = 1000, width = 1200}
 [MetaMarkersForClones.envs]
 # # Find markers for multiple groups (> 2)
 # # Number of cores to use
-ncores = 24
+ncores = 12
 # # cases
 [MetaMarkersForClones.envs.cases.Top5_10_Rest]
 "group.by" = "CloneGroup"

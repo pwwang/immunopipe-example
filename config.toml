@@ -205,7 +205,7 @@ Ident = {"group.by" = "ident", devpars = {res = 100, width = 1000, height = 1000
 
 [TCRClustering.envs]
 # # The tool used to do the clustering, either GIANA or ClusTCR
-tool = "ClusTCR"
+tool = "GIANA"
 # # Arguments for GIANA/ClusTCR
 # # For GIANA, they will be passed to `python GIAna.py <args>`
 # # For ClusTCR, they will be passed to `clustcr.Clustering(<args>)`

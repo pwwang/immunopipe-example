@@ -1,4 +1,4 @@
-#args <- c("/workdir/output/VJUsage/1/LN2.fancyvj.wt.txt", "/workdir/output/VJUsage/1/LN2.fancyvj.wt.png")
+#args <- c("/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-example/output/VJUsage/1/LN2.fancyvj.wt.txt", "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-example/output/VJUsage/1/LN2.fancyvj.wt.png")
 args<-commandArgs(TRUE)
 
 file_in  <- args[1]
