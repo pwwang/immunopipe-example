@@ -1,4 +1,4 @@
-#args <- c("/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-example/output/VJUsage/3/LN4.fancyvj.wt.txt", "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-example/output/VJUsage/3/LN4.fancyvj.wt.png")
+#args <- c("/immunopipe/workdir/output/VJUsage/3/LN4.fancyvj.wt.txt", "/immunopipe/workdir/output/VJUsage/3/LN4.fancyvj.wt.png")
 args<-commandArgs(TRUE)
 
 file_in  <- args[1]

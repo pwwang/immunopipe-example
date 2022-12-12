@@ -1,6 +1,0 @@
-
-	Pearson's Chi-squared test
-
-data:  conttable
-X-squared = 200.92, df = 3, p-value < 2.2e-16
-

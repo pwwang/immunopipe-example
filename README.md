@@ -33,8 +33,8 @@ You need to clone this repository to run the example.
 
 ```bash
 > docker run \
-    -w /workdir \
-    -v $(pwd)/:/workdir \
+    -w /immunopipe/workdir \
+    -v $(pwd)/:/immunopipe/workdir \
     -v /tmp \
     -v $(pwd)/prepared-data:/mnt \
     --rm -it \
@@ -46,9 +46,8 @@ You need to clone this repository to run the example.
 
 ```bash
 > singularity run \
-    -c -e -w -H /home/immunopipe_user \
-    --pwd /workdir \
-    -B .:/workdir,prepared-data/:/mnt,/tmp \
+    -c -e -w --pwd /immunopipe/workdir \
+    -B .:/immunopipe/workdir,prepared-data/:/mnt,/tmp \
     docker://justold/immunopipe:dev \
     --config config.toml
 ```

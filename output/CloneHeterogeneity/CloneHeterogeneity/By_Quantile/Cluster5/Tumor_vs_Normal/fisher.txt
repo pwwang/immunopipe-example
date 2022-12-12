@@ -1,7 +1,8 @@
 
-	Fisher's Exact Test for Count Data
+	Fisher's Exact Test for Count Data with simulated p-value (based on
+	10000 replicates)
 
 data:  conttable
-p-value = 0.02855
+p-value = 9.999e-05
 alternative hypothesis: two.sided
 

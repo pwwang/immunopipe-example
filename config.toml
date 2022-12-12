@@ -136,7 +136,7 @@ IntegrateData = {"k.weight" = 20}
 # # Arguments for Seurat::FindNeighbors
 # FindNeighbors = {}
 # # Arguments for Seurat::FindClusters
-# FindClusters = {resollution: 0.8}
+# FindClusters = {resolution = 0.8}
 
 [MarkersForClustersOfAllCells.envs]
 # # Number of cores to use
@@ -151,8 +151,8 @@ tcell_filter = "Clonotype_pct > 0.3"
 # Gene expression used to filter cells
 indicator_gene = "CD3E"
 
-# [SeuratClusteringOfTCells.envs]
-# # Same as SeuratClusteringOfAllCells.envs
+[SeuratClusteringOfTCells.envs]
+FindClusters = {resolution = 0.5}
 
 [MarkersForClustersOfTCells.envs]
 # # Same as MarkersForClustersOfAllCells
