@@ -1,0 +1,41 @@
+x	y	NES	PVAL
+Cluster_Regulatory T cells.1	Inositol phosphate metabolism	1.93012944713009	4.39006282821937
+Cluster_Regulatory T cells.1	Sulfur metabolism	1.72817613926697	2.06060847835227
+Cluster_Regulatory T cells.1	Fatty acid biosynthesis	1.07914849027237	0.433381730865249
+Cluster_Regulatory T cells.1	Citrate cycle (TCA cycle)	-1.14059389425104	0.395214852466338
+Cluster_Trm cytotoxic T cells.2	Inositol phosphate metabolism	2.17036639979887	7.05723913551763
+Cluster_Trm cytotoxic T cells.2	Sulfur metabolism	1.48859664667644	1.25677786010062
+Cluster_Trm cytotoxic T cells.2	Fatty acid biosynthesis	1.36248762386797	0.957157248446541
+Cluster_Trm cytotoxic T cells.2	Citrate cycle (TCA cycle)	-1.26221293530118	0.871076989579109
+Cluster_Trm cytotoxic T cells.1	Inositol phosphate metabolism	1.79930422242514	3.5816570609705
+Cluster_Trm cytotoxic T cells.1	Citrate cycle (TCA cycle)	-1.82740402385171	2.16405550909293
+Cluster_Trm cytotoxic T cells.1	Fatty acid biosynthesis	1.4566518814037	1.19788483606074
+Cluster_Trm cytotoxic T cells.1	Sulfur metabolism	1.43718303182519	1.10842364854274
+Cluster_Regulatory T cells.4	Inositol phosphate metabolism	2.21344043685741	5.34466534225036
+Cluster_Regulatory T cells.4	Citrate cycle (TCA cycle)	-1.69314198179207	1.56924165436351
+Cluster_Regulatory T cells.4	Fatty acid biosynthesis	1.52138394463446	1.23731329317469
+Cluster_Regulatory T cells.4	Sulfur metabolism	1.03174298650557	0.358137677773302
+Cluster_Trm cytotoxic T cells	Inositol phosphate metabolism	1.82794854727076	4.18050787595388
+Cluster_Trm cytotoxic T cells	Fatty acid biosynthesis	1.78279019809048	2.25489390711893
+Cluster_Trm cytotoxic T cells	Sulfur metabolism	1.72522553973896	2.18878859840173
+Cluster_Trm cytotoxic T cells	Citrate cycle (TCA cycle)	-1.04974454851658	0.701005506676167
+Cluster_Regulatory T cells.3	Citrate cycle (TCA cycle)	-2.3179054336831	3.55293494207646
+Cluster_Regulatory T cells.3	Inositol phosphate metabolism	1.70166308036387	2.51935853302497
+Cluster_Regulatory T cells.3	Fatty acid biosynthesis	1.73475266571701	2.03470866752699
+Cluster_Regulatory T cells.3	Sulfur metabolism	1.32886625496014	0.874025995960095
+Cluster_Tem/Trm cytotoxic T cells	Inositol phosphate metabolism	2.13695309911843	6.23415987963693
+Cluster_Tem/Trm cytotoxic T cells	Fatty acid biosynthesis	1.85118871617379	2.39722392258877
+Cluster_Tem/Trm cytotoxic T cells	Citrate cycle (TCA cycle)	-1.43430059520405	1.52150468556022
+Cluster_Tem/Trm cytotoxic T cells	Sulfur metabolism	1.31532320987238	0.801632346233167
+Cluster_gamma-delta T cells	Inositol phosphate metabolism	1.68913712917137	2.31110402290904
+Cluster_gamma-delta T cells	Citrate cycle (TCA cycle)	-1.74955075145735	1.90621197481409
+Cluster_gamma-delta T cells	Fatty acid biosynthesis	1.34055832229568	0.866817289707494
+Cluster_gamma-delta T cells	Sulfur metabolism	1.20279279739697	0.626755218473989
+Cluster_Regulatory T cells	Inositol phosphate metabolism	2.10559953580502	5.09706961068683
+Cluster_Regulatory T cells	Sulfur metabolism	1.37334663714006	0.997901954944307
+Cluster_Regulatory T cells	Fatty acid biosynthesis	1.32605629707681	0.892578496313692
+Cluster_Regulatory T cells	Citrate cycle (TCA cycle)	-1.08464732489114	0.508776269056593
+Cluster_Regulatory T cells.2	Inositol phosphate metabolism	2.00205792284533	3.86056464667198
+Cluster_Regulatory T cells.2	Citrate cycle (TCA cycle)	-1.22341063528156	0.70331210566511
+Cluster_Regulatory T cells.2	Fatty acid biosynthesis	1.15393771745741	0.527095229681501
+Cluster_Regulatory T cells.2	Sulfur metabolism	0.89733734864119	0.226037505718586

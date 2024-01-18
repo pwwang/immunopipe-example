@@ -1,0 +1,7 @@
+Sample	RNAData	patient	source
+LN1	prepared-data/LN1/	Lung1	Normal
+LN2	prepared-data/LN2/	Lung2	Normal
+LN3	prepared-data/LN3/	Lung3	Normal
+LT1	prepared-data/LT1/	Lung1	Tumor
+LT2	prepared-data/LT2/	Lung2	Tumor
+LT3	prepared-data/LT3/	Lung3	Tumor

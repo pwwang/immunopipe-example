@@ -1,0 +1,63 @@
+{
+  "Cluster Size Distribution": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/ClusterSizeDistribution/DEFAULT/cluster_size_distribution.png",
+            "name": false,
+            "descr": "Cluster size distribution for each Sample"
+          }
+        ]
+      }
+    }
+  },
+  "Shared TCR Clusters": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SharedClusters/DEFAULT/shared_clusters.png",
+            "name": false,
+            "descr": "Shared TCR clusters across samples"
+          }
+        ]
+      }
+    }
+  },
+  "Sample Diversity using TCR clusters": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "ui": "flat",
+            "label": "Diversity Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The Gini coefficient  The Gini coefficient is a measure of statistical dispersion intended to represent the income or wealth distribution of a nation's residents, and is the most commonly used measurement of inequality."
+              },
+              {
+                "kind": "image",
+                "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SampleDiversity/DEFAULT/diversity.png"
+              }
+            ]
+          },
+          {
+            "ui": "flat",
+            "label": "Diversity Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SampleDiversity/DEFAULT/diversity.txt",
+                "data": {
+                  "index_col": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

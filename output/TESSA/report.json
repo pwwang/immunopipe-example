@@ -1,0 +1,34 @@
+{
+  "TESSA Results": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TESSA/result/Cluster_size_dist.png",
+            "descr": "Histogram of cluster size distribution"
+          },
+          {
+            "src": "/workdir/output/TESSA/result/clone_size.png",
+            "descr": "Center cluster size vs. non-center cluster size"
+          },
+          {
+            "src": "/workdir/output/TESSA/result/exp_TCR_pair_plot.png",
+            "descr": "Expression-TCR distance plot"
+          },
+          {
+            "src": "/workdir/output/TESSA/result/TCR_dist_density.png",
+            "descr": "TCR distance density plot"
+          },
+          {
+            "src": "/workdir/output/TESSA/result/TCR_explore.png",
+            "descr": "Exploratory plot at the TCR level"
+          },
+          {
+            "src": "/workdir/output/TESSA/result/TCR_explore_clusters.png",
+            "descr": "TESSA clusters"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Pie Chart",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "All Clonotypes along Activation": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Histogram showing number of cells along <code>Activation<\/code>"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/All-Clonotypes-along-Activation/All-Clonotypes-along-Activation.png"
+          }
+        ]
+      }
+    }
+  },
+  "Top 10 Clonotypes along Activation": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Histogram showing number of cells by <code>CDR3.aa<\/code> in each <code>source<\/code> along <code>Activation<\/code>"
+          }
+        ],
+        "table_of_images": [
+          {
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/Top-10-Clonotypes-along-Activation/Top-10-Clonotypes-along-Activation-Tumor.png",
+            "descr": "Tumor"
+          },
+          {
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/Top-10-Clonotypes-along-Activation/Top-10-Clonotypes-along-Activation-Normal.png",
+            "descr": "Normal"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png"
+          }
+        ]
+      }
+    }
+  },
+  "Violin Plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/Violin-Plots..png"
+          }
+        ]
+      }
+    }
+  },
+  "Violin Plots (FOXP3, IL2RA)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/Violin-Plots-FOXP3-IL2RA-..png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR Clone Size": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/TCR-Clone-Size..png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR Cluster Size": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/TCR-Cluster-Size..png"
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for TCR_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/dimplots/TCR-presence.dim.png"
+          }
+        ]
+      }
+    }
+  }
+}

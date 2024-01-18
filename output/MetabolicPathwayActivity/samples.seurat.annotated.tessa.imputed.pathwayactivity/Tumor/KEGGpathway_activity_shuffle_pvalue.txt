@@ -1,0 +1,21 @@
+Tem/Trm cytotoxic T cells	gamma-delta T cells	Regulatory T cells.3	Trm cytotoxic T cells.1	Regulatory T cells	Trm cytotoxic T cells	Regulatory T cells.4	Regulatory T cells.2	Regulatory T cells.1	Trm cytotoxic T cells.2
+Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0	0	0
+Citrate cycle (TCA cycle)	0	0	0	0.0018	0.127	0	0	0	0.0192	0
+Pentose phosphate pathway	0	0	0	6e-04	0	0	0	0	0	0
+Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0	0	0
+Fructose and mannose metabolism	0	0	0	0	0.002	0	0	0	0	0
+Galactose metabolism	0	0	0	0.0014	0.0026	0	0	0	0	0
+Ascorbate and aldarate metabolism	0	0.0014	0	0	0	0	0	0	0.3524	0
+Starch and sucrose metabolism	0	0	0	0.088	0	0	0	0	0	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0.255	0	0	0	0	0	0
+Pyruvate metabolism	0	0	0	0.3922	0	0	0	0.316	0.2122	0
+Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0	2e-04	0
+Propanoate metabolism	0	0	0	0	0	0	0	0	0	0
+Butanoate metabolism	0	0	0	0	0	0	0	0	0	0
+Inositol phosphate metabolism	0	0	0	0	0	0.0028	0	0	0	0
+Oxidative phosphorylation	0	0	0	0.0028	0	0	0	0	0	0
+Nitrogen metabolism	0.2918	0	0.0018	0	0	0.0326	0.5048	0	0	0
+Sulfur metabolism	0	0.146	0	0	0	0	0	0	0	0
+Fatty acid biosynthesis	0	0.0648	0	0.0038	0	0.3876	0	0	0	0
+Fatty acid elongation	0	0	0	0	0	0	0	0	0.1912	0
+Fatty acid degradation	0	0	0	0.2724	0	0	0	0	0	0

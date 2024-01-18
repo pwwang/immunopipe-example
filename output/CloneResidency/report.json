@@ -1,0 +1,104 @@
+{
+  "Clone Size Tables": {
+    "#": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/counts/Lung1.txt",
+            "ds_name": "Lung1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/counts/Lung2.txt",
+            "ds_name": "Lung2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/counts/Lung3.txt",
+            "ds_name": "Lung3"
+          }
+        ]
+      }
+    }
+  },
+  "Residency Plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "Lung1 (Normal - Tumor)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/scatter/scatter_Lung1_Normal_Tumor.png"
+          },
+          {
+            "name": "Lung2 (Normal - Tumor)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/scatter/scatter_Lung2_Normal_Tumor.png"
+          },
+          {
+            "name": "Lung3 (Normal - Tumor)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/scatter/scatter_Lung3_Normal_Tumor.png"
+          }
+        ]
+      }
+    }
+  },
+  "Overlapping Clones (Venn Diagram)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung1.png"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung2.png"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung3.png"
+          }
+        ]
+      }
+    }
+  },
+  "Overlapping Clones (UpSet Plots)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung1.png"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung2.png"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung3.png"
+          }
+        ]
+      }
+    }
+  }
+}

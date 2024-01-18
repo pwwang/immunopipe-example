@@ -1,0 +1,51 @@
+{
+  "Patient1_Tumor_Expanded": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution for cells in <code>Patient1_Tumor_Expanded<\/code> for <code>source<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Tumor",
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.Tumor.heatmap.png"
+              },
+              {
+                "descr": "Normal",
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.Normal.heatmap.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

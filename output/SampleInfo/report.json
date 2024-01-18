@@ -1,0 +1,39 @@
+{
+  "Sample Information": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The samples used in the analysis. Each row is a sample, and columns are the meta information about the sample. This is literally the input sample information file, but the paths to the scRNA-seq and scTCR-seq data are hidden.",
+            "once": true
+          },
+          {
+            "kind": "table",
+            "pageSize": 50,
+            "data": {
+              "file": "/workdir/output/SampleInfo/samples.txt",
+              "sep": "\t",
+              "excluded": ["TCRData", "RNAData"]
+            },
+            "src": false
+          }
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/workdir/output/SampleInfo/Sample_Source.png",
+            "name": "Sample_Source",
+            "descr": "The number of Sample"
+          }
+        ]
+      }
+    }
+  }
+}

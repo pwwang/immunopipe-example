@@ -1,0 +1,922 @@
+{
+  "seurat_clusters - gamma-delta T cells": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_gamma.delta.T.cells<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/ND4L.png",
+                "name": "ND4L"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells/expr_plots/ATP6.png",
+                "name": "ATP6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/gamma-delta-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Regulatory.T.cells<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/ND4L.png",
+                "name": "ND4L"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells/expr_plots/RNR1.png",
+                "name": "RNR1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells.1": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Regulatory.T.cells.1<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/ND4L.png",
+                "name": "ND4L"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1/expr_plots/HLA-G.png",
+                "name": "HLA-G"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells.2": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Regulatory.T.cells.2<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/GNLY.png",
+                "name": "GNLY"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2/expr_plots/CD8A.png",
+                "name": "CD8A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-2"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells.3": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Regulatory.T.cells.3<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/H3F3A.png",
+                "name": "H3F3A"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/RPL17.png",
+                "name": "RPL17"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3/expr_plots/LOC100996809.png",
+                "name": "LOC100996809"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-3"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells.4": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Regulatory.T.cells.4<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/ATP6.png",
+                "name": "ATP6"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4/expr_plots/ND4L.png",
+                "name": "ND4L"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Regulatory-T-cells-4"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Tem/Trm cytotoxic T cells": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Tem.Trm.cytotoxic.T.cells<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/GNLY.png",
+                "name": "GNLY"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/LOC100996809.png",
+                "name": "LOC100996809"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells/expr_plots/ND4L.png",
+                "name": "ND4L"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Trm cytotoxic T cells": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Trm.cytotoxic.T.cells<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/ND4L.png",
+                "name": "ND4L"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/ATP6.png",
+                "name": "ATP6"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells/expr_plots/ND1.png",
+                "name": "ND1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Trm cytotoxic T cells.1": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Trm.cytotoxic.T.cells.1<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/HLA-J.png",
+                "name": "HLA-J"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/RPL21.png",
+                "name": "RPL21"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/ATP6.png",
+                "name": "ATP6"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1/expr_plots/LOC100996809.png",
+                "name": "LOC100996809"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Trm cytotoxic T cells.2": {
+    "Meta-Markers": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 100 genes selected by <code>anova<\/code> across <code>.DEFAULT_seurat_clusters_Trm.cytotoxic.T.cells.2<\/code> and filtered by <code>p_adjust &lt; 0.05<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Meta-Markers",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/markers.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volin Plots (Top 10)",
+            "ui": "table_of_images:4",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/HLA-H.png",
+                "name": "HLA-H"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/RNR2.png",
+                "name": "RNR2"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/IFITM3.png",
+                "name": "IFITM3"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/RPS26.png",
+                "name": "RPS26"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/GNLY.png",
+                "name": "GNLY"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/ND4.png",
+                "name": "ND4"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/CYTB.png",
+                "name": "CYTB"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/ND4L.png",
+                "name": "ND4L"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/LOC101929876.png",
+                "name": "LOC101929876"
+              },
+              {
+                "kind": "table_image",
+                "src": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2/expr_plots/ATP6.png",
+                "name": "ATP6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MetaMarkers/samples.seurat.annotated.tessa.meta_markers/seurat_clusters/Trm-cytotoxic-T-cells-2"
+          }
+        ]
+      }
+    }
+  }
+}

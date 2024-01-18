@@ -1,0 +1,34 @@
+{
+  "Normal": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Metabolic pathways enriched in genes with highest contribution to the metabolic heterogeneities"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/MetabolicPathwayHeterogeneity/samples.seurat.annotated.tessa.imputed.pathwayhetero/Normal/pathway_heterogeneity.png"
+          }
+        ]
+      }
+    }
+  },
+  "Tumor": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Metabolic pathways enriched in genes with highest contribution to the metabolic heterogeneities"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/MetabolicPathwayHeterogeneity/samples.seurat.annotated.tessa.imputed.pathwayhetero/Tumor/pathway_heterogeneity.png"
+          }
+        ]
+      }
+    }
+  }
+}

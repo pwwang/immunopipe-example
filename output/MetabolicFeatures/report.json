@@ -1,0 +1,206 @@
+{
+  "Normal": {
+    "Cluster_Regulatory T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Regulatory-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells.2": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Trm-cytotoxic-T-cells-2"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.4": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Regulatory-T-cells-4"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.3": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Regulatory-T-cells-3"
+          }
+        ]
+      }
+    },
+    "Cluster_Tem/Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_gamma-delta T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_gamma-delta-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Regulatory-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.2": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Normal/Cluster_Regulatory-T-cells-2"
+          }
+        ]
+      }
+    }
+  },
+  "Tumor": {
+    "Cluster_Tem/Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_gamma-delta T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_gamma-delta-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.3": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Regulatory-T-cells-3"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Regulatory-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.4": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Regulatory-T-cells-4"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.2": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Regulatory-T-cells-2"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Regulatory-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells.2": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Tumor/Cluster_Trm-cytotoxic-T-cells-2"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+source	Sample	seurat_clusters	.n	.frac
+Normal	LN1	Regulatory T cells	10	0.0649350649350649
+Normal	LN1	Tem/Trm cytotoxic T cells	7	0.0454545454545455
+Normal	LN1	Regulatory T cells.1	15	0.0974025974025974
+Normal	LN1	Regulatory T cells.2	1	0.00649350649350649
+Normal	LN1	Trm cytotoxic T cells	30	0.194805194805195
+Normal	LN1	gamma-delta T cells	1	0.00649350649350649
+Normal	LN1	Trm cytotoxic T cells.1	42	0.272727272727273
+Normal	LN1	Trm cytotoxic T cells.2	26	0.168831168831169
+Normal	LN1	Regulatory T cells.3	17	0.11038961038961
+Normal	LN1	Regulatory T cells.4	5	0.0324675324675325
+Normal	LN2	Regulatory T cells	96	0.0893854748603352
+Normal	LN2	Tem/Trm cytotoxic T cells	161	0.149906890130354
+Normal	LN2	Regulatory T cells.1	77	0.0716945996275605
+Normal	LN2	Regulatory T cells.2	14	0.0130353817504655
+Normal	LN2	Trm cytotoxic T cells	269	0.250465549348231
+Normal	LN2	gamma-delta T cells	33	0.0307262569832402
+Normal	LN2	Trm cytotoxic T cells.1	250	0.232774674115456
+Normal	LN2	Trm cytotoxic T cells.2	119	0.110800744878957
+Normal	LN2	Regulatory T cells.3	46	0.042830540037244
+Normal	LN2	Regulatory T cells.4	9	0.00837988826815642
+Normal	LN3	Regulatory T cells	72	0.0954907161803713
+Normal	LN3	Tem/Trm cytotoxic T cells	65	0.0862068965517241
+Normal	LN3	Regulatory T cells.1	88	0.116710875331565
+Normal	LN3	Regulatory T cells.2	1	0.0013262599469496
+Normal	LN3	Trm cytotoxic T cells	269	0.356763925729443
+Normal	LN3	gamma-delta T cells	13	0.0172413793103448
+Normal	LN3	Trm cytotoxic T cells.1	153	0.202917771883289
+Normal	LN3	Trm cytotoxic T cells.2	63	0.0835543766578249
+Normal	LN3	Regulatory T cells.3	20	0.026525198938992
+Normal	LN3	Regulatory T cells.4	10	0.013262599469496
+Tumor	LT1	Regulatory T cells	650	0.284837861524978
+Tumor	LT1	Tem/Trm cytotoxic T cells	362	0.15863277826468
+Tumor	LT1	Regulatory T cells.1	272	0.119193689745837
+Tumor	LT1	Regulatory T cells.2	405	0.177475898334794
+Tumor	LT1	Trm cytotoxic T cells	55	0.0241016652059597
+Tumor	LT1	gamma-delta T cells	100	0.0438212094653812
+Tumor	LT1	Trm cytotoxic T cells.1	68	0.0297984224364592
+Tumor	LT1	Trm cytotoxic T cells.2	79	0.0346187554776512
+Tumor	LT1	Regulatory T cells.3	110	0.0482033304119194
+Tumor	LT1	Regulatory T cells.4	181	0.0793163891323401
+Tumor	LT2	Regulatory T cells	445	0.178428227746592
+Tumor	LT2	Tem/Trm cytotoxic T cells	275	0.110264635124298
+Tumor	LT2	Regulatory T cells.1	411	0.164795509222133
+Tumor	LT2	Regulatory T cells.2	413	0.165597433841219
+Tumor	LT2	Trm cytotoxic T cells	207	0.0829991980753809
+Tumor	LT2	gamma-delta T cells	270	0.108259823576584
+Tumor	LT2	Trm cytotoxic T cells.1	139	0.0557337610264635
+Tumor	LT2	Trm cytotoxic T cells.2	60	0.0240577385725742
+Tumor	LT2	Regulatory T cells.3	155	0.06214915797915
+Tumor	LT2	Regulatory T cells.4	119	0.0477145148356055
+Tumor	LT3	Regulatory T cells	361	0.163053297199639
+Tumor	LT3	Tem/Trm cytotoxic T cells	577	0.260614272809395
+Tumor	LT3	Regulatory T cells.1	268	0.121047877145438
+Tumor	LT3	Regulatory T cells.2	208	0.0939476061427281
+Tumor	LT3	Trm cytotoxic T cells	54	0.024390243902439
+Tumor	LT3	gamma-delta T cells	309	0.139566395663957
+Tumor	LT3	Trm cytotoxic T cells.1	32	0.014453477868112
+Tumor	LT3	Trm cytotoxic T cells.2	226	0.102077687443541
+Tumor	LT3	Regulatory T cells.3	111	0.0501355013550136
+Tumor	LT3	Regulatory T cells.4	68	0.030713640469738
