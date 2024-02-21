@@ -66,13 +66,16 @@
         ],
         "table_of_images:3": [
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung1.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung1.png",
+            "name": "Lung1"
           },
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung2.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung2.png",
+            "name": "Lung2"
           },
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung3.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/venn/venn_Lung3.png",
+            "name": "Lung3"
           }
         ]
       }
@@ -89,13 +92,16 @@
         ],
         "table_of_images:3": [
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung1.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung1.png",
+            "name": "Lung1"
           },
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung2.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung2.png",
+            "name": "Lung2"
           },
           {
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung3.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/DEFAULT/upset/upset_Lung3.png",
+            "name": "Lung3"
           }
         ]
       }

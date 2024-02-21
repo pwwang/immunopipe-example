@@ -1,3 +1,11 @@
-Regulatory T cells	Tem/Trm cytotoxic T cells	Regulatory T cells.1	Regulatory T cells.2	Trm cytotoxic T cells	gamma-delta T cells	Trm cytotoxic T cells.1	Trm cytotoxic T cells.2	Regulatory T cells.3	Regulatory T cells.4
-Normal	178	233	180	16	568	47	445	208	83	24
-Tumor	1456	1214	951	1026	316	679	239	365	376	368
+Normal	Tumor
+Regulatory T cells	178	1456
+Tem/Trm cytotoxic T cells	233	1214
+Regulatory T cells.1	180	951
+Regulatory T cells.2	16	1026
+Trm cytotoxic T cells	568	316
+gamma-delta T cells	47	679
+Trm cytotoxic T cells.1	445	239
+Trm cytotoxic T cells.2	208	365
+Regulatory T cells.3	83	376
+Regulatory T cells.4	24	368
