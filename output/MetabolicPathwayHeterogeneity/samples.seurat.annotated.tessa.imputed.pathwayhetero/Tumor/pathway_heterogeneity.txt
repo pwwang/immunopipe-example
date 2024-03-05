@@ -1,31 +1,31 @@
 x	y	NES	PVAL
-Cluster_Tem/Trm cytotoxic T cells	Inositol phosphate metabolism	2.34884568139553	11.5702513768115
-Cluster_Tem/Trm cytotoxic T cells	Nitrogen metabolism	1.68604011181772	2.0529536547169
-Cluster_Tem/Trm cytotoxic T cells	Fatty acid biosynthesis	1.19215933998682	0.65205655226801
-Cluster_gamma-delta T cells	Inositol phosphate metabolism	2.37601029810221	9.99607216141481
-Cluster_gamma-delta T cells	Nitrogen metabolism	1.25215121884476	0.760610938397704
-Cluster_gamma-delta T cells	Fatty acid biosynthesis	1.2403301229274	0.719804632514948
-Cluster_Regulatory T cells.3	Inositol phosphate metabolism	1.71655454458293	2.93221351482673
-Cluster_Regulatory T cells.3	Nitrogen metabolism	1.82221622027858	2.36613897951861
-Cluster_Regulatory T cells.3	Fatty acid biosynthesis	0.959506650804311	0.282307506847
-Cluster_Trm cytotoxic T cells.1	Inositol phosphate metabolism	2.32332145753825	7.77526828131976
-Cluster_Trm cytotoxic T cells.1	Fatty acid biosynthesis	1.5243125910588	1.34192888374581
-Cluster_Trm cytotoxic T cells.1	Nitrogen metabolism	1.45000313176019	1.15135426579687
-Cluster_Regulatory T cells	Inositol phosphate metabolism	2.16119988920017	8.66590116670739
-Cluster_Regulatory T cells	Fatty acid biosynthesis	1.23615398458602	0.756241890963219
-Cluster_Regulatory T cells	Nitrogen metabolism	0.937860538546144	0.250133951392071
-Cluster_Trm cytotoxic T cells	Inositol phosphate metabolism	2.17019716735965	6.71004911075665
-Cluster_Trm cytotoxic T cells	Fatty acid biosynthesis	1.66475915016883	2.02964413693762
-Cluster_Trm cytotoxic T cells	Nitrogen metabolism	1.54729297047793	1.3537036912319
-Cluster_Regulatory T cells.4	Inositol phosphate metabolism	2.34889973546328	8.53335157810672
-Cluster_Regulatory T cells.4	Nitrogen metabolism	1.50725497465128	1.17107045768063
-Cluster_Regulatory T cells.4	Fatty acid biosynthesis	1.25634263051977	0.712895509077218
-Cluster_Regulatory T cells.2	Inositol phosphate metabolism	2.24313587230288	9.23525687324667
-Cluster_Regulatory T cells.2	Nitrogen metabolism	1.37617005068794	1.02256582789874
-Cluster_Regulatory T cells.2	Fatty acid biosynthesis	1.25187618182351	0.738762234209271
-Cluster_Regulatory T cells.1	Inositol phosphate metabolism	2.11784987884904	7.02271149522448
-Cluster_Regulatory T cells.1	Nitrogen metabolism	-1.30622273252127	0.973917912620533
-Cluster_Regulatory T cells.1	Fatty acid biosynthesis	1.17080267283243	0.582573506523246
-Cluster_Trm cytotoxic T cells.2	Inositol phosphate metabolism	2.42317143042694	10.6283876698485
-Cluster_Trm cytotoxic T cells.2	Nitrogen metabolism	1.21040271903528	0.669165022709972
-Cluster_Trm cytotoxic T cells.2	Fatty acid biosynthesis	0.977909870492234	0.310916801082065
+Cluster_Tem/Trm cytotoxic T cells	Inositol phosphate metabolism	2.11901923541945	7.88240246141742
+Cluster_Tem/Trm cytotoxic T cells	Nitrogen metabolism	1.56879214776222	1.47257362696894
+Cluster_Tem/Trm cytotoxic T cells	Fatty acid biosynthesis	1.26633135816544	0.784599006934387
+Cluster_gamma-delta T cells	Inositol phosphate metabolism	2.11726441212217	6.62010092754537
+Cluster_gamma-delta T cells	Fatty acid biosynthesis	1.57778870086911	1.35056457135037
+Cluster_gamma-delta T cells	Nitrogen metabolism	1.44407236856806	1.2045877204307
+Cluster_Regulatory T cells.3	Inositol phosphate metabolism	1.8616875487494	3.33442850235113
+Cluster_Regulatory T cells.3	Nitrogen metabolism	1.43717252968555	1.07672898384659
+Cluster_Regulatory T cells.3	Fatty acid biosynthesis	1.17424217338671	0.58612522123768
+Cluster_Trm cytotoxic T cells.1	Inositol phosphate metabolism	2.15724360763467	6.27396965786199
+Cluster_Trm cytotoxic T cells.1	Fatty acid biosynthesis	1.84780237268023	2.42900646164519
+Cluster_Trm cytotoxic T cells.1	Nitrogen metabolism	1.73016413331963	2.16503872879622
+Cluster_Regulatory T cells	Inositol phosphate metabolism	1.68126085665072	3.65549318474846
+Cluster_Regulatory T cells	Nitrogen metabolism	1.38999699048296	1.02302370298797
+Cluster_Regulatory T cells	Fatty acid biosynthesis	1.32906184764506	0.938155689545868
+Cluster_Trm cytotoxic T cells	Inositol phosphate metabolism	1.96384527511413	4.8589180197312
+Cluster_Trm cytotoxic T cells	Fatty acid biosynthesis	1.79052424962567	2.25507968548167
+Cluster_Trm cytotoxic T cells	Nitrogen metabolism	1.68285778340994	1.83260033642149
+Cluster_Regulatory T cells.4	Inositol phosphate metabolism	2.25295121815636	7.4658520140869
+Cluster_Regulatory T cells.4	Nitrogen metabolism	1.95001853632949	2.47451284893791
+Cluster_Regulatory T cells.4	Fatty acid biosynthesis	1.12899119822474	0.504086123139013
+Cluster_Regulatory T cells.2	Inositol phosphate metabolism	1.88835735914256	5.30000488201608
+Cluster_Regulatory T cells.2	Nitrogen metabolism	1.54631968409755	1.43840272670424
+Cluster_Regulatory T cells.2	Fatty acid biosynthesis	1.38329794129756	0.969881643746499
+Cluster_Regulatory T cells.1	Inositol phosphate metabolism	1.88743276549264	4.64820900756125
+Cluster_Regulatory T cells.1	Nitrogen metabolism	-1.29675100335026	1.04637540330649
+Cluster_Regulatory T cells.1	Fatty acid biosynthesis	1.20045288070002	0.626382947352713
+Cluster_Trm cytotoxic T cells.2	Inositol phosphate metabolism	2.35234500832615	9.09507976317395
+Cluster_Trm cytotoxic T cells.2	Nitrogen metabolism	1.60458794993241	1.53711918439495
+Cluster_Trm cytotoxic T cells.2	Fatty acid biosynthesis	1.43617197334355	1.14240814585311

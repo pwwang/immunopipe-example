@@ -1,21 +1,21 @@
 Tem/Trm cytotoxic T cells	gamma-delta T cells	Regulatory T cells.3	Trm cytotoxic T cells.1	Regulatory T cells	Trm cytotoxic T cells	Regulatory T cells.4	Regulatory T cells.2	Regulatory T cells.1	Trm cytotoxic T cells.2
 Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0	0	0
-Citrate cycle (TCA cycle)	0	0	0	0.0096	0.0778	0	0	0	0.0292	0
-Pentose phosphate pathway	0	0	0	0.047	0	0	0	0	0	0
-Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0	0	0
-Fructose and mannose metabolism	0	0	0	0	0.0048	0	0	0	0	0
-Galactose metabolism	0	0	0	0.0014	2e-04	0	0	0	0	0
-Ascorbate and aldarate metabolism	0	0.116	0	0	0	0	0	0	0.3632	0
-Starch and sucrose metabolism	0	2e-04	0	0.0614	0	0	0	0	2e-04	0
-Amino sugar and nucleotide sugar metabolism	0	0	0	0.176	0	0	0	0	0	0
-Pyruvate metabolism	0	0	0	0.102	0	0	0	0.0532	6e-04	0
-Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0	0.003	0
+Citrate cycle (TCA cycle)	0	0	0	0.0048	0.1224	0	0	0	0.0504	0
+Pentose phosphate pathway	0	0	0	6e-04	0	0	0	0	0	0
+Pentose and glucuronate interconversions	0	0	0	0	4e-04	0	0	0	0	0
+Fructose and mannose metabolism	0	0	0	0	0.0036	0	0	0	0	0
+Galactose metabolism	0	0	0	0.0122	0.0026	0	0	0	0	0
+Ascorbate and aldarate metabolism	0	0	0	0	0	0	0	0	0.1846	0
+Starch and sucrose metabolism	0	0	0	0.1102	0	0	0	0	0	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0.391	0	0	0	0	0	0
+Pyruvate metabolism	0	0	0	0.1628	0	0	0	0.1016	0	0
+Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0	2e-04	0
 Propanoate metabolism	0	0	0	0	0	0	0	0	0	0
 Butanoate metabolism	0	0	0	0	0	0	0	0	0	0
 Inositol phosphate metabolism	0	0	0	2e-04	0	0	0	0	0	0
-Oxidative phosphorylation	0	0	0	0.0018	0	0	0	0	0	0
-Nitrogen metabolism	0.0306	0	2e-04	0	0	0.009	0.0636	0	0	0
-Sulfur metabolism	0	0.0058	0	0	0	0	0	0	0	0
-Fatty acid biosynthesis	0	0.014	0	2e-04	0	0.1008	0	0	0	0
-Fatty acid elongation	0	0	0	0	0	0	0	0	0	0
-Fatty acid degradation	0	0	0	0.0846	0	0	0	0	0	0
+Oxidative phosphorylation	0	0	0	6e-04	0	0	0	0	0	0
+Nitrogen metabolism	0.077	0	0	0	0	0.2472	0.3316	0	0	0
+Sulfur metabolism	0	0.0762	0	0	0	0	0	0	0	0
+Fatty acid biosynthesis	0	0.117	0	0.0042	0	0.4102	0	0	0	0
+Fatty acid elongation	0	0	0	0	0	0	0	0	0.0054	0
+Fatty acid degradation	0	0	0	0.3026	0	0	0	0	0	0

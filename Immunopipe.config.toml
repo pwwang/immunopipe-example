@@ -65,6 +65,12 @@ heatmap_meta = [ "source" ]
 predefined_b = true
 max_iter = 100
 
+[SeuratClusterStats.envs.stats."Composition of cell types in Tumor samples"]
+subset = 'source == "Tumor"'
+circos = true
+ident = "seurat_clusters"
+group-by = "patient"
+
 [SeuratClusterStats.envs.hists."All Clonotypes along Activation"]
 x = "Activation"
 

@@ -1,11 +1,11 @@
 {
-  "Number of cells in each cluster": {
+  "Composition of cell types in Tumor samples": {
     "#": {
       "#": {
         "flat": [
           {
             "kind": "descr",
-            "content": "Plots showing the number of cells per cluster"
+            "content": "Plots showing the number of cells per cluster, by patient"
           }
         ],
         "tabs": [
@@ -14,48 +14,16 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png"
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Composition-of-cell-types-in-Tumor-samples.bar.png"
               }
             ]
           },
           {
-            "name": "Pie Chart",
+            "name": "Circos plot",
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "Number of cells in each cluster by Sample": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Sample"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.txt"
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Composition-of-cell-types-in-Tumor-samples.circos.png"
               }
             ]
           }

@@ -1,0 +1,31 @@
+seurat_clusters	patient	.n
+Regulatory T cells	Lung1	650
+Regulatory T cells	Lung2	445
+Regulatory T cells	Lung3	361
+Tem/Trm cytotoxic T cells	Lung1	362
+Tem/Trm cytotoxic T cells	Lung2	275
+Tem/Trm cytotoxic T cells	Lung3	577
+Regulatory T cells.1	Lung1	272
+Regulatory T cells.1	Lung2	411
+Regulatory T cells.1	Lung3	268
+Regulatory T cells.2	Lung1	405
+Regulatory T cells.2	Lung2	413
+Regulatory T cells.2	Lung3	208
+Trm cytotoxic T cells	Lung1	55
+Trm cytotoxic T cells	Lung2	207
+Trm cytotoxic T cells	Lung3	54
+gamma-delta T cells	Lung1	100
+gamma-delta T cells	Lung2	270
+gamma-delta T cells	Lung3	309
+Trm cytotoxic T cells.1	Lung1	68
+Trm cytotoxic T cells.1	Lung2	139
+Trm cytotoxic T cells.1	Lung3	32
+Trm cytotoxic T cells.2	Lung1	79
+Trm cytotoxic T cells.2	Lung2	60
+Trm cytotoxic T cells.2	Lung3	226
+Regulatory T cells.3	Lung1	110
+Regulatory T cells.3	Lung2	155
+Regulatory T cells.3	Lung3	111
+Regulatory T cells.4	Lung1	181
+Regulatory T cells.4	Lung2	119
+Regulatory T cells.4	Lung3	68
