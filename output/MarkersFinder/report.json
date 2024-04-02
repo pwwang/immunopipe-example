@@ -16,7 +16,7 @@
                 "data": {
                   "nrows": 100
                 },
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c1/markers.txt"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/markers.txt"
               }
             ]
           },
@@ -26,7 +26,7 @@
             "contents": [
               {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c1/volcano.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/volcano.png"
               }
             ]
           },
@@ -36,7 +36,7 @@
             "contents": [
               {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c1/dotplot.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/dotplot.png"
               }
             ]
           }
@@ -52,7 +52,7 @@
           },
           {
             "kind": "enrichr",
-            "dir": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c1"
+            "dir": "/workdir/output/MarkersFinder/samples.markers/c1"
           }
         ]
       }
@@ -75,7 +75,7 @@
                 "data": {
                   "nrows": 100
                 },
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c2/markers.txt"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/markers.txt"
               }
             ]
           },
@@ -85,7 +85,7 @@
             "contents": [
               {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c2/volcano.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/volcano.png"
               }
             ]
           },
@@ -95,7 +95,7 @@
             "contents": [
               {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c2/dotplot.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/dotplot.png"
               }
             ]
           }
@@ -111,48 +111,7 @@
           },
           {
             "kind": "enrichr",
-            "dir": "/workdir/output/MarkersFinder/samples.markers/DEFAULT/c2"
-          }
-        ]
-      }
-    }
-  },
-  "Overlapping Markers": {
-    "DEFAULT": {
-      "#": {
-        "tabs": [
-          {
-            "title": "Venn Diagram",
-            "ui": "flat",
-            "contents": [
-              {
-                "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/OVERLAPS/DEFAULT/venn.png"
-              }
-            ]
-          },
-          {
-            "title": "UpSet Plot",
-            "ui": "flat",
-            "contents": [
-              {
-                "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/OVERLAPS/DEFAULT/upset.png"
-              }
-            ]
-          },
-          {
-            "title": "Marker Table",
-            "ui": "flat",
-            "contents": [
-              {
-                "kind": "table",
-                "data": {
-                  "nrows": 100
-                },
-                "src": "/workdir/output/MarkersFinder/samples.markers/OVERLAPS/DEFAULT/markers.txt"
-              }
-            ]
+            "dir": "/workdir/output/MarkersFinder/samples.markers/c2"
           }
         ]
       }

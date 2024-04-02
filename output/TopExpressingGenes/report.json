@@ -1,5 +1,5 @@
 {
-  "Cluster - gamma-delta T cells": {
+  "Cluster: gamma-delta T cells": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -29,7 +29,7 @@
       }
     }
   },
-  "Cluster - Regulatory T cells": {
+  "Cluster: Regulatory T cells": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -59,7 +59,7 @@
       }
     }
   },
-  "Cluster - Regulatory T cells.1": {
+  "Cluster: Regulatory T cells.1": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -89,7 +89,7 @@
       }
     }
   },
-  "Cluster - Regulatory T cells.2": {
+  "Cluster: Regulatory T cells.2": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -119,7 +119,7 @@
       }
     }
   },
-  "Cluster - Regulatory T cells.3": {
+  "Cluster: Regulatory T cells.3": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -149,7 +149,7 @@
       }
     }
   },
-  "Cluster - Regulatory T cells.4": {
+  "Cluster: Regulatory T cells.4": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -179,7 +179,7 @@
       }
     }
   },
-  "Cluster - Tem/Trm cytotoxic T cells": {
+  "Cluster: Tem/Trm cytotoxic T cells": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -209,7 +209,7 @@
       }
     }
   },
-  "Cluster - Trm cytotoxic T cells": {
+  "Cluster: Trm cytotoxic T cells": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -239,7 +239,7 @@
       }
     }
   },
-  "Cluster - Trm cytotoxic T cells.1": {
+  "Cluster: Trm cytotoxic T cells.1": {
     "Top Expressing Genes": {
       "#": {
         "flat": [
@@ -269,7 +269,7 @@
       }
     }
   },
-  "Cluster - Trm cytotoxic T cells.2": {
+  "Cluster: Trm cytotoxic T cells.2": {
     "Top Expressing Genes": {
       "#": {
         "flat": [

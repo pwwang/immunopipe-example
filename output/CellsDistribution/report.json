@@ -14,7 +14,7 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.png"
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Patient1_Tumor_Expanded/Patient1_Tumor_Expanded.png"
               }
             ]
           },
@@ -22,7 +22,7 @@
             "name": "Heatmap",
             "contents": [
               {
-                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.heatmap.png",
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Patient1_Tumor_Expanded/Patient1_Tumor_Expanded.heatmap.png",
                 "kind": "image"
               }
             ]
@@ -39,7 +39,7 @@
                 "data": {
                   "nrows": 100
                 },
-                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/DEFAULT/Patient1_Tumor_Expanded.Patient1_Tumor_Expanded.txt"
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Patient1_Tumor_Expanded/Patient1_Tumor_Expanded.Patient1_Tumor_Expanded.txt"
               }
             ]
           }

@@ -5,7 +5,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/gamma-delta-T-cells"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-gamma-delta-T-cells"
           }
         ]
       }
@@ -17,7 +17,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Regulatory-T-cells"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells"
           }
         ]
       }
@@ -29,7 +29,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Regulatory-T-cells-1"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells-1"
           }
         ]
       }
@@ -41,7 +41,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Regulatory-T-cells-2"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells-2"
           }
         ]
       }
@@ -53,7 +53,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Regulatory-T-cells-3"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells-3"
           }
         ]
       }
@@ -65,7 +65,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Regulatory-T-cells-4"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells-4"
           }
         ]
       }
@@ -77,7 +77,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Tem-Trm-cytotoxic-T-cells"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Tem-Trm-cytotoxic-T-cells"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Trm-cytotoxic-T-cells"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Trm-cytotoxic-T-cells"
           }
         ]
       }
@@ -101,7 +101,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Trm-cytotoxic-T-cells-1"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Trm-cytotoxic-T-cells-1"
           }
         ]
       }
@@ -113,7 +113,7 @@
         "flat": [
           {
             "kind": "fgsea",
-            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters/Trm-cytotoxic-T-cells-2"
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Trm-cytotoxic-T-cells-2"
           }
         ]
       }

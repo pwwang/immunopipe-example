@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 immunopipe @ImmunopipeMinimal.config.toml --name ImmunopipeMinimalLocal --outdir ./minimal-local
 immunopipe @ImmunopipeMinimalNoTCR.config.toml --name ImmunopipeMinimalNoTCRLocal --outdir minimal-notcr-local/
 immunopipe @ImmunopipeMinimalSupervised.config.toml --name ImmunopipeMinimalSupervisedLocal --outdir minimal-supervised-local

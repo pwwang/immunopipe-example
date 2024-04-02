@@ -1,21 +1,21 @@
 Regulatory T cells.1	Trm cytotoxic T cells.2	Trm cytotoxic T cells.1	Regulatory T cells.4	Trm cytotoxic T cells	Regulatory T cells.3	Tem/Trm cytotoxic T cells	gamma-delta T cells	Regulatory T cells	Regulatory T cells.2
-Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0.075	0.453	6e-04
-Citrate cycle (TCA cycle)	0.0056	0	0.0022	0	0	0	0.0188	0.305	6e-04	0.0016
-Pentose phosphate pathway	0.0968	0	0	0	0	0	0	0.0082	0	0
-Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0.001	0	0.0158
-Fructose and mannose metabolism	0	0	0	0	0	0	0	0	0.041	0
-Galactose metabolism	0	0	0	0.2512	0	0	0.0582	0	0	0
-Ascorbate and aldarate metabolism	0.1984	0	0	0	0	0	0.5008	0.2334	0	0
-Starch and sucrose metabolism	0	0	0.0748	0	0	0	0.4576	0.3422	0.0212	0
-Amino sugar and nucleotide sugar metabolism	0	0	0	0	0	0	0.0182	0	0.004	0
-Pyruvate metabolism	0.003	0	0	0	0	0	0	0	0.123	0.0532
-Glyoxylate and dicarboxylate metabolism	0.0134	0	0	0	0	0	0	8e-04	0.2434	0.0108
-Propanoate metabolism	0.0428	0	0	0	0	0	0.0158	0.0218	0.0018	0
-Butanoate metabolism	0	0	0	0	0	0	0	0	0	0.1086
-Inositol phosphate metabolism	0	0	0	0.0024	0	0	0.0082	0	0.3868	0
-Oxidative phosphorylation	0.001	0	2e-04	0	0	0	0.2538	0.0188	0.3662	6e-04
-Nitrogen metabolism	0	0	0	0.009	0	0.1354	0	0.0378	0.3244	0.2312
-Sulfur metabolism	0.1956	0	0	0	0	0	0	0.0498	0.0048	0
-Fatty acid biosynthesis	0.0992	0	0	0	0	0	0.0158	0.333	0	0
-Fatty acid elongation	0.198	0	0	0	0	0	0	0.3328	0	0.0018
-Fatty acid degradation	0	0	0	0	0	0	0.093	0.0044	0	0
+Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0.0494	0.4056	0
+Citrate cycle (TCA cycle)	0.007	0	0.0014	0	0	0	0.0334	0.2124	0	0.001
+Pentose phosphate pathway	0.1416	0	0	0	0	0	0	0.002	0	0
+Pentose and glucuronate interconversions	0	0	0	0	0	0	0.036	0.0294	0	0.0064
+Fructose and mannose metabolism	0	0	0	0	0	0	0	0	0.1802	0
+Galactose metabolism	0	0	0	0.3414	0	0	0.1412	0	0	0
+Ascorbate and aldarate metabolism	0.044	0	0	0	0	0	0.0036	0.2298	0	0
+Starch and sucrose metabolism	0	0	0.2314	0	0	0	0.3636	0.4748	0.0344	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0	0	0	0.0246	0	0.0104	0
+Pyruvate metabolism	0.0022	0	0	0	0	0	2e-04	0	0.0244	0.0242
+Glyoxylate and dicarboxylate metabolism	0.0116	0	0	0	0	0	0	0	0.0444	0.0026
+Propanoate metabolism	0.0198	0	0	0	0	0	0.0048	0.0248	0	0
+Butanoate metabolism	0	0	0	0	0	0	0	0	0	0.0678
+Inositol phosphate metabolism	0	0	0	0.0034	0	0	0.1214	0	0.3668	0
+Oxidative phosphorylation	4e-04	0	0	0	0	0	0.324	0.018	0.3652	0.0024
+Nitrogen metabolism	0	0	0	0.3848	0	0.0034	0	0.0298	0.0128	0.1044
+Sulfur metabolism	0.0938	0	0	0	0	0	0	0.0116	0.0456	0
+Fatty acid biosynthesis	0.2626	0	0	0	0	0	0.0216	0.3724	0	0
+Fatty acid elongation	0.0584	0	0	0	0	0	0	0.1768	0	4e-04
+Fatty acid degradation	0	0	0	0	0	0	0.2434	8e-04	0	0
