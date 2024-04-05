@@ -13,6 +13,9 @@ group = "source"
 ncores = 4
 cell_qc = "nFeature_RNA > 200 & percent.mt < 5"
 
+[SeuratPreparing.envs.DoubletFinder]
+PCs = 10
+
 [SeuratClusteringOfAllCells.envs]
 ncores = 16
 

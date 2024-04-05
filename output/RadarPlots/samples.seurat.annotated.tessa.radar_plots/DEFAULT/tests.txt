@@ -1,11 +1,12 @@
 seurat_clusters	comparison	n	mean	wilcox_pval
-Regulatory T cells	Normal - Tumor	3; 3	0.083; 0.209	0.1
-Tem/Trm cytotoxic T cells	Normal - Tumor	3; 3	0.094; 0.177	0.2
-Regulatory T cells.1	Normal - Tumor	3; 3	0.095; 0.135	0.1
-Regulatory T cells.2	Normal - Tumor	3; 3	0.007; 0.146	0.1
-Trm cytotoxic T cells	Normal - Tumor	3; 3	0.267; 0.044	0.1
-gamma-delta T cells	Normal - Tumor	3; 3	0.018; 0.097	0.1
-Trm cytotoxic T cells.1	Normal - Tumor	3; 3	0.236; 0.033	0.1
-Trm cytotoxic T cells.2	Normal - Tumor	3; 3	0.121; 0.054	0.2
-Regulatory T cells.3	Normal - Tumor	3; 3	0.06; 0.053	0.7
-Regulatory T cells.4	Normal - Tumor	3; 3	0.018; 0.053	0.2
+Trm cytotoxic T cells	Normal - Tumor	3; 3	0.518; 0.071	0.1
+Tem/Trm cytotoxic T cells	Normal - Tumor	3; 3	0.027; 0.14	0.1
+Regulatory T cells	Normal - Tumor	3; 3	0.071; 0.133	0.1
+Regulatory T cells.1	Normal - Tumor	2; 3	0.006; 0.15	0.2
+Trm cytotoxic T cells.1	Normal - Tumor	3; 3	0.044; 0.103	1
+Regulatory T cells.2	Normal - Tumor	3; 3	0.035; 0.129	0.1
+Regulatory T cells.3	Normal - Tumor	3; 3	0.047; 0.115	0.1
+Tem/Trm cytotoxic T cells.1	Normal - Tumor	3; 3	0.19; 0.063	0.1
+Regulatory T cells.4	Normal - Tumor	3; 3	0.027; 0.052	0.2
+Regulatory T cells.5	Normal - Tumor	3; 3	0.029; 0.033	0.7
+Tem/Trm cytotoxic T cells.2	Normal - Tumor	3; 3	0.008; 0.01	0.7

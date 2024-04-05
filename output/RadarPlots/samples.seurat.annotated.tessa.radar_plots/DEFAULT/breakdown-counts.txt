@@ -1,61 +1,66 @@
 source	Sample	seurat_clusters	.n
-Normal	LN1	Regulatory T cells	10
-Normal	LN1	Tem/Trm cytotoxic T cells	7
-Normal	LN1	Regulatory T cells.1	15
-Normal	LN1	Regulatory T cells.2	1
-Normal	LN1	Trm cytotoxic T cells	30
-Normal	LN1	gamma-delta T cells	1
-Normal	LN1	Trm cytotoxic T cells.1	42
-Normal	LN1	Trm cytotoxic T cells.2	26
-Normal	LN1	Regulatory T cells.3	17
-Normal	LN1	Regulatory T cells.4	5
-Normal	LN2	Regulatory T cells	96
-Normal	LN2	Tem/Trm cytotoxic T cells	161
-Normal	LN2	Regulatory T cells.1	77
-Normal	LN2	Regulatory T cells.2	14
-Normal	LN2	Trm cytotoxic T cells	269
-Normal	LN2	gamma-delta T cells	33
-Normal	LN2	Trm cytotoxic T cells.1	250
-Normal	LN2	Trm cytotoxic T cells.2	119
-Normal	LN2	Regulatory T cells.3	46
-Normal	LN2	Regulatory T cells.4	9
-Normal	LN3	Regulatory T cells	72
-Normal	LN3	Tem/Trm cytotoxic T cells	65
-Normal	LN3	Regulatory T cells.1	88
-Normal	LN3	Regulatory T cells.2	1
-Normal	LN3	Trm cytotoxic T cells	269
-Normal	LN3	gamma-delta T cells	13
-Normal	LN3	Trm cytotoxic T cells.1	153
-Normal	LN3	Trm cytotoxic T cells.2	63
-Normal	LN3	Regulatory T cells.3	20
-Normal	LN3	Regulatory T cells.4	10
-Tumor	LT1	Regulatory T cells	650
-Tumor	LT1	Tem/Trm cytotoxic T cells	362
-Tumor	LT1	Regulatory T cells.1	272
-Tumor	LT1	Regulatory T cells.2	405
-Tumor	LT1	Trm cytotoxic T cells	55
-Tumor	LT1	gamma-delta T cells	100
-Tumor	LT1	Trm cytotoxic T cells.1	68
-Tumor	LT1	Trm cytotoxic T cells.2	79
-Tumor	LT1	Regulatory T cells.3	110
-Tumor	LT1	Regulatory T cells.4	181
-Tumor	LT2	Regulatory T cells	445
-Tumor	LT2	Tem/Trm cytotoxic T cells	275
-Tumor	LT2	Regulatory T cells.1	411
-Tumor	LT2	Regulatory T cells.2	413
-Tumor	LT2	Trm cytotoxic T cells	207
-Tumor	LT2	gamma-delta T cells	270
-Tumor	LT2	Trm cytotoxic T cells.1	139
-Tumor	LT2	Trm cytotoxic T cells.2	60
-Tumor	LT2	Regulatory T cells.3	155
-Tumor	LT2	Regulatory T cells.4	119
-Tumor	LT3	Regulatory T cells	361
-Tumor	LT3	Tem/Trm cytotoxic T cells	577
-Tumor	LT3	Regulatory T cells.1	268
-Tumor	LT3	Regulatory T cells.2	208
-Tumor	LT3	Trm cytotoxic T cells	54
-Tumor	LT3	gamma-delta T cells	309
-Tumor	LT3	Trm cytotoxic T cells.1	32
-Tumor	LT3	Trm cytotoxic T cells.2	226
-Tumor	LT3	Regulatory T cells.3	111
-Tumor	LT3	Regulatory T cells.4	68
+Normal	LN1	Trm cytotoxic T cells	62
+Normal	LN1	Tem/Trm cytotoxic T cells	1
+Normal	LN1	Regulatory T cells	9
+Normal	LN1	Trm cytotoxic T cells.1	1
+Normal	LN1	Regulatory T cells.2	5
+Normal	LN1	Regulatory T cells.3	2
+Normal	LN1	Tem/Trm cytotoxic T cells.1	34
+Normal	LN1	Regulatory T cells.4	2
+Normal	LN1	Regulatory T cells.5	4
+Normal	LN1	Tem/Trm cytotoxic T cells.2	1
+Normal	LN2	Trm cytotoxic T cells	370
+Normal	LN2	Tem/Trm cytotoxic T cells	42
+Normal	LN2	Regulatory T cells	51
+Normal	LN2	Regulatory T cells.1	3
+Normal	LN2	Trm cytotoxic T cells.1	58
+Normal	LN2	Regulatory T cells.2	32
+Normal	LN2	Regulatory T cells.3	45
+Normal	LN2	Tem/Trm cytotoxic T cells.1	136
+Normal	LN2	Regulatory T cells.4	21
+Normal	LN2	Regulatory T cells.5	23
+Normal	LN2	Tem/Trm cytotoxic T cells.2	7
+Normal	LN3	Trm cytotoxic T cells	460
+Normal	LN3	Tem/Trm cytotoxic T cells	15
+Normal	LN3	Regulatory T cells	60
+Normal	LN3	Regulatory T cells.1	6
+Normal	LN3	Trm cytotoxic T cells.1	41
+Normal	LN3	Regulatory T cells.2	19
+Normal	LN3	Regulatory T cells.3	54
+Normal	LN3	Tem/Trm cytotoxic T cells.1	95
+Normal	LN3	Regulatory T cells.4	30
+Normal	LN3	Regulatory T cells.5	21
+Normal	LN3	Tem/Trm cytotoxic T cells.2	5
+Tumor	LT1	Trm cytotoxic T cells	75
+Tumor	LT1	Tem/Trm cytotoxic T cells	107
+Tumor	LT1	Regulatory T cells	205
+Tumor	LT1	Regulatory T cells.1	324
+Tumor	LT1	Trm cytotoxic T cells.1	58
+Tumor	LT1	Regulatory T cells.2	315
+Tumor	LT1	Regulatory T cells.3	243
+Tumor	LT1	Tem/Trm cytotoxic T cells.1	76
+Tumor	LT1	Regulatory T cells.4	77
+Tumor	LT1	Regulatory T cells.5	32
+Tumor	LT1	Tem/Trm cytotoxic T cells.2	23
+Tumor	LT2	Trm cytotoxic T cells	178
+Tumor	LT2	Tem/Trm cytotoxic T cells	306
+Tumor	LT2	Regulatory T cells	288
+Tumor	LT2	Regulatory T cells.1	230
+Tumor	LT2	Trm cytotoxic T cells.1	57
+Tumor	LT2	Regulatory T cells.2	196
+Tumor	LT2	Regulatory T cells.3	170
+Tumor	LT2	Tem/Trm cytotoxic T cells.1	63
+Tumor	LT2	Regulatory T cells.4	114
+Tumor	LT2	Regulatory T cells.5	66
+Tumor	LT2	Tem/Trm cytotoxic T cells.2	17
+Tumor	LT3	Trm cytotoxic T cells	134
+Tumor	LT3	Tem/Trm cytotoxic T cells	385
+Tumor	LT3	Regulatory T cells	218
+Tumor	LT3	Regulatory T cells.1	231
+Tumor	LT3	Trm cytotoxic T cells.1	542
+Tumor	LT3	Regulatory T cells.2	151
+Tumor	LT3	Regulatory T cells.3	194
+Tumor	LT3	Tem/Trm cytotoxic T cells.1	236
+Tumor	LT3	Regulatory T cells.4	84
+Tumor	LT3	Regulatory T cells.5	92
+Tumor	LT3	Tem/Trm cytotoxic T cells.2	12

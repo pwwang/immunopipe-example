@@ -1,34 +1,4 @@
 {
-  "Cluster: gamma-delta T cells": {
-    "Top Expressing Genes": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Top 250 expressing genes"
-          },
-          {
-            "kind": "table",
-            "src": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/gamma-delta-T-cells/exprn.txt"
-          }
-        ]
-      }
-    },
-    "Enrichment Analysis": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Enrichment analysis for the top 250 expressing genes"
-          },
-          {
-            "kind": "enrichr",
-            "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/gamma-delta-T-cells"
-          }
-        ]
-      }
-    }
-  },
   "Cluster: Regulatory T cells": {
     "Top Expressing Genes": {
       "#": {
@@ -179,6 +149,36 @@
       }
     }
   },
+  "Cluster: Regulatory T cells.5": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Regulatory-T-cells-5/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Regulatory-T-cells-5"
+          }
+        ]
+      }
+    }
+  },
   "Cluster: Tem/Trm cytotoxic T cells": {
     "Top Expressing Genes": {
       "#": {
@@ -204,6 +204,66 @@
           {
             "kind": "enrichr",
             "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Tem/Trm cytotoxic T cells.1": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Tem-Trm-cytotoxic-T-cells-1/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Tem/Trm cytotoxic T cells.2": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Tem-Trm-cytotoxic-T-cells-2/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Tem-Trm-cytotoxic-T-cells-2"
           }
         ]
       }
@@ -264,36 +324,6 @@
           {
             "kind": "enrichr",
             "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Trm-cytotoxic-T-cells-1"
-          }
-        ]
-      }
-    }
-  },
-  "Cluster: Trm cytotoxic T cells.2": {
-    "Top Expressing Genes": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Top 250 expressing genes"
-          },
-          {
-            "kind": "table",
-            "src": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Trm-cytotoxic-T-cells-2/exprn.txt"
-          }
-        ]
-      }
-    },
-    "Enrichment Analysis": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Enrichment analysis for the top 250 expressing genes"
-          },
-          {
-            "kind": "enrichr",
-            "dir": "/workdir/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Trm-cytotoxic-T-cells-2"
           }
         ]
       }

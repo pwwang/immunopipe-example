@@ -104,5 +104,37 @@
         ]
       }
     }
+  },
+  "DoubletFinder Results": {
+    "The DoubletFinder Summary": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The table contains the number of cells classified as singlets and doublets."
+          },
+          {
+            "kind": "table",
+            "data": {
+              "path": "/workdir/output/SeuratPreparing/DoubletFinder_summary.txt"
+            }
+          }
+        ]
+      }
+    },
+    "Plots": {
+      "#": {
+        "table_of_images": [
+          {
+            "name": "pK vs BCmetric",
+            "src": "/workdir/output/SeuratPreparing/plots/pK_BCmetric.png"
+          },
+          {
+            "name": "Dimension Reduction Plot",
+            "src": "/workdir/output/SeuratPreparing/plots/DoubletFinder_dimplot.png"
+          }
+        ]
+      }
+    }
   }
 }
