@@ -1,0 +1,188 @@
+{
+  "Composition of cell types in Colitis samples": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster, by Sex"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Composition-of-cell-types-in-Colitis-samples.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Circos plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/stats/Composition-of-cell-types-in-Colitis-samples.circos.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "All Clonotypes along Activation": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Histogram showing number of cells along <code>Activation<\/code>"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/All-Clonotypes-along-Activation/All-Clonotypes-along-Activation.png"
+          }
+        ]
+      }
+    }
+  },
+  "Top 10 Clonotypes along Activation": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Histogram showing number of cells by <code>CDR3.aa<\/code> in each <code>Diagnosis<\/code> along <code>Activation<\/code>"
+          }
+        ],
+        "table_of_images": [
+          {
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/Top-10-Clonotypes-along-Activation/Top-10-Clonotypes-along-Activation-NoColitis.png",
+            "descr": "NoColitis"
+          },
+          {
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/Top-10-Clonotypes-along-Activation/Top-10-Clonotypes-along-Activation-Colitis.png",
+            "descr": "Colitis"
+          },
+          {
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/hists/Top-10-Clonotypes-along-Activation/Top-10-Clonotypes-along-Activation-Control.png",
+            "descr": "Control"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png"
+          }
+        ]
+      }
+    }
+  },
+  "Violin Plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/Violin-Plots..png"
+          }
+        ]
+      }
+    }
+  },
+  "Violin Plots (FOXP3, IL2RA)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/Violin-Plots-FOXP3-IL2RA-..png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR Clone Size": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/TCR-Clone-Size..png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR Cluster Size": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/features/TCR-Cluster-Size..png"
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for TCR_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/SeuratClusterStats/samples.seurat.annotated.tessa.cluster_stats/dimplots/TCR-presence.dim.png"
+          }
+        ]
+      }
+    }
+  }
+}

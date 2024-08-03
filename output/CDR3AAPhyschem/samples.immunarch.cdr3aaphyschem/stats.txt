@@ -1,0 +1,4 @@
+.Group	TotalCells	CellsPerGroup	AvailCellsPerGroup	AvailCellsPct
+Tconv	18743	3353	2752	82.08%
+Treg	18743	1554	1334	85.84%
+NA	18743	13836	12201	88.18%

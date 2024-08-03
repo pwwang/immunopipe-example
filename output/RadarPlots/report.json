@@ -1,0 +1,61 @@
+{
+  "DEFAULT": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/barplot.png"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

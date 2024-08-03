@@ -1,0 +1,146 @@
+{
+  "Cluster_Cycling T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Cycling-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Follicular helper T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Follicular-helper-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_gamma-delta T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_gamma-delta-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Plasmablasts": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Plasmablasts/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Regulatory T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Regulatory-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Regulatory T cells.1": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Regulatory-T-cells-1/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Tcm/Naive helper T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Tcm-Naive-helper-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Tem/Trm cytotoxic T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Tem-Trm-cytotoxic-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Tem/Trm cytotoxic T cells.1": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Tem-Trm-cytotoxic-T-cells-1/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Trm cytotoxic T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Trm-cytotoxic-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Type 1 helper T cells": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Type-1-helper-T-cells/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster_Type 1 helper T cells.1": {
+    "Colitis_vs_Control": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeaturesIntraSubset/samples.seurat.annotated.tessa.imputed.intra-subset-pathwayfeatures/Cluster_Type-1-helper-T-cells-1/Colitis_vs_Control"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Colitis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Metabolic pathways enriched in genes with highest contribution to the metabolic heterogeneities"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/MetabolicPathwayHeterogeneity/samples.seurat.annotated.tessa.imputed.pathwayhetero/Colitis/pathway_heterogeneity.png"
+          }
+        ]
+      }
+    }
+  },
+  "NoColitis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Metabolic pathways enriched in genes with highest contribution to the metabolic heterogeneities"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/MetabolicPathwayHeterogeneity/samples.seurat.annotated.tessa.imputed.pathwayhetero/NoColitis/pathway_heterogeneity.png"
+          }
+        ]
+      }
+    }
+  },
+  "Control": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Metabolic pathways enriched in genes with highest contribution to the metabolic heterogeneities"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/MetabolicPathwayHeterogeneity/samples.seurat.annotated.tessa.imputed.pathwayhetero/Control/pathway_heterogeneity.png"
+          }
+        ]
+      }
+    }
+  }
+}

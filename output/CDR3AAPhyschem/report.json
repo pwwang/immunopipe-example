@@ -1,0 +1,67 @@
+{
+  "Available Cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Statistics about the cells mapped to the comparison groups. Columns:"
+          },
+          {
+            "kind": "list",
+            "items": ["_Group: The group name in the comparison, or null, if cells are not mapped to any group", "TotalCells: The total number of cells. This number should be the same for all groups", "CellsPerGroup: The number of cells in the mapped group", "AvailCellsPerGroup: The number of cells with CDR3 length between 12 and 17 for each group. These cells are used for the analysis", "AvailCellsPct: The percentage of AvailCellsPerGroup over CellsPerGroup"]
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/stats.txt"
+          }
+        ]
+      }
+    }
+  },
+  "Estimated OR (per s.d.)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Estimated coefficients for each feature and position in the CDR3"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/estimated_coefficients.png"
+              }
+            ]
+          },
+          {
+            "name": "Estimates",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/estimates.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Hydrophobicity Distribution": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "table_image",
+            "descr": "Hydrophobicity values are averaged over the CDR3 for each TCR and then scaled to have a mean of 0 and a variance of 1. Horizontal lines depict the mean for each population",
+            "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/distribution.png"
+          }
+        ]
+      }
+    }
+  }
+}

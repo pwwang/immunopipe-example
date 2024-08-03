@@ -1,0 +1,1182 @@
+{
+  "Cluster: c1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c1/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c1/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c2": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c2/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c2/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c2/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c2"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c3": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c3/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c3/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c3/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c3"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c4": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c4/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c4/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c4/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c4"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c5": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c5/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c5/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c5/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c5"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c6": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c6/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c6/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c6/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c6"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c7": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c7/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c7/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c7/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c7"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c8": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c8/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c8/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c8/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c8"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c9": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c9/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c9/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c9/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c9"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c10": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c10/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c10/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c10/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c10"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c11": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c11/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c11/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c11/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c11"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c12": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c12/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c12/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c12/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c12"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c13": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c13/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c13/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c13/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c13"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c14": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c14/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c14/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c14/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c14"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c15": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c15/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c15/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c15/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c15"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c16": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c16/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c16/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c16/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c16"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c17": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c17/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c17/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c17/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c17"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c18": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c18/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c18/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c18/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c18"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c19": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c19/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c19/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c19/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c19"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c20": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c20/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c20/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c20/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkersOfAllCells/samples.markers/Cluster/c20"
+          }
+        ]
+      }
+    }
+  }
+}

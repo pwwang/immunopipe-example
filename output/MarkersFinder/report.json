@@ -1,0 +1,120 @@
+{
+  "c1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MarkersFinder/samples.markers/c1"
+          }
+        ]
+      }
+    }
+  },
+  "c2": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/MarkersFinder/samples.markers/c2"
+          }
+        ]
+      }
+    }
+  }
+}

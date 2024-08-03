@@ -1,0 +1,21 @@
+Tem/Trm cytotoxic T cells.1	Follicular helper T cells	Type 1 helper T cells	Regulatory T cells	Type 1 helper T cells.1	Tcm/Naive helper T cells	Trm cytotoxic T cells	gamma-delta T cells	Tem/Trm cytotoxic T cells	Regulatory T cells.1	Cycling T cells	Plasmablasts
+Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0	0.1364	0	0	0
+Citrate cycle (TCA cycle)	0	0	0	0	0	0	0	0	0.1584	0	0	0
+Pentose phosphate pathway	0	0	0	0	0	0	0	0	0	0	0	0
+Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0	0	0	0	0
+Fructose and mannose metabolism	0	0	0	8e-04	0	0	0	0	2e-04	4e-04	0	0
+Galactose metabolism	0	0	0	0.0688	0	0	0	0	0	0	0	0
+Ascorbate and aldarate metabolism	0	0	0	0	0	0	0	0	8e-04	0	0	0
+Starch and sucrose metabolism	0	0	0	0	0	0	0.046	0	0.0458	0.2916	0	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0.0018	0	0	0	0	0.0062	0	0	0
+Pyruvate metabolism	0	0	0	0	0	0	0	0	0	0	0	0
+Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0.2168	0	0	0	0
+Propanoate metabolism	0	0	0	0	0	0	0.3266	0	0.0434	2e-04	0	0
+Butanoate metabolism	0	0	0	0.0034	0	0	0	0	0	0	0	0
+Inositol phosphate metabolism	0	0	0	0	0	0	0	0	0.3372	0	0.0216	0
+Oxidative phosphorylation	0	0	0	0	0	0	0	0.004	0.4598	0.0522	0	0
+Nitrogen metabolism	0	0	0	6e-04	0	0	0	0.4512	0.0302	0.385	0.3926	0
+Sulfur metabolism	0	0	0	0	0	0	0	0	0.3372	0.0648	0	0
+Fatty acid biosynthesis	0	0	0	0	0	0	0	0	0	0	0	0
+Fatty acid elongation	0	0	0	0	0	0	0	0	0	0	0	0
+Fatty acid degradation	0	0	0	0	0	0	0	0	0.2716	0	0	0

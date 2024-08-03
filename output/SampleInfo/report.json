@@ -1,0 +1,57 @@
+{
+  "Sample Information": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The samples used in the analysis. Each row is a sample, and columns are the meta information about the sample. This is literally the input sample information file, but the paths to the scRNA-seq and scTCR-seq data are hidden.",
+            "once": true
+          },
+          {
+            "kind": "table",
+            "pageSize": 50,
+            "data": {
+              "file": "/workdir/output/SampleInfo/samples.txt",
+              "sep": "\t",
+              "excluded": ["TCRData", "RNAData"]
+            },
+            "src": false
+          }
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/workdir/output/SampleInfo/Sample_Diagnosis.png",
+            "name": "Sample_Diagnosis",
+            "descr": "The number of Sample"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/output/SampleInfo/Sample_Sex_Diagnosis.png",
+            "name": "Sample_Sex_Diagnosis",
+            "descr": "The number of Sample"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/output/SampleInfo/Age_Distribution.png",
+            "name": "Age_Distribution",
+            "descr": "The distribution of Age"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/output/SampleInfo/Age_By_Diagnosis.png",
+            "name": "Age_By_Diagnosis",
+            "descr": "The distribution of Age"
+          }
+        ]
+      }
+    }
+  }
+}

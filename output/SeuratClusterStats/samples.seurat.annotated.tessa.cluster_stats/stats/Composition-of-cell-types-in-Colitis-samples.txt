@@ -1,0 +1,25 @@
+seurat_clusters	Sex	.n
+Type 1 helper T cells	F	95
+Type 1 helper T cells	M	239
+Tem/Trm cytotoxic T cells	F	963
+Tem/Trm cytotoxic T cells	M	493
+Follicular helper T cells	F	122
+Follicular helper T cells	M	229
+Type 1 helper T cells.1	F	19
+Type 1 helper T cells.1	M	141
+Regulatory T cells	F	178
+Regulatory T cells	M	181
+Tem/Trm cytotoxic T cells.1	F	208
+Tem/Trm cytotoxic T cells.1	M	562
+Tcm/Naive helper T cells	F	93
+Tcm/Naive helper T cells	M	96
+Trm cytotoxic T cells	F	52
+Trm cytotoxic T cells	M	51
+Regulatory T cells.1	F	129
+Regulatory T cells.1	M	138
+Plasmablasts	F	168
+Plasmablasts	M	204
+gamma-delta T cells	F	28
+gamma-delta T cells	M	71
+Cycling T cells	F	85
+Cycling T cells	M	131

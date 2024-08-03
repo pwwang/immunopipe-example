@@ -1,0 +1,205 @@
+{
+  "Diagnosis": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/counts/F.txt",
+            "ds_name": "F"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/counts/M.txt",
+            "ds_name": "M"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "F (Control - NoColitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_NoColitis.png"
+          },
+          {
+            "name": "F (Control - Colitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_Colitis.png"
+          },
+          {
+            "name": "F (NoColitis - Colitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_NoColitis_Colitis.png"
+          },
+          {
+            "name": "M (Control - NoColitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_NoColitis.png"
+          },
+          {
+            "name": "M (Control - Colitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_Colitis.png"
+          },
+          {
+            "name": "M (NoColitis - Colitis)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_NoColitis_Colitis.png"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_F.png",
+            "name": "F"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_M.png",
+            "name": "M"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_F.png",
+            "name": "F"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_M.png",
+            "name": "M"
+          }
+        ]
+      }
+    }
+  },
+  "M_vs_F": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/counts/Colitis.txt",
+            "ds_name": "Colitis"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/counts/Control.txt",
+            "ds_name": "Control"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/counts/NoColitis.txt",
+            "ds_name": "NoColitis"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "Colitis (M - F)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Colitis_M_F.png"
+          },
+          {
+            "name": "Control (M - F)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Control_M_F.png"
+          },
+          {
+            "name": "NoColitis (M - F)",
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_NoColitis_M_F.png"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Colitis.png",
+            "name": "Colitis"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Control.png",
+            "name": "Control"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_NoColitis.png",
+            "name": "NoColitis"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Colitis.png",
+            "name": "Colitis"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Control.png",
+            "name": "Control"
+          },
+          {
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_NoColitis.png",
+            "name": "NoColitis"
+          }
+        ]
+      }
+    }
+  }
+}

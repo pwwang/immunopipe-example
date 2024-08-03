@@ -1,0 +1,206 @@
+name = "ImmunopipeSupervised"
+outdir = "./output-supervised"
+
+[plugin_opts]
+diagram_theme = "fancy"
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SampleInfo.envs.stats.Sample_Diagnosis]
+group = "Diagnosis"
+
+[SampleInfo.envs.stats.Sample_Sex_Diagnosis]
+group = "Diagnosis"
+each = "Sex"
+
+[SampleInfo.envs.stats.Age_Distribution]
+on = "Age"
+plot = "histogram"
+
+[SampleInfo.envs.stats.Age_By_Diagnosis]
+on = "Age"
+group = "Diagnosis"
+
+[SeuratPreparing.envs]
+ncores = 4
+cell_qc = "nFeature_RNA > 200 & percent.mt < 5"
+doublet_detector = "DoubletFinder"
+
+[SeuratClusteringOfAllCells.envs]
+ncores = 8
+
+  [SeuratClusteringOfAllCells.envs.FindClusters]
+  resolution = 1.6
+
+[ClusterMarkersOfAllCells.envs]
+ncores = 4
+
+[TopExpressingGenesOfAllCells]
+forks = 2
+
+[TCellSelection.envs]
+indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]
+
+[ModuleScoreCalculator.envs.modules.Activation]
+features = "IFNG"
+
+[ModuleScoreCalculator.envs.modules.Proliferation]
+features = "STMN1,TUBB"
+
+[SeuratMap2Ref.envs]
+ncores = 8
+ref = "prepared-data/pbmc_multimodal_2023.rds"
+use = "celltype.l2"
+
+[SeuratMap2Ref.envs.MapQuery]
+reduction-model = "wnn.umap"
+
+[ClusterMarkers.envs]
+ncores = 8
+dbs = [ "KEGG_2021_Human" ]
+
+[TopExpressingGenes.envs]
+dbs = [ "KEGG_2021_Human" ]
+
+[TCRClustering.envs]
+# tool = "ClusTCR"  # not supported in the docker image
+
+[TCRClusterStats.envs.shared_clusters]
+heatmap_meta = [ "Diagnosis" ]
+
+  [TCRClusterStats.envs.shared_clusters.devpars]
+  width = 600
+  height = 450
+
+[TESSA.envs]
+predefined_b = true
+max_iter = 10
+
+[SeuratClusterStats.envs.hists."All Clonotypes along Activation"]
+x = "Activation"
+
+[SeuratClusterStats.envs.hists."Top 10 Clonotypes along Activation"]
+x = "Activation"
+cells_by = "CDR3.aa"
+cells_orderby = "desc(Clones)"
+cells_n = 10
+each = "Diagnosis"
+devpars = { height = 600 }
+
+[SeuratClusterStats.envs.stats."Composition of cell types in Colitis samples"]
+subset = 'Diagnosis == "Colitis"'
+circos = true
+ident = "seurat_clusters"
+group-by = "Sex"
+circos_labels_rot = true
+
+[SeuratClusterStats.envs.features_defaults]
+features = "CD4,CD8A"
+
+[SeuratClusterStats.envs.features."Violin Plots"]
+kind = "violin"
+pt-size = 0
+devpars = { height = 500 }
+
+[SeuratClusterStats.envs.features."Violin Plots (FOXP3, IL2RA)"]
+kind = "violin"
+features = [ "FOXP3", "IL2RA" ]
+pt-size = 0
+devpars = { height = 500 }
+
+[SeuratClusterStats.envs.features."TCR Clone Size"]
+kind = "feature"
+features = [ "Clones" ]
+
+[SeuratClusterStats.envs.features."TCR Cluster Size"]
+kind = "feature"
+features = [ "TCR_Cluster_Size" ]
+
+[Immunarch.envs.divs.cases]
+Gini_Coef = { }
+
+  [Immunarch.envs.divs.cases.Gini_Coef_in_Treg]
+  subset = 'seurat_clusters == "Treg"'
+
+[RadarPlots.envs]
+by = "Diagnosis"
+breakdown = "Sample"
+order = [ ]
+
+[CloneResidency.envs.cases.M_vs_F]
+subject = [ "Diagnosis" ]
+group = "Sex"
+order = [ "M", "F" ]
+
+[CloneResidency.envs.cases.Diagnosis]
+subject = [ "Sex" ]
+group = "Diagnosis"
+order = [ "Control", "NoColitis", "Colitis" ]
+
+[ScFGSEA.envs]
+group-by = "Diagnosis"
+ident-1 = "Colitis"
+ident-2 = "Control"
+each = "seurat_clusters"
+gmtfile = "data/MSigDB_Hallmark_v7.5.1.gmt"
+
+[MarkersFinder.envs]
+ident-1 = "Colitis"
+group-by = "Diagnosis"
+dbs = [ "KEGG_2021_Human" ]
+overlap = [ "DEFAULT" ]
+
+[MarkersFinder.envs.cases.c1]
+subset = 'seurat_clusters == "Treg"'
+
+[MarkersFinder.envs.cases.c2]
+subset = 'seurat_clusters == "CD4 TEM"'
+
+[MetaMarkers.envs]
+ncores = 8
+group-by = "Diagnosis"
+each = "seurat_clusters"
+dbs = [ "KEGG_2021_Human" ]
+
+[CellsDistribution.envs]
+cluster_orderby = "mean(Activation)"
+group_by = "Diagnosis"
+group_order = [ "Colitis", "NoColitis", "Control" ]
+cells_by = "Top10Clones"
+cells_orderby = "desc(CloneSize)"
+
+  [CellsDistribution.envs.mutaters]
+  Top10Clones = 'top(n=10, uniq = FALSE)'
+
+  [CellsDistribution.envs.cases.Top10Clones]
+  devpars = { width = 1500, height = 800 }
+  hm_devpars = { width = 1250, height = 640 }
+
+[CDR3AAPhyschem.envs]
+group = "seurat_clusters"
+target = "Treg"
+
+  [CDR3AAPhyschem.envs.comparison]
+  Tconv = [
+    "CD8 TCM",
+    "CD8 TEM",
+  ]
+  Treg = [
+    "Treg",
+    # too few Tregs, adding just for demonstration
+    "CD4 TCM",
+    "CD4 TEM",
+  ]
+
+[ScrnaMetabolicLandscape]
+gmtfile = "data/KEGG_metabolism.short.gmt"
+grouping = "seurat_clusters"
+grouping_prefix = "Cluster"
+subsetting = "Diagnosis"
+
+  [ScrnaMetabolicLandscape.subsetting_comparison]
+  Colitis_vs_Control = [ "Colitis", "Control" ]
+
+[MetabolicFeaturesIntraSubset.plugin_opts]
+report_paging = 5

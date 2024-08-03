@@ -1,0 +1,13 @@
+name = "ImmunopipeMinimalSupervised"
+outdir = "./minimal-supervised"
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SeuratMap2Ref.envs]
+ncores = 8
+ref = "prepared-data/pbmc_multimodal_2023.rds"
+use = "celltype.l2"
+
+[SeuratMap2Ref.envs.MapQuery]
+reduction-model = "wnn.umap"

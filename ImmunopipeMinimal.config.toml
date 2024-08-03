@@ -1,0 +1,5 @@
+name = "ImmunopipeMinimal"
+outdir = "./minimal"
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]

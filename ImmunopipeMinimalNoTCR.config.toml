@@ -1,0 +1,5 @@
+name = "ImmunopipeMinimalNoTCR"
+outdir = "./minimal-notcr"
+
+[SampleInfo.in]
+infile = [ "data/samples-notcr.txt" ]

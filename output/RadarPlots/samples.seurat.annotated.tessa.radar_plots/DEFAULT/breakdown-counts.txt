@@ -1,0 +1,73 @@
+Diagnosis	Sample	seurat_clusters	.n
+Colitis	C1	Type 1 helper T cells	95
+Colitis	C1	Tem/Trm cytotoxic T cells	963
+Colitis	C1	Follicular helper T cells	122
+Colitis	C1	Type 1 helper T cells.1	19
+Colitis	C1	Regulatory T cells	178
+Colitis	C1	Tem/Trm cytotoxic T cells.1	208
+Colitis	C1	Tcm/Naive helper T cells	93
+Colitis	C1	Trm cytotoxic T cells	52
+Colitis	C1	Regulatory T cells.1	129
+Colitis	C1	Plasmablasts	168
+Colitis	C1	gamma-delta T cells	28
+Colitis	C1	Cycling T cells	85
+Colitis	C3	Type 1 helper T cells	239
+Colitis	C3	Tem/Trm cytotoxic T cells	493
+Colitis	C3	Follicular helper T cells	229
+Colitis	C3	Type 1 helper T cells.1	141
+Colitis	C3	Regulatory T cells	181
+Colitis	C3	Tem/Trm cytotoxic T cells.1	562
+Colitis	C3	Tcm/Naive helper T cells	96
+Colitis	C3	Trm cytotoxic T cells	51
+Colitis	C3	Regulatory T cells.1	138
+Colitis	C3	Plasmablasts	204
+Colitis	C3	gamma-delta T cells	71
+Colitis	C3	Cycling T cells	131
+Control	CT1	Type 1 helper T cells	453
+Control	CT1	Tem/Trm cytotoxic T cells	32
+Control	CT1	Follicular helper T cells	411
+Control	CT1	Type 1 helper T cells.1	295
+Control	CT1	Regulatory T cells	223
+Control	CT1	Tem/Trm cytotoxic T cells.1	122
+Control	CT1	Tcm/Naive helper T cells	122
+Control	CT1	Trm cytotoxic T cells	272
+Control	CT1	Regulatory T cells.1	45
+Control	CT1	Plasmablasts	15
+Control	CT1	gamma-delta T cells	194
+Control	CT1	Cycling T cells	4
+Control	CT2	Type 1 helper T cells	462
+Control	CT2	Tem/Trm cytotoxic T cells	8
+Control	CT2	Follicular helper T cells	233
+Control	CT2	Type 1 helper T cells.1	275
+Control	CT2	Regulatory T cells	176
+Control	CT2	Tem/Trm cytotoxic T cells.1	52
+Control	CT2	Tcm/Naive helper T cells	169
+Control	CT2	Trm cytotoxic T cells	176
+Control	CT2	Regulatory T cells.1	25
+Control	CT2	Plasmablasts	5
+Control	CT2	gamma-delta T cells	49
+Control	CT2	Cycling T cells	13
+NoColitis	NC1	Type 1 helper T cells	346
+NoColitis	NC1	Tem/Trm cytotoxic T cells	14
+NoColitis	NC1	Follicular helper T cells	285
+NoColitis	NC1	Type 1 helper T cells.1	191
+NoColitis	NC1	Regulatory T cells	166
+NoColitis	NC1	Tem/Trm cytotoxic T cells.1	42
+NoColitis	NC1	Tcm/Naive helper T cells	197
+NoColitis	NC1	Trm cytotoxic T cells	44
+NoColitis	NC1	Regulatory T cells.1	42
+NoColitis	NC1	Plasmablasts	7
+NoColitis	NC1	gamma-delta T cells	9
+NoColitis	NC1	Cycling T cells	6
+NoColitis	NC3	Type 1 helper T cells	307
+NoColitis	NC3	Tem/Trm cytotoxic T cells	14
+NoColitis	NC3	Follicular helper T cells	112
+NoColitis	NC3	Type 1 helper T cells.1	141
+NoColitis	NC3	Regulatory T cells	115
+NoColitis	NC3	Tem/Trm cytotoxic T cells.1	44
+NoColitis	NC3	Tcm/Naive helper T cells	18
+NoColitis	NC3	Trm cytotoxic T cells	92
+NoColitis	NC3	Regulatory T cells.1	29
+NoColitis	NC3	Plasmablasts	7
+NoColitis	NC3	gamma-delta T cells	53
+NoColitis	NC3	Cycling T cells	5

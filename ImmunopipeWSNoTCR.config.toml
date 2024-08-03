@@ -1,0 +1,102 @@
+# With T-cell selection, but no TCR data
+name = "ImmunopipeWSNoTCR"
+outdir = "./output-ws-notcr"
+
+[plugin_opts]
+diagram_theme = "fancy"
+
+[SampleInfo.in]
+infile = [ "data/samples-notcr.txt" ]
+
+[SampleInfo.envs.stats.Sample_Diagnosis]
+group = "Diagnosis"
+
+[SampleInfo.envs.stats.Sample_Sex_Diagnosis]
+group = "Diagnosis"
+each = "Sex"
+
+[SampleInfo.envs.stats.Age_Distribution]
+on = "Age"
+plot = "histogram"
+
+[SampleInfo.envs.stats.Age_By_Diagnosis]
+on = "Age"
+group = "Diagnosis"
+
+[SeuratPreparing.envs]
+cell_qc = "nFeature_RNA > 200 & percent.mt < 5"
+
+[TCellSelection.envs]
+indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]
+
+[ModuleScoreCalculator.envs.modules.Activation]
+features = "IFNG"
+
+[ModuleScoreCalculator.envs.modules.Proliferation]
+features = "STMN1,TUBB"
+
+[SeuratClustering.envs]
+ncores = 8
+
+[RadarPlots.envs]
+by = "Diagnosis"
+breakdown = "Sample"
+order = [ ]
+
+[SeuratClusterStats.envs.features_defaults]
+features = "CD4,CD8A"
+
+[SeuratClusterStats.envs.features."Violin Plots"]
+kind = "violin"
+pt-size = 0
+devpars = { height = 500 }
+
+[SeuratClusterStats.envs.features."Violin Plots (FOXP3, IL2RA)"]
+kind = "violin"
+features = [ "FOXP3", "IL2RA" ]
+pt-size = 0
+devpars = { height = 500 }
+
+[ClusterMarkers.envs]
+ncores = 8
+dbs = [ "KEGG_2021_Human" ]
+
+[TopExpressingGenes.envs]
+dbs = [ "KEGG_2021_Human" ]
+
+[ScFGSEA.envs]
+group-by = "Diagnosis"
+ident-1 = "Colitis"
+ident-2 = "Control"
+each = "seurat_clusters"
+gmtfile = "data/MSigDB_Hallmark_v7.5.1.gmt"
+
+[MarkersFinder.envs]
+ident-1 = "Colitis"
+group-by = "Diagnosis"
+dbs = [ "KEGG_2021_Human" ]
+overlap = [ "DEFAULT" ]
+
+[MarkersFinder.envs.cases.c1]
+subset = 'seurat_clusters == "c1"'
+
+[MarkersFinder.envs.cases.c2]
+subset = 'seurat_clusters == "c2"'
+
+[MetaMarkers.envs]
+ncores = 8
+group-by = "Diagnosis"
+each = "seurat_clusters"
+dbs = [ "KEGG_2021_Human" ]
+
+[ScrnaMetabolicLandscape]
+gmtfile = "data/KEGG_metabolism.short.gmt"
+grouping = "seurat_clusters"
+grouping_prefix = "Cluster"
+subsetting = "Diagnosis"
+
+  [ScrnaMetabolicLandscape.subsetting_comparison]
+  Colitis_vs_Control = [ "Colitis", "Control" ]
+
+[MetabolicFeaturesIntraSubset.plugin_opts]
+report_paging = 5

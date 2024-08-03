@@ -1,0 +1,73 @@
+Diagnosis	Sample	seurat_clusters	.n	.frac
+Colitis	C1	Type 1 helper T cells	95	0.044392523364486
+Colitis	C1	Tem/Trm cytotoxic T cells	963	0.45
+Colitis	C1	Follicular helper T cells	122	0.0570093457943925
+Colitis	C1	Type 1 helper T cells.1	19	0.0088785046728972
+Colitis	C1	Regulatory T cells	178	0.0831775700934579
+Colitis	C1	Tem/Trm cytotoxic T cells.1	208	0.097196261682243
+Colitis	C1	Tcm/Naive helper T cells	93	0.0434579439252336
+Colitis	C1	Trm cytotoxic T cells	52	0.0242990654205607
+Colitis	C1	Regulatory T cells.1	129	0.0602803738317757
+Colitis	C1	Plasmablasts	168	0.0785046728971963
+Colitis	C1	gamma-delta T cells	28	0.0130841121495327
+Colitis	C1	Cycling T cells	85	0.0397196261682243
+Colitis	C3	Type 1 helper T cells	239	0.0942429022082019
+Colitis	C3	Tem/Trm cytotoxic T cells	493	0.194400630914827
+Colitis	C3	Follicular helper T cells	229	0.0902996845425867
+Colitis	C3	Type 1 helper T cells.1	141	0.0555993690851735
+Colitis	C3	Regulatory T cells	181	0.0713722397476341
+Colitis	C3	Tem/Trm cytotoxic T cells.1	562	0.221608832807571
+Colitis	C3	Tcm/Naive helper T cells	96	0.0378548895899054
+Colitis	C3	Trm cytotoxic T cells	51	0.0201104100946372
+Colitis	C3	Regulatory T cells.1	138	0.054416403785489
+Colitis	C3	Plasmablasts	204	0.0804416403785489
+Colitis	C3	gamma-delta T cells	71	0.0279968454258675
+Colitis	C3	Cycling T cells	131	0.0516561514195584
+Control	CT1	Type 1 helper T cells	453	0.207038391224863
+Control	CT1	Tem/Trm cytotoxic T cells	32	0.0146252285191956
+Control	CT1	Follicular helper T cells	411	0.187842778793419
+Control	CT1	Type 1 helper T cells.1	295	0.134826325411335
+Control	CT1	Regulatory T cells	223	0.101919561243144
+Control	CT1	Tem/Trm cytotoxic T cells.1	122	0.0557586837294333
+Control	CT1	Tcm/Naive helper T cells	122	0.0557586837294333
+Control	CT1	Trm cytotoxic T cells	272	0.124314442413163
+Control	CT1	Regulatory T cells.1	45	0.0205667276051188
+Control	CT1	Plasmablasts	15	0.00685557586837294
+Control	CT1	gamma-delta T cells	194	0.0886654478976234
+Control	CT1	Cycling T cells	4	0.00182815356489945
+Control	CT2	Type 1 helper T cells	462	0.28119293974437
+Control	CT2	Tem/Trm cytotoxic T cells	8	0.00486914181375533
+Control	CT2	Follicular helper T cells	233	0.141813755325624
+Control	CT2	Type 1 helper T cells.1	275	0.167376749847839
+Control	CT2	Regulatory T cells	176	0.107121119902617
+Control	CT2	Tem/Trm cytotoxic T cells.1	52	0.0316494217894096
+Control	CT2	Tcm/Naive helper T cells	169	0.102860620815581
+Control	CT2	Trm cytotoxic T cells	176	0.107121119902617
+Control	CT2	Regulatory T cells.1	25	0.0152160681679854
+Control	CT2	Plasmablasts	5	0.00304321363359708
+Control	CT2	gamma-delta T cells	49	0.0298234936092514
+Control	CT2	Cycling T cells	13	0.0079123554473524
+NoColitis	NC1	Type 1 helper T cells	346	0.25648628613788
+NoColitis	NC1	Tem/Trm cytotoxic T cells	14	0.0103780578206079
+NoColitis	NC1	Follicular helper T cells	285	0.211267605633803
+NoColitis	NC1	Type 1 helper T cells.1	191	0.141586360266864
+NoColitis	NC1	Regulatory T cells	166	0.123054114158636
+NoColitis	NC1	Tem/Trm cytotoxic T cells.1	42	0.0311341734618236
+NoColitis	NC1	Tcm/Naive helper T cells	197	0.146034099332839
+NoColitis	NC1	Trm cytotoxic T cells	44	0.0326167531504818
+NoColitis	NC1	Regulatory T cells.1	42	0.0311341734618236
+NoColitis	NC1	Plasmablasts	7	0.00518902891030393
+NoColitis	NC1	gamma-delta T cells	9	0.00667160859896219
+NoColitis	NC1	Cycling T cells	6	0.0044477390659748
+NoColitis	NC3	Type 1 helper T cells	307	0.327641408751334
+NoColitis	NC3	Tem/Trm cytotoxic T cells	14	0.0149413020277481
+NoColitis	NC3	Follicular helper T cells	112	0.119530416221985
+NoColitis	NC3	Type 1 helper T cells.1	141	0.150480256136606
+NoColitis	NC3	Regulatory T cells	115	0.12273212379936
+NoColitis	NC3	Tem/Trm cytotoxic T cells.1	44	0.0469583778014941
+NoColitis	NC3	Tcm/Naive helper T cells	18	0.0192102454642476
+NoColitis	NC3	Trm cytotoxic T cells	92	0.0981856990394877
+NoColitis	NC3	Regulatory T cells.1	29	0.0309498399146211
+NoColitis	NC3	Plasmablasts	7	0.00747065101387407
+NoColitis	NC3	gamma-delta T cells	53	0.0565635005336179
+NoColitis	NC3	Cycling T cells	5	0.00533617929562433

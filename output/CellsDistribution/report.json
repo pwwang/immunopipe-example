@@ -1,0 +1,50 @@
+{
+  "Top10Clones": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution for cells in <code>Top10Clones<\/code> for <code>Diagnosis<\/code>"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap",
+            "contents": [
+              {
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.heatmap.png",
+                "kind": "image"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Cells by: Top10Clones"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.Top10Clones.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

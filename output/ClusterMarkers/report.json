@@ -1,0 +1,710 @@
+{
+  "Cluster: Type 1 helper T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Tem/Trm cytotoxic T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Follicular helper T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Follicular-helper-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Follicular-helper-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Follicular-helper-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Follicular-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Type 1 helper T cells.1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells-1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells-1/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells-1/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Type-1-helper-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Regulatory T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Tem/Trm cytotoxic T cells.1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells-1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells-1/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells-1/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Tcm/Naive helper T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tcm-Naive-helper-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tcm-Naive-helper-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tcm-Naive-helper-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Tcm-Naive-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Trm cytotoxic T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Trm-cytotoxic-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Trm-cytotoxic-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Trm-cytotoxic-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Regulatory T cells.1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells-1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells-1/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells-1/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Regulatory-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Plasmablasts": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Plasmablasts/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Plasmablasts/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Plasmablasts/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Plasmablasts"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: gamma-delta T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/gamma-delta-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/gamma-delta-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/gamma-delta-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/gamma-delta-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: Cycling T cells": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Cycling-T-cells/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Cycling-T-cells/volcano.png"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "img",
+                "src": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Cycling-T-cells/dotplot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/ClusterMarkers/samples.markers/Cluster/Cycling-T-cells"
+          }
+        ]
+      }
+    }
+  }
+}

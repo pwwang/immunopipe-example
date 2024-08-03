@@ -1,0 +1,602 @@
+{
+  "Cluster: c1": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c1/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c10": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c10/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c10"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c11": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c11/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c11"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c12": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c12/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c12"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c13": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c13/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c13"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c14": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c14/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c14"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c15": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c15/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c15"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c16": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c16/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c16"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c17": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c17/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c17"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c18": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c18/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c18"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c19": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c19/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c19"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c2": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c2/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c2"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c20": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c20/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c20"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c3": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c3/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c3"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c4": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c4/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c4"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c5": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c5/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c5"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c6": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c6/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c6"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c7": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c7/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c7"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c8": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c8/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c8"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c9": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c9/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/output/TopExpressingGenesOfAllCells/samples.seurat.top_expressing_genes/Cluster/c9"
+          }
+        ]
+      }
+    }
+  }
+}

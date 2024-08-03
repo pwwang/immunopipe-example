@@ -1,0 +1,132 @@
+{
+  "K-means clustering": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "When no `tcell_selector` specified, a k-means clustering is done with `n=2` using the expressions of indicator genes and clonotype percentage for each cluster. Then the mean clonotype percentage is calculated for each kmeans cluster and the cluster with the highest mean clonotype percentage is selected, in which the Seurat clusters are assigned as T cells."
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/output/TCellSelection/details/kmeans.png"
+          }
+        ]
+      }
+    }
+  },
+  "Table of indicator gene expression and clonotype percentage": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The data that is used to determine the T-cell clusters, including the gene expression values for indicator genes and the clonotype percentage. The cluster size and the final determined T-cell flags. The expression values are normalized with mean 0 and standard deviation 1."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/output/TCellSelection/details/data.txt"
+          }
+        ]
+      }
+    }
+  },
+  "Indicator gene expression vs clonotype percentage": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Scatter plots showing the average gene expression against the clonotype percentage for each cluster. The x-axis is the clonotype percentage, which is the percentage of the cells with clonotype information detected by scTCR-seq data. The y-axis is the average gene expression of the given gene. The expression values are normalized with mean 0 and standard deviation 1."
+          }
+        ],
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TCellSelection/details/CD3E-vs-Clonotype_Pct.png",
+            "name": "CD3E"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/CD3D-vs-Clonotype_Pct.png",
+            "name": "CD3D"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/CD3G-vs-Clonotype_Pct.png",
+            "name": "CD3G"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/CD14-vs-Clonotype_Pct.png",
+            "name": "CD14"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/CD68-vs-Clonotype_Pct.png",
+            "name": "CD68"
+          }
+        ]
+      }
+    }
+  },
+  "T cell composition": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TCellSelection/details/tcell_pie.png",
+            "name": "T cells in pie charts",
+            "desc": "The number and percentage of T cells and other cells in pie charts"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/tcell_per_sample.png",
+            "name": "T cells in each sample",
+            "desc": "Absolute number of T cells and other cells in each sample (left) and percentage of T cells and other cells in each sample (right)."
+          }
+        ]
+      }
+    }
+  },
+  "Feature plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Showing feature plots of indicator genes and selected T cells. "
+          }
+        ],
+        "table_of_images": [
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_CD3E.png",
+            "name": "CD3E"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_CD3D.png",
+            "name": "CD3D"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_CD3G.png",
+            "name": "CD3G"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_CD14.png",
+            "name": "CD14"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_CD68.png",
+            "name": "CD68"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_Clonotype_Pct.png",
+            "name": "Clonotype_Pct"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_TCR.png",
+            "name": "TCR"
+          },
+          {
+            "src": "/workdir/output/TCellSelection/details/feature_Selected_TCells.png",
+            "name": "Selected_TCells"
+          }
+        ]
+      }
+    }
+  }
+}

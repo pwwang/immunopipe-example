@@ -1,0 +1,146 @@
+{
+  "seurat_clusters - Cycling T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Cycling-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Follicular helper T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Follicular-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - gamma-delta T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-gamma-delta-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Plasmablasts": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Plasmablasts"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Regulatory T cells.1": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Regulatory-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Tcm/Naive helper T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Tcm-Naive-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Tem/Trm cytotoxic T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Tem/Trm cytotoxic T cells.1": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Trm cytotoxic T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Type 1 helper T cells": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Type-1-helper-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "seurat_clusters - Type 1 helper T cells.1": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/ScFGSEA/samples.fgsea/seurat_clusters-Type-1-helper-T-cells-1"
+          }
+        ]
+      }
+    }
+  }
+}

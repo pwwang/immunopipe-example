@@ -1,0 +1,368 @@
+{
+  "Colitis": {
+    "Cluster_Tem/Trm cytotoxic T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Cycling T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Cycling-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tem/Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tcm/Naive helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Tcm-Naive-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Regulatory-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Type-1-helper-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Follicular helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Follicular-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Plasmablasts": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Plasmablasts"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Regulatory-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_Type-1-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_gamma-delta T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Colitis/Cluster_gamma-delta-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "NoColitis": {
+    "Cluster_Follicular helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Follicular-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Type-1-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tem/Trm cytotoxic T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Type-1-helper-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Regulatory-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Regulatory-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tcm/Naive helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Tcm-Naive-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tem/Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Plasmablasts": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Plasmablasts"
+          }
+        ]
+      }
+    },
+    "Cluster_Cycling T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_Cycling-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_gamma-delta T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/NoColitis/Cluster_gamma-delta-T-cells"
+          }
+        ]
+      }
+    }
+  },
+  "Control": {
+    "Cluster_Tem/Trm cytotoxic T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Tem-Trm-cytotoxic-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Follicular helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Follicular-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Type-1-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Regulatory-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Type 1 helper T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Type-1-helper-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Tcm/Naive helper T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Tcm-Naive-helper-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_gamma-delta T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_gamma-delta-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Tem/Trm cytotoxic T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Tem-Trm-cytotoxic-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Regulatory T cells.1": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Regulatory-T-cells-1"
+          }
+        ]
+      }
+    },
+    "Cluster_Cycling T cells": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Cycling-T-cells"
+          }
+        ]
+      }
+    },
+    "Cluster_Plasmablasts": {
+      "#": {
+        "flat": [
+          {
+            "kind": "fgsea",
+            "dir": "/workdir/output/MetabolicFeatures/samples.seurat.annotated.tessa.imputed.pathwayfeatures/Control/Cluster_Plasmablasts"
+          }
+        ]
+      }
+    }
+  }
+}
