@@ -5,7 +5,8 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/len/DEFAULT.png",
-            "name": {}
+            "name": {},
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/len/DEFAULT.pdf"
           }
         ]
       }
@@ -15,7 +16,8 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/volume/DEFAULT.png",
-            "name": {}
+            "name": {},
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/volume/DEFAULT.pdf"
           }
         ]
       }
@@ -25,7 +27,8 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/count/DEFAULT.png",
-            "name": {}
+            "name": {},
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/count/DEFAULT.pdf"
           }
         ]
       }
@@ -70,6 +73,7 @@
           {
             "kind": "table_image",
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/overlap/public/public.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/overlap/public/public.pdf",
             "descr": "Repertoire overlap is the most common approach to measure repertoire similarity, using method <code>public<\/code>, number of public (shared) clonotypes, a classic measure of overlap similarity"
           }
         ]
@@ -83,6 +87,7 @@
           {
             "kind": "table_image",
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/gene_usage/DEFAULT/DEFAULT.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/gene_usage/DEFAULT/DEFAULT.pdf",
             "descr": "Distribution of known gene segments following the <a href=\"http://www.imgt.org/IMGTrepertoire/LocusGenes/\" target=\"_blank\">IMGT<\/a> nomenclature."
           }
         ]
@@ -105,27 +110,33 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/C1.spect.png",
-            "name": "C1"
+            "name": "C1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/C1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/C3.spect.png",
-            "name": "C3"
+            "name": "C3",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/C3.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/CT1.spect.png",
-            "name": "CT1"
+            "name": "CT1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/CT1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/CT2.spect.png",
-            "name": "CT2"
+            "name": "CT2",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/CT2.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/NC1.spect.png",
-            "name": "NC1"
+            "name": "NC1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/NC1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/NC3.spect.png",
-            "name": "NC3"
+            "name": "NC3",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Clonotype/NC3.spect.pdf"
           }
         ]
       }
@@ -135,27 +146,33 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/C1.spect.png",
-            "name": "C1"
+            "name": "C1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/C1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/C3.spect.png",
-            "name": "C3"
+            "name": "C3",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/C3.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/CT1.spect.png",
-            "name": "CT1"
+            "name": "CT1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/CT1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/CT2.spect.png",
-            "name": "CT2"
+            "name": "CT2",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/CT2.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/NC1.spect.png",
-            "name": "NC1"
+            "name": "NC1",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/NC1.spect.pdf"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/NC3.spect.png",
-            "name": "NC3"
+            "name": "NC3",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/spectratyping/By_Num_Clones/NC3.spect.pdf"
           }
         ]
       }
@@ -176,7 +193,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef/diversity.png"
+                "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef/diversity.png",
+                "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef/diversity.pdf"
               }
             ]
           },
@@ -206,7 +224,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef_in_Treg/diversity.png"
+                "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef_in_Treg/diversity.png",
+                "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/diversity/Gini_Coef_in_Treg/diversity.pdf"
               }
             ]
           },
@@ -241,7 +260,8 @@
           },
           {
             "kind": "image",
-            "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/Allsamples.png"
+            "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/Allsamples.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/Allsamples.pdf"
           }
         ]
       },
@@ -250,26 +270,32 @@
         "table_of_images": [
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/C1-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/C1-profile.pdf",
             "name": "C1"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/C3-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/C3-profile.pdf",
             "name": "C3"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/CT1-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/CT1-profile.pdf",
             "name": "CT1"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/CT2-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/CT2-profile.pdf",
             "name": "CT2"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/NC1-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/NC1-profile.pdf",
             "name": "NC1"
           },
           {
             "src": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/NC3-profile.png",
+            "download": "/workdir/output/Immunarch/samples.immunarch.immunarch/kmer/DEFAULT/NC3-profile.pdf",
             "name": "NC3"
           }
         ]

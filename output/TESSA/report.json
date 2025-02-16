@@ -5,7 +5,8 @@
         "table_of_images": [
           {
             "src": "/workdir/output/TESSA/result/Cluster_size_dist.png",
-            "descr": "Histogram of cluster size distribution"
+            "descr": "Histogram of cluster size distribution",
+            "download": "/workdir/output/TESSA/result/Cluster_size_dist.pdf"
           },
           {
             "src": "/workdir/output/TESSA/result/clone_size.png",

@@ -8,7 +8,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/plot.png"
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/plot.png",
+                "download": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/plot.pdf"
               }
             ]
           },
@@ -41,7 +42,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/barplot.png"
+                "src": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/barplot.png",
+                "download": "/workdir/output/RadarPlots/samples.seurat.annotated.tessa.radar_plots/DEFAULT/barplot.pdf"
               }
             ]
           },

@@ -6,7 +6,8 @@
           {
             "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/ClusterSizeDistribution/DEFAULT/cluster_size_distribution.png",
             "name": false,
-            "descr": "Cluster size distribution for each Sample"
+            "descr": "Cluster size distribution for each Sample",
+            "download": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/ClusterSizeDistribution/DEFAULT/cluster_size_distribution.pdf"
           }
         ]
       }
@@ -18,6 +19,7 @@
         "table_of_images": [
           {
             "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SharedClusters/DEFAULT/shared_clusters.png",
+            "download": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SharedClusters/DEFAULT/shared_clusters.pdf",
             "name": false,
             "descr": "Shared TCR clusters across samples"
           }
@@ -39,7 +41,8 @@
               },
               {
                 "kind": "image",
-                "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SampleDiversity/DEFAULT/diversity.png"
+                "src": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SampleDiversity/DEFAULT/diversity.png",
+                "download": "/workdir/output/TCRClusterStats/samples.immunarch.tcrclusters_stats/SampleDiversity/DEFAULT/diversity.pdf"
               }
             ]
           },

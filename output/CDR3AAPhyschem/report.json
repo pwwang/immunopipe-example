@@ -34,7 +34,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/estimated_coefficients.png"
+                "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/estimated_coefficients.png",
+                "download": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/estimated_coefficients.pdf"
               }
             ]
           },
@@ -58,7 +59,8 @@
           {
             "kind": "table_image",
             "descr": "Hydrophobicity values are averaged over the CDR3 for each TCR and then scaled to have a mean of 0 and a variance of 1. Horizontal lines depict the mean for each population",
-            "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/distribution.png"
+            "src": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/distribution.png",
+            "download": "/workdir/output/CDR3AAPhyschem/samples.immunarch.cdr3aaphyschem/ALL/distribution.pdf"
           }
         ]
       }

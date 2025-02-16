@@ -9,7 +9,8 @@
           },
           {
             "kind": "image",
-            "src": "/workdir/output/TCellSelection/details/kmeans.png"
+            "src": "/workdir/output/TCellSelection/details/kmeans.png",
+            "download": "/workdir/output/TCellSelection/details/kmeans.pdf"
           }
         ]
       }
@@ -43,23 +44,28 @@
         "table_of_images": [
           {
             "src": "/workdir/output/TCellSelection/details/CD3E-vs-Clonotype_Pct.png",
-            "name": "CD3E"
+            "name": "CD3E",
+            "download": "/workdir/output/TCellSelection/details/CD3E-vs-Clonotype_Pct.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/CD3D-vs-Clonotype_Pct.png",
-            "name": "CD3D"
+            "name": "CD3D",
+            "download": "/workdir/output/TCellSelection/details/CD3D-vs-Clonotype_Pct.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/CD3G-vs-Clonotype_Pct.png",
-            "name": "CD3G"
+            "name": "CD3G",
+            "download": "/workdir/output/TCellSelection/details/CD3G-vs-Clonotype_Pct.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/CD14-vs-Clonotype_Pct.png",
-            "name": "CD14"
+            "name": "CD14",
+            "download": "/workdir/output/TCellSelection/details/CD14-vs-Clonotype_Pct.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/CD68-vs-Clonotype_Pct.png",
-            "name": "CD68"
+            "name": "CD68",
+            "download": "/workdir/output/TCellSelection/details/CD68-vs-Clonotype_Pct.pdf"
           }
         ]
       }
@@ -71,11 +77,13 @@
         "table_of_images": [
           {
             "src": "/workdir/output/TCellSelection/details/tcell_pie.png",
+            "download": "/workdir/output/TCellSelection/details/tcell_pie.pdf",
             "name": "T cells in pie charts",
             "desc": "The number and percentage of T cells and other cells in pie charts"
           },
           {
             "src": "/workdir/output/TCellSelection/details/tcell_per_sample.png",
+            "download": "/workdir/output/TCellSelection/details/tcell_per_sample.pdf",
             "name": "T cells in each sample",
             "desc": "Absolute number of T cells and other cells in each sample (left) and percentage of T cells and other cells in each sample (right)."
           }
@@ -95,35 +103,43 @@
         "table_of_images": [
           {
             "src": "/workdir/output/TCellSelection/details/feature_CD3E.png",
-            "name": "CD3E"
+            "name": "CD3E",
+            "download": "/workdir/output/TCellSelection/details/feature_CD3E.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_CD3D.png",
-            "name": "CD3D"
+            "name": "CD3D",
+            "download": "/workdir/output/TCellSelection/details/feature_CD3D.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_CD3G.png",
-            "name": "CD3G"
+            "name": "CD3G",
+            "download": "/workdir/output/TCellSelection/details/feature_CD3G.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_CD14.png",
-            "name": "CD14"
+            "name": "CD14",
+            "download": "/workdir/output/TCellSelection/details/feature_CD14.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_CD68.png",
-            "name": "CD68"
+            "name": "CD68",
+            "download": "/workdir/output/TCellSelection/details/feature_CD68.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_Clonotype_Pct.png",
-            "name": "Clonotype_Pct"
+            "name": "Clonotype_Pct",
+            "download": "/workdir/output/TCellSelection/details/feature_Clonotype_Pct.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_TCR.png",
-            "name": "TCR"
+            "name": "TCR",
+            "download": "/workdir/output/TCellSelection/details/feature_TCR.pdf"
           },
           {
             "src": "/workdir/output/TCellSelection/details/feature_Selected_TCells.png",
-            "name": "Selected_TCells"
+            "name": "Selected_TCells",
+            "download": "/workdir/output/TCellSelection/details/feature_Selected_TCells.pdf"
           }
         ]
       }

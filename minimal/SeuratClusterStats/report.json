@@ -14,7 +14,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png"
+                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png",
+                "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.pdf"
               }
             ]
           },
@@ -23,7 +24,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png"
+                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png",
+                "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.pdf"
               }
             ]
           }
@@ -46,7 +48,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.png"
+                "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.png",
+                "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.pdf"
               }
             ]
           },
@@ -73,7 +76,8 @@
           },
           {
             "kind": "image",
-            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png"
+            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png",
+            "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.pdf"
           }
         ]
       }
@@ -89,7 +93,8 @@
           },
           {
             "kind": "image",
-            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png"
+            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
           }
         ]
       }
@@ -105,7 +110,8 @@
           },
           {
             "kind": "image",
-            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/TCR-presence.dim.png"
+            "src": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/TCR-presence.dim.png",
+            "download": "/workdir/minimal/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/TCR-presence.dim.pdf"
           }
         ]
       }

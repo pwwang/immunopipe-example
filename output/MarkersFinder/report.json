@@ -25,8 +25,13 @@
             "ui": "flat",
             "contents": [
               {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/c1/volcano.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/volcano.png",
+                "download": "/workdir/output/MarkersFinder/samples.markers/c1/volcano.pdf"
               }
             ]
           },
@@ -35,8 +40,13 @@
             "ui": "flat",
             "contents": [
               {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/c1/dotplot.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c1/dotplot.png",
+                "download": "/workdir/output/MarkersFinder/samples.markers/c1/dotplot.pdf"
               }
             ]
           }
@@ -84,8 +94,13 @@
             "ui": "flat",
             "contents": [
               {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/c2/volcano.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/volcano.png",
+                "download": "/workdir/output/MarkersFinder/samples.markers/c2/volcano.pdf"
               }
             ]
           },
@@ -94,8 +109,13 @@
             "ui": "flat",
             "contents": [
               {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
                 "kind": "img",
-                "src": "/workdir/output/MarkersFinder/samples.markers/c2/dotplot.png"
+                "src": "/workdir/output/MarkersFinder/samples.markers/c2/dotplot.png",
+                "download": "/workdir/output/MarkersFinder/samples.markers/c2/dotplot.pdf"
               }
             ]
           }

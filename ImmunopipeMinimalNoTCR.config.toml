@@ -1,5 +1,8 @@
 name = "ImmunopipeMinimalNoTCR"
 outdir = "./minimal-notcr"
 
+[plugin_opts]
+args_dump = true
+
 [SampleInfo.in]
 infile = [ "data/samples-notcr.txt" ]

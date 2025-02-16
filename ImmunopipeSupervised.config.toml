@@ -3,6 +3,7 @@ outdir = "./output-supervised"
 
 [plugin_opts]
 diagram_theme = "fancy"
+args_dump = true
 
 [SampleInfo.in]
 infile = [ "data/samples.txt" ]

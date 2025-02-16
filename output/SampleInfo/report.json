@@ -30,25 +30,29 @@
             "kind": "table_image",
             "src": "/workdir/output/SampleInfo/Sample_Diagnosis.png",
             "name": "Sample_Diagnosis",
-            "descr": "The number of Sample"
+            "descr": "The number of Sample",
+            "download": "/workdir/output/SampleInfo/Sample_Diagnosis.pdf"
           },
           {
             "kind": "table_image",
             "src": "/workdir/output/SampleInfo/Sample_Sex_Diagnosis.png",
             "name": "Sample_Sex_Diagnosis",
-            "descr": "The number of Sample"
+            "descr": "The number of Sample",
+            "download": "/workdir/output/SampleInfo/Sample_Sex_Diagnosis.pdf"
           },
           {
             "kind": "table_image",
             "src": "/workdir/output/SampleInfo/Age_Distribution.png",
             "name": "Age_Distribution",
-            "descr": "The distribution of Age"
+            "descr": "The distribution of Age",
+            "download": "/workdir/output/SampleInfo/Age_Distribution.pdf"
           },
           {
             "kind": "table_image",
             "src": "/workdir/output/SampleInfo/Age_By_Diagnosis.png",
             "name": "Age_By_Diagnosis",
-            "descr": "The distribution of Age"
+            "descr": "The distribution of Age",
+            "download": "/workdir/output/SampleInfo/Age_By_Diagnosis.pdf"
           }
         ]
       }

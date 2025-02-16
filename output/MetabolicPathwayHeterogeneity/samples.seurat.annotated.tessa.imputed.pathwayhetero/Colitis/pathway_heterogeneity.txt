@@ -1,61 +1,61 @@
 x	y	NES	PVAL
-Cluster_Tem/Trm cytotoxic T cells.1	Inositol phosphate metabolism	1.77901722518562	4.24437055614784
-Cluster_Tem/Trm cytotoxic T cells.1	Nitrogen metabolism	1.95412690382532	3.35018426195615
-Cluster_Tem/Trm cytotoxic T cells.1	Fatty acid biosynthesis	1.55326422124009	1.57749179983722
-Cluster_Tem/Trm cytotoxic T cells.1	Starch and sucrose metabolism	1.41053561700483	1.23446399911511
-Cluster_Tem/Trm cytotoxic T cells.1	Ascorbate and aldarate metabolism	0.682974601690364	0.0631145096003526
-Cluster_Cycling T cells	Inositol phosphate metabolism	1.82440984328787	3.18779355637953
-Cluster_Cycling T cells	Ascorbate and aldarate metabolism	1.80033452400301	2.18427247503782
-Cluster_Cycling T cells	Starch and sucrose metabolism	1.03912693841101	0.387261029279158
-Cluster_Cycling T cells	Nitrogen metabolism	0.985148324688625	0.314610663315729
-Cluster_Cycling T cells	Fatty acid biosynthesis	0.88665147487913	0.216562482972478
-Cluster_Trm cytotoxic T cells	Inositol phosphate metabolism	1.95889926383491	4.7368935733607
-Cluster_Trm cytotoxic T cells	Nitrogen metabolism	1.77009993347032	2.2604439379228
-Cluster_Trm cytotoxic T cells	Fatty acid biosynthesis	1.62350905166874	1.78003202970812
-Cluster_Trm cytotoxic T cells	Ascorbate and aldarate metabolism	1.2929277843332	0.805734772015733
-Cluster_Trm cytotoxic T cells	Starch and sucrose metabolism	0.808197316638275	0.139504383381222
-Cluster_Tem/Trm cytotoxic T cells	Inositol phosphate metabolism	1.55112985076332	2.55966286923573
-Cluster_Tem/Trm cytotoxic T cells	Nitrogen metabolism	1.44741873677504	1.15275861457725
-Cluster_Tem/Trm cytotoxic T cells	Ascorbate and aldarate metabolism	1.42483014915111	1.11747217192295
-Cluster_Tem/Trm cytotoxic T cells	Starch and sucrose metabolism	1.25888990425104	0.803545216770921
-Cluster_Tem/Trm cytotoxic T cells	Fatty acid biosynthesis	1.12095243322681	0.506918621886611
-Cluster_Tcm/Naive helper T cells	Inositol phosphate metabolism	1.71653807010053	2.83201073921666
-Cluster_Tcm/Naive helper T cells	Starch and sucrose metabolism	1.75629376969144	2.11296142066494
-Cluster_Tcm/Naive helper T cells	Nitrogen metabolism	1.61365582251652	1.4337536805895
-Cluster_Tcm/Naive helper T cells	Ascorbate and aldarate metabolism	1.41867424325868	1.13309822392662
-Cluster_Tcm/Naive helper T cells	Fatty acid biosynthesis	1.38602494297548	0.972453557939495
-Cluster_Regulatory T cells.1	Inositol phosphate metabolism	1.87545286836559	4.6119972638017
-Cluster_Regulatory T cells.1	Nitrogen metabolism	1.58092220107611	1.40823996531185
-Cluster_Regulatory T cells.1	Fatty acid biosynthesis	1.5697777858885	1.40307412467111
-Cluster_Regulatory T cells.1	Starch and sucrose metabolism	1.36893391552233	1.0268339649873
-Cluster_Regulatory T cells.1	Ascorbate and aldarate metabolism	1.07410817832591	0.39421670188239
-Cluster_Type 1 helper T cells.1	Inositol phosphate metabolism	2.02491578715201	4.15705021032853
-Cluster_Type 1 helper T cells.1	Nitrogen metabolism	2.0086078767142	3.05388295089205
-Cluster_Type 1 helper T cells.1	Fatty acid biosynthesis	1.63703434211043	1.66651218372827
-Cluster_Type 1 helper T cells.1	Starch and sucrose metabolism	1.39006527161077	1.08152498882116
-Cluster_Type 1 helper T cells.1	Ascorbate and aldarate metabolism	1.04968693641885	0.403998017307624
-Cluster_Follicular helper T cells	Inositol phosphate metabolism	1.82868381370763	4.18050787595388
-Cluster_Follicular helper T cells	Starch and sucrose metabolism	1.6876001433248	2.18991871296654
-Cluster_Follicular helper T cells	Nitrogen metabolism	1.58370488190598	1.46751561394621
-Cluster_Follicular helper T cells	Fatty acid biosynthesis	1.55908539751913	1.3928819956493
-Cluster_Follicular helper T cells	Ascorbate and aldarate metabolism	0.958148438535414	0.296417975522023
-Cluster_Plasmablasts	Inositol phosphate metabolism	1.85641871577367	3.32504346556197
-Cluster_Plasmablasts	Ascorbate and aldarate metabolism	1.59285383113143	1.39399952619724
-Cluster_Plasmablasts	Starch and sucrose metabolism	1.12768690217513	0.490909539205295
-Cluster_Plasmablasts	Nitrogen metabolism	-0.787582725877617	0.132448338387046
-Cluster_Plasmablasts	Fatty acid biosynthesis	0.751767075623792	0.111047881450287
-Cluster_Regulatory T cells	Inositol phosphate metabolism	1.9992494693306	6.13788571743003
-Cluster_Regulatory T cells	Ascorbate and aldarate metabolism	1.34314119264888	0.851207793514792
-Cluster_Regulatory T cells	Starch and sucrose metabolism	1.19726525071286	0.600717503452452
-Cluster_Regulatory T cells	Nitrogen metabolism	1.12937921634079	0.511296872730522
-Cluster_Regulatory T cells	Fatty acid biosynthesis	1.10547609261995	0.475230960192834
-Cluster_Type 1 helper T cells	Inositol phosphate metabolism	2.08064068540653	5.68132126088307
-Cluster_Type 1 helper T cells	Fatty acid biosynthesis	1.83378311084455	2.52865416264468
-Cluster_Type 1 helper T cells	Starch and sucrose metabolism	1.5784090730462	1.50514997831991
-Cluster_Type 1 helper T cells	Nitrogen metabolism	1.50484870237619	1.23717428301051
-Cluster_Type 1 helper T cells	Ascorbate and aldarate metabolism	1.00549175326063	0.352182518111363
-Cluster_gamma-delta T cells	Nitrogen metabolism	2.1813709250146	3.83649418251738
-Cluster_gamma-delta T cells	Inositol phosphate metabolism	1.84694524948678	3.4080582522859
-Cluster_gamma-delta T cells	Ascorbate and aldarate metabolism	1.56363790001153	1.363390739703
-Cluster_gamma-delta T cells	Fatty acid biosynthesis	1.46744491474974	1.0816872800174
-Cluster_gamma-delta T cells	Starch and sucrose metabolism	1.09612152670957	0.425814918039434
+Cluster_Tem/Trm cytotoxic T cells.1	Inositol phosphate metabolism	1.7624671537113	3.91613960016489
+Cluster_Tem/Trm cytotoxic T cells.1	Amino sugar and nucleotide sugar metabolism	1.57278838143154	2.00836964440852
+Cluster_Tem/Trm cytotoxic T cells.1	Nitrogen metabolism	1.69206529262346	1.92254681257375
+Cluster_Tem/Trm cytotoxic T cells.1	Fructose and mannose metabolism	1.33900190135197	1.01642392527209
+Cluster_Tem/Trm cytotoxic T cells.1	Ascorbate and aldarate metabolism	0.722902950073613	0.0747975586868705
+Cluster_Cycling T cells	Inositol phosphate metabolism	1.97902249006251	4.13055492248244
+Cluster_Cycling T cells	Ascorbate and aldarate metabolism	1.94077198161804	2.70592185513161
+Cluster_Cycling T cells	Fructose and mannose metabolism	1.3846558649449	1.08735003512505
+Cluster_Cycling T cells	Amino sugar and nucleotide sugar metabolism	1.29488542411337	0.889191377475386
+Cluster_Cycling T cells	Nitrogen metabolism	0.999334760318938	0.326257440112016
+Cluster_Trm cytotoxic T cells	Inositol phosphate metabolism	1.80980600873769	3.37816820395314
+Cluster_Trm cytotoxic T cells	Nitrogen metabolism	1.56519069839631	1.40265211075985
+Cluster_Trm cytotoxic T cells	Amino sugar and nucleotide sugar metabolism	1.40414031337676	1.16999885178445
+Cluster_Trm cytotoxic T cells	Ascorbate and aldarate metabolism	1.43868575171883	1.03385826726097
+Cluster_Trm cytotoxic T cells	Fructose and mannose metabolism	0.778075424572751	0.106529958370764
+Cluster_Tem/Trm cytotoxic T cells	Inositol phosphate metabolism	1.64813222331966	3.23538284026586
+Cluster_Tem/Trm cytotoxic T cells	Amino sugar and nucleotide sugar metabolism	1.26586584083948	0.975128212214548
+Cluster_Tem/Trm cytotoxic T cells	Ascorbate and aldarate metabolism	1.20775006244806	0.659070652016134
+Cluster_Tem/Trm cytotoxic T cells	Nitrogen metabolism	1.16438339341174	0.609114198641455
+Cluster_Tem/Trm cytotoxic T cells	Fructose and mannose metabolism	1.02743226289388	0.363752522584008
+Cluster_Tcm/Naive helper T cells	Inositol phosphate metabolism	1.69009231308675	2.91173191307715
+Cluster_Tcm/Naive helper T cells	Ascorbate and aldarate metabolism	1.79086630896928	2.26271777662883
+Cluster_Tcm/Naive helper T cells	Fructose and mannose metabolism	1.74653031872546	2.17787759018927
+Cluster_Tcm/Naive helper T cells	Nitrogen metabolism	1.67816593804426	1.81632510243314
+Cluster_Tcm/Naive helper T cells	Amino sugar and nucleotide sugar metabolism	1.19682897539902	0.678548872200602
+Cluster_Regulatory T cells.1	Inositol phosphate metabolism	1.80562483751575	3.58927626240739
+Cluster_Regulatory T cells.1	Nitrogen metabolism	1.72915532784517	2.26766123193517
+Cluster_Regulatory T cells.1	Amino sugar and nucleotide sugar metabolism	1.29376397874331	0.977505859241716
+Cluster_Regulatory T cells.1	Ascorbate and aldarate metabolism	1.16710469024762	0.573901414390855
+Cluster_Regulatory T cells.1	Fructose and mannose metabolism	1.14343262529482	0.566622150558839
+Cluster_Type 1 helper T cells.1	Inositol phosphate metabolism	1.85793685536822	3.55913598280915
+Cluster_Type 1 helper T cells.1	Nitrogen metabolism	1.72576306249762	1.85307530546229
+Cluster_Type 1 helper T cells.1	Fructose and mannose metabolism	1.32206323677715	0.866487213820515
+Cluster_Type 1 helper T cells.1	Amino sugar and nucleotide sugar metabolism	1.13074703740865	0.521278060170951
+Cluster_Type 1 helper T cells.1	Ascorbate and aldarate metabolism	1.02198237990258	0.358616628116773
+Cluster_Follicular helper T cells	Inositol phosphate metabolism	1.87624353954602	4.66470296506326
+Cluster_Follicular helper T cells	Nitrogen metabolism	1.94875977281406	2.76749104965209
+Cluster_Follicular helper T cells	Amino sugar and nucleotide sugar metabolism	1.33374409229103	1.09108046934733
+Cluster_Follicular helper T cells	Fructose and mannose metabolism	1.15838384109686	0.564418723803347
+Cluster_Follicular helper T cells	Ascorbate and aldarate metabolism	0.792179477606519	0.13817063355164
+Cluster_Plasmablasts	Inositol phosphate metabolism	1.86096345097158	3.51158855676283
+Cluster_Plasmablasts	Ascorbate and aldarate metabolism	1.66195362156529	1.6434601556444
+Cluster_Plasmablasts	Fructose and mannose metabolism	1.21037607925831	0.63400440112095
+Cluster_Plasmablasts	Amino sugar and nucleotide sugar metabolism	1.15450580848593	0.56850705842129
+Cluster_Plasmablasts	Nitrogen metabolism	-0.892098530238401	0.205311463463343
+Cluster_Regulatory T cells	Inositol phosphate metabolism	1.84351678834225	4.19561491328566
+Cluster_Regulatory T cells	Amino sugar and nucleotide sugar metabolism	1.17846731981643	0.689064990885756
+Cluster_Regulatory T cells	Nitrogen metabolism	1.17360973996243	0.576655411553868
+Cluster_Regulatory T cells	Ascorbate and aldarate metabolism	1.08268035970399	0.465997854357757
+Cluster_Regulatory T cells	Fructose and mannose metabolism	1.00805877268742	0.337261299812533
+Cluster_Type 1 helper T cells	Inositol phosphate metabolism	1.68789523680616	2.94567775026034
+Cluster_Type 1 helper T cells	Nitrogen metabolism	1.67150820097324	1.63810859542056
+Cluster_Type 1 helper T cells	Amino sugar and nucleotide sugar metabolism	1.40691779154413	1.27441928871087
+Cluster_Type 1 helper T cells	Fructose and mannose metabolism	1.39092067916706	1.15590785385037
+Cluster_Type 1 helper T cells	Ascorbate and aldarate metabolism	1.05651735769906	0.409100806984986
+Cluster_gamma-delta T cells	Inositol phosphate metabolism	1.67622312116724	2.29804179629368
+Cluster_gamma-delta T cells	Amino sugar and nucleotide sugar metabolism	1.66369857585227	2.15374415907031
+Cluster_gamma-delta T cells	Nitrogen metabolism	1.63281752875007	1.50857477926066
+Cluster_gamma-delta T cells	Ascorbate and aldarate metabolism	1.40799053546525	1.06154249763491
+Cluster_gamma-delta T cells	Fructose and mannose metabolism	1.32158884863307	0.913632745424502

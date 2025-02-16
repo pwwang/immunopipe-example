@@ -14,7 +14,8 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.png"
+                "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.png",
+                "download": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.pdf"
               }
             ]
           },
@@ -23,7 +24,8 @@
             "contents": [
               {
                 "src": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.heatmap.png",
-                "kind": "image"
+                "kind": "image",
+                "download": "/workdir/output/CellsDistribution/samples.seurat.annotated.tessa.cells_distribution/Top10Clones/Top10Clones.heatmap.pdf"
               }
             ]
           },

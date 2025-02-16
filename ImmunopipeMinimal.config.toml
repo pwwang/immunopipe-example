@@ -1,5 +1,8 @@
 name = "ImmunopipeMinimal"
 outdir = "./minimal"
 
+[plugin_opts]
+args_dump = true
+
 [SampleInfo.in]
 infile = [ "data/samples.txt" ]

@@ -34,27 +34,33 @@
         "table_of_images:3": [
           {
             "name": "F (Control - NoColitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_NoColitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_NoColitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_NoColitis.pdf"
           },
           {
             "name": "F (Control - Colitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_Colitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_Colitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_Control_Colitis.pdf"
           },
           {
             "name": "F (NoColitis - Colitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_NoColitis_Colitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_NoColitis_Colitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_F_NoColitis_Colitis.pdf"
           },
           {
             "name": "M (Control - NoColitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_NoColitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_NoColitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_NoColitis.pdf"
           },
           {
             "name": "M (Control - Colitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_Colitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_Colitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_Control_Colitis.pdf"
           },
           {
             "name": "M (NoColitis - Colitis)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_NoColitis_Colitis.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_NoColitis_Colitis.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/scatter/scatter_M_NoColitis_Colitis.pdf"
           }
         ]
       }
@@ -70,11 +76,13 @@
         "table_of_images:3": [
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_F.png",
-            "name": "F"
+            "name": "F",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_F.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_M.png",
-            "name": "M"
+            "name": "M",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/venn/venn_M.pdf"
           }
         ]
       }
@@ -90,11 +98,13 @@
         "table_of_images:3": [
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_F.png",
-            "name": "F"
+            "name": "F",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_F.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_M.png",
-            "name": "M"
+            "name": "M",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/Diagnosis/upset/upset_M.pdf"
           }
         ]
       }
@@ -140,15 +150,18 @@
         "table_of_images:3": [
           {
             "name": "Colitis (M - F)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Colitis_M_F.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Colitis_M_F.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Colitis_M_F.pdf"
           },
           {
             "name": "Control (M - F)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Control_M_F.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Control_M_F.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_Control_M_F.pdf"
           },
           {
             "name": "NoColitis (M - F)",
-            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_NoColitis_M_F.png"
+            "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_NoColitis_M_F.png",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/scatter/scatter_NoColitis_M_F.pdf"
           }
         ]
       }
@@ -164,15 +177,18 @@
         "table_of_images:3": [
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Colitis.png",
-            "name": "Colitis"
+            "name": "Colitis",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Colitis.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Control.png",
-            "name": "Control"
+            "name": "Control",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_Control.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_NoColitis.png",
-            "name": "NoColitis"
+            "name": "NoColitis",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/venn/venn_NoColitis.pdf"
           }
         ]
       }
@@ -188,15 +204,18 @@
         "table_of_images:3": [
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Colitis.png",
-            "name": "Colitis"
+            "name": "Colitis",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Colitis.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Control.png",
-            "name": "Control"
+            "name": "Control",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_Control.pdf"
           },
           {
             "src": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_NoColitis.png",
-            "name": "NoColitis"
+            "name": "NoColitis",
+            "download": "/workdir/output/CloneResidency/samples.immunarch.cloneov/M_vs_F/upset/upset_NoColitis.pdf"
           }
         ]
       }

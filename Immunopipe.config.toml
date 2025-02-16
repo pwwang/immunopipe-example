@@ -6,6 +6,7 @@ outdir = "./output"
 [plugin_opts]
 # use the fancy theme for the diagrams
 diagram_theme = "fancy"
+args_dump = true
 
 [SampleInfo.in]
 infile = [ "data/samples.txt" ]

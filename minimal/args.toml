@@ -1,0 +1,1638 @@
+# The name for the pipeline, will affect the default workdir and outdir.
+name = "ImmunopipeMinimal"
+
+# The default profile from the configuration to run the pipeline. This profile will be used unless a profile is specified in the process or in the .run method of pipen. You can check the available profiles by running `pipen profile`
+## profile = None
+
+# The output directory of the pipeline [default: ./<name>-output]
+outdir = "minimal"
+
+# The logging level for the main logger, only takes effect after pipeline is initialized [default: INFO]
+## loglevel = None
+
+# Whether enable caching for processes [default: True]
+# - True: Enable caching for all processes
+# - False: Disable caching for all processes
+# - force: Forcing caching even when jobs signature changed
+#    Such as envs or script file change
+## cache = None
+
+# How we should deal with job errors.
+# - ignore: Let other jobs keep running. But the process is still failing when done.
+# - halt: Halt the pipeline, other running jobs will be killed.
+# - retry: Retry this job on the scheduler system.
+## error_strategy = None
+
+# How many times to retry the job when failed
+## num_retries = None
+
+# How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# How many jobs to submit simultaneously to the scheduler system
+## submission_batch = None
+
+# The scheduler to run the jobs
+## scheduler = None
+
+# A list of plugins to only enabled or disabled for this pipeline. To disable plugins, use `-<plugin_name>`
+## plugins = None
+
+# The working directory of the pipeline
+workdir = "/workdir/.pipen/ImmunopipeMinimal"
+
+# The default scheduler options. Will update to the default one
+[scheduler_opts]
+
+# Plugin options. Will update to the default.
+[plugin_opts]
+args_hide = false
+args_dump = true
+
+# Template options. Will update to the default.
+[template_opts]
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: SampleInfo                                          |
+# +----------------------------------------------------------------------------+
+[SampleInfo]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[SampleInfo.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+report = "file://../reports/delim/SampleInfo.svelte"
+
+# (process level) The default scheduler options. Will update to the default one
+[SampleInfo.scheduler_opts]
+
+# Environment variables for the process
+[SampleInfo.envs]
+# The separator of the input file.
+sep = "\t"
+
+# Whether to save the mutated columns.
+save_mutated = false
+
+# The columns to exclude in the table in the report.
+# Could be a list or a string separated by comma.
+exclude_cols = "TCRData,RNAData"
+
+# A dict of mutaters to mutate the data frame.
+# The key is the column name and the value is the R expression to mutate the column. The dict will be transformed to a list in R and passed to `dplyr::mutate`.
+# You may also use `paired()` to identify paired samples. The function takes following arguments:
+# * `df`: The data frame. Use `.` if the function is called in a dplyr pipe.
+# * `id_col`: The column name in `df` for the ids to be returned in the final output.
+# * `compare_col`: The column name in `df` to compare the values for each id in `id_col`.
+# * `idents`: The values in `compare_col` to compare. It could be either an an integer or a vector. If it is an integer, the number of values in `compare_col` must be the same as the integer for the `id` to be regarded as paired. If it is a vector, the values in `compare_col` must be the same as the values in `idents` for the `id` to be regarded as paired.
+# * `uniq`: Whether to return unique ids or not. Default is `TRUE`.
+# If `FALSE`, you can mutate the meta data frame with the returned ids. Non-paired ids will be `NA`.
+[SampleInfo.envs.mutaters]
+
+# The statistics to perform.
+# The keys are the case names and the values are the parameters inheirted from `envs.defaults`.
+[SampleInfo.envs.stats]
+
+# The default parameters for `envs.stats`.
+[SampleInfo.envs.defaults]
+# The column name in the data for the stats.
+# Default is `Sample`. The column could be either continuous or not.
+on = "Sample"
+
+# The column name in the data for the group ids.
+# If not provided, all records will be regarded as one group.
+## group = None
+
+# Whether to include `NA`s in the group.
+na_group = false
+
+# The column in the data to split the analysis in different plots.
+## each = None
+
+# The number of columns in the plot when `each` is not `NULL`. Default is 2.
+ncol = 2
+
+# Whether to include `NA`s in the `each` column.
+na_each = false
+
+# Type of plot. If `on` is continuous, it could be `boxplot` (default), `violin`, `violin+boxplot` or `histogram`.
+# If `on` is not continuous, it could be `barplot` or `pie` (default).
+## plot = None
+
+# The device parameters for the plot.
+[SampleInfo.envs.defaults.devpars]
+# The width of the plot.
+width = 800
+
+# The height of the plot.
+height = 600
+
+# The resolution of the plot.
+res = 100
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: ImmunarchLoading                                    |
+# +----------------------------------------------------------------------------+
+[ImmunarchLoading]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[ImmunarchLoading.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+
+# (process level) The default scheduler options. Will update to the default one
+[ImmunarchLoading.scheduler_opts]
+
+# Environment variables for the process
+[ImmunarchLoading.envs]
+# The temporary directory to link all data files.
+# `Immunarch` scans a directory to find the data files. If the data files are not in the same directory, we can link them to a temporary directory and pass the temporary directory to `Immunarch`.
+# This option is useful when the data files are in different directories.
+tmpdir = "/tmp"
+
+# The prefix to the barcodes. You can use placeholder like `{Sample}_` to use the meta data from the `immunarch` object. The prefixed barcodes will be saved in `out.metatxt`. The `immunarch` object keeps the original barcodes, but the prefix is saved at `immdata$prefix`.
+#  /// Note This option is useful because the barcodes for the cells from scRNA-seq data are usually prefixed with the sample name, for example, `Sample1_AAACCTGAGAAGGCTA-1`. However, the barcodes for the cells from scTCR-seq data are usually not prefixed with the sample name, for example, `AAACCTGAGAAGGCTA-1`. So we need to add the prefix to the barcodes for the scTCR-seq data, and it is easier for us to integrate the data from different sources later.
+# /// 
+prefix = "{Sample}_"
+
+# Either "single" for single chain data or "paired" for paired chain data. For `single`, only TRB chain will be kept at `immdata$data`, information for other chains will be saved at `immdata$tra` and `immdata$multi`.
+mode = "paired"
+
+# The extra columns to be exported to the text file.
+# You can refer to the [immunarch documentation](https://immunarch.com/articles/v2_data.html#immunarch-data-format) to get a sense for the full list of the columns.
+# The columns may vary depending on the data source.
+# The columns from `immdata$meta` and some core columns, including `Barcode`, `CDR3.aa`, `Clones`, `Proportion`, `V.name`, `J.name`, and `D.name` will be exported by default. You can use this option to specify the extra columns to be exported.
+extracols = []
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: SeuratPreparing                                     |
+# +----------------------------------------------------------------------------+
+[SeuratPreparing]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[SeuratPreparing.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+report = "file://../reports/scrna/SeuratPreparing.svelte"
+
+# (process level) The default scheduler options. Will update to the default one
+[SeuratPreparing.scheduler_opts]
+
+# Environment variables for the process
+[SeuratPreparing.envs]
+# Number of cores to use.
+# Used in `future::plan(strategy = "multicore", workers = <ncores>)` to parallelize some Seurat procedures.
+ncores = 1
+
+# Filter expression to filter cells, using `tidyrseurat::filter()`.
+# Available QC keys include `nFeature_RNA`, `nCount_RNA`, `percent.mt`, `percent.ribo`, `percent.hb`, and `percent.plat`.
+#  /// Tip | Example Including the columns added above, all available QC keys include `nFeature_RNA`, `nCount_RNA`, `percent.mt`, `percent.ribo`, `percent.hb`, and `percent.plat`. For example:
+#  ```toml [SeuratPreparing.envs] cell_qc = "nFeature_RNA > 200 & percent.mt < 5" ``` will keep cells with more than 200 genes and less than 5%% mitochondrial genes.
+# /// 
+## cell_qc = None
+
+# Whether to perform cell QC per sample or not.
+# If `True`, the cell QC will be performed per sample, and the QC will be applied to each sample before merging.
+cell_qc_per_sample = false
+
+# Whether use SCTransform routine to integrate samples or not.
+# Before the following procedures, the `RNA` layer will be split by samples.
+#  If `False`, following procedures will be performed in the order:
+# * [`NormalizeData`](https://satijalab.org/seurat/reference/normalizedata).
+# * [`FindVariableFeatures`](https://satijalab.org/seurat/reference/findvariablefeatures).
+# * [`ScaleData`](https://satijalab.org/seurat/reference/scaledata).
+# See <https://satijalab.org/seurat/articles/seurat5_integration#layers-in-the-seurat-v5-object> and <https://satijalab.org/seurat/articles/pbmc3k_tutorial.html>  If `True`, following procedures will be performed in the order:
+# * [`SCTransform`](https://satijalab.org/seurat/reference/sctransform).
+# See <https://satijalab.org/seurat/articles/seurat5_integration#perform-streamlined-one-line-integrative-analysis> 
+use_sct = false
+
+# Whether to skip integration or not.
+no_integration = false
+
+# The doublet detector to use.
+doublet_detector = "none"
+
+# Whether to cache the information at different steps.
+# If `True`, the seurat object will be cached in the job output directory, which will be not cleaned up when job is rerunning.
+# The cached seurat object will be saved as `<signature>.<kind>.RDS` file, where `<signature>` is the signature determined by the input and envs of the process.
+# See <https://github.com/satijalab/seurat/issues/7849>, <https://github.com/satijalab/seurat/issues/5358> and <https://github.com/satijalab/seurat/issues/6748> for more details also about reproducibility issues.
+# To not use the cached seurat object, you can either set `cache` to `False` or delete the cached file at `<signature>.RDS` in the cache directory.
+cache = "/tmp"
+
+# Filter genes.
+# `gene_qc` is applied after `cell_qc`.
+[SeuratPreparing.envs.gene_qc]
+# The minimum number of cells that a gene must be expressed in to be kept.
+min_cells = 0
+
+# The genes to exclude. Multiple genes can be specified by comma separated values, or as a list.
+#  /// Tip | Example ```toml [SeuratPreparing.envs] gene_qc = { min_cells = 3 } ``` will keep genes that are expressed in at least 3 cells.
+# ///
+excludes = []
+
+# Arguments for [`NormalizeData()`](https://satijalab.org/seurat/reference/normalizedata).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratPreparing.envs.NormalizeData]
+# Arguments for [`FindVariableFeatures()`](https://satijalab.org/seurat/reference/findvariablefeatures).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratPreparing.envs.FindVariableFeatures]
+# Arguments for [`ScaleData()`](https://satijalab.org/seurat/reference/scaledata).
+# `object` and `features` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratPreparing.envs.ScaleData]
+# Arguments for [`RunPCA()`](https://satijalab.org/seurat/reference/runpca).
+# `object` and `features` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratPreparing.envs.RunPCA]
+# Arguments for [`SCTransform()`](https://satijalab.org/seurat/reference/sctransform).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratPreparing.envs.SCTransform]
+return-only-var-genes = true
+
+min_cells = 5
+
+# Arguments for [`IntegrateLayers()`](https://satijalab.org/seurat/reference/integratelayers).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+# When `use_sct` is `True`, `normalization-method` defaults to `SCT`.
+[SeuratPreparing.envs.IntegrateLayers]
+# The method to use for integration.
+method = "harmony"
+
+# Arguments to run [`DoubletFinder`](https://github.com/chris-mcginnis-ucsf/DoubletFinder).
+# See also <https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/DoubletFinder.html>.
+[SeuratPreparing.envs.DoubletFinder]
+# Number of PCs to use for 'doubletFinder' function.
+PCs = 10
+
+# Number of doublets to simulate as a proportion of the pool size.
+pN = 0.25
+
+# Number of expected doublets as a proportion of the pool size.
+doublets = 0.075
+
+# Number of cores to use for `DoubletFinder::paramSweep`.
+# Set to `None` to use `envs.ncores`.
+# Since parallelization of the function usually exhausts memory, if big `envs.ncores` does not work for `DoubletFinder`, set this to a smaller number.
+ncores = 1
+
+# Arguments to run [`scDblFinder`](https://rdrr.io/bioc/scDblFinder/man/scDblFinder.html).
+[SeuratPreparing.envs.scDblFinder]
+# The expected doublet rate.
+dbr = 0.075
+
+# Number of cores to use for `scDblFinder`.
+# Set to `None` to use `envs.ncores`.
+ncores = 1
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: SeuratClustering                                    |
+# +----------------------------------------------------------------------------+
+[SeuratClustering]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[SeuratClustering.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+
+# (process level) The default scheduler options. Will update to the default one
+[SeuratClustering.scheduler_opts]
+
+# Environment variables for the process
+[SeuratClustering.envs]
+# Number of cores to use.
+# Used in `future::plan(strategy = "multicore", workers = <ncores>)` to parallelize some Seurat procedures.
+# See also: <https://satijalab.org/seurat/articles/future_vignette.html>
+ncores = 1
+
+# Whether to cache the information at different steps.
+# If `True`, the seurat object will be cached in the job output directory, which will be not cleaned up when job is rerunning.
+# The cached seurat object will be saved as `<signature>.<kind>.RDS` file, where `<signature>` is the signature determined by the input and envs of the process.
+# See <https://github.com/satijalab/seurat/issues/7849>, <https://github.com/satijalab/seurat/issues/5358> and <https://github.com/satijalab/seurat/issues/6748> for more details also about reproducibility issues.
+# To not use the cached seurat object, you can either set `cache` to `False` or delete the cached file at `<signature>.RDS` in the cache directory.
+cache = "/tmp"
+
+# Arguments for [`ScaleData()`](https://satijalab.org/seurat/reference/scaledata).
+# If you want to re-scale the data by regressing to some variables, `Seurat::ScaleData` will be called. If nothing is specified, `Seurat::ScaleData` will not be called.
+[SeuratClustering.envs.ScaleData]
+# Arguments for [`SCTransform()`](https://satijalab.org/seurat/reference/sctransform).
+# If you want to re-scale the data by regressing to some variables, `Seurat::SCTransform` will be called. If nothing is specified, `Seurat::SCTransform` will not be called.
+[SeuratClustering.envs.SCTransform]
+# Arguments for [`RunUMAP()`](https://satijalab.org/seurat/reference/runumap).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+# `dims=N` will be expanded to `dims=1:N`; The maximal value of `N` will be the minimum of `N` and the number of columns - 1 for each sample.
+[SeuratClustering.envs.RunUMAP]
+# The number of PCs to use
+dims = 30
+
+# Arguments for [`FindNeighbors()`](https://satijalab.org/seurat/reference/findneighbors).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+[SeuratClustering.envs.FindNeighbors]
+# Arguments for [`FindClusters()`](https://satijalab.org/seurat/reference/findclusters).
+# `object` is specified internally, and `-` in the key will be replaced with `.`.
+# The cluster labels will be saved in `seurat_clusters` and prefixed with "c".
+# The first cluster will be "c1", instead of "c0".
+[SeuratClustering.envs.FindClusters]
+# The resolution of the clustering. You can have multiple resolutions as a list or as a string separated by comma.
+# Ranges are also supported, for example: `0.1:0.5:0.1` will generate `0.1, 0.2, 0.3, 0.4, 0.5`. The step can be omitted, defaulting to 0.1.
+# The results will be saved in `seurat_clusters_<resolution>`.
+# The final resolution will be used to define the clusters at `seurat_clusters`.
+resolution = 0.8
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: IntegratingTCR                                      |
+# +----------------------------------------------------------------------------+
+[IntegratingTCR]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[IntegratingTCR.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+
+# (process level) The default scheduler options. Will update to the default one
+[IntegratingTCR.scheduler_opts]
+
+# Environment variables for the process
+[IntegratingTCR.envs]
+# The mutaters to mutate the metadata.
+# The key-value pairs will be passed the `dplyr::mutate()` to mutate the metadata.
+# There are also also 4 helper functions, `expanded`, `collapsed`, `emerged` and `vanished`, which can be used to identify the expanded/collpased/emerged/vanished groups (i.e. TCR clones).
+# See also <https://pwwang.github.io/immunopipe/configurations/#mutater-helpers>.
+# For example, you can use `{"Patient1_Tumor_Collapsed_Clones": "expanded(., Source, 'Tumor', subset = Patent == 'Patient1', uniq = FALSE)"}` to create a new column in metadata named `Patient1_Tumor_Collapsed_Clones` with the collapsed clones in the tumor sample (compared to the normal sample) of patient 1.
+# The values in this columns for other clones will be `NA`.
+# Those functions take following arguments:
+# * `df`: The metadata data frame. You can use the `.` to refer to it.
+# * `group.by`: The column name in metadata to group the cells.
+# * `idents`: The first group or both groups of cells to compare (value in `group.by` column). If only the first group is given, the rest of the cells (with non-NA in `group.by` column) will be used as the second group.
+# * `subset`: An expression to subset the cells, will be passed to `dplyr::filter()`. Default is `TRUE` (no filtering).
+# * `each`: A column name (without quotes) in metadata to split the cells.
+# Each comparison will be done for each value in this column (typically each patient or subject).
+# * `id`: The column name in metadata for the group ids (i.e. `CDR3.aa`).
+# * `compare`: Either a (numeric) column name (i.e. `Clones`) in metadata to compare between groups, or `.n` to compare the number of cells in each group.
+# If numeric column is given, the values should be the same for all cells in the same group.
+# This will not be checked (only the first value is used).
+# It is helpful to use `Clones` to use the raw clone size from TCR data, in case the cells are not completely mapped to RNA data.
+# Also if you have `subset` set or `NA`s in `group.by` column, you should use `.n` to compare the number of cells in each group.
+# * `uniq`: Whether to return unique ids or not. Default is `TRUE`. If `FALSE`, you can mutate the meta data frame with the returned ids. For example, `df |> mutate(expanded = expanded(...))`.
+# * `debug`: Return the data frame with intermediate columns instead of the ids. Default is `FALSE`.
+# * `order`: The expression passed to `dplyr::arrange()` to order intermediate dataframe and get the ids in order accordingly.
+# The intermediate dataframe includes the following columns:
+# * `<id>`: The ids of clones (i.e. `CDR3.aa`).
+# * `<each>`: The values in `each` column.
+# * `ident_1`: The size of clones in the first group.
+# * `ident_2`: The size of clones in the second group.
+# * `.diff`: The difference between the sizes of clones in the first and second groups.
+# * `.sum`: The sum of the sizes of clones in the first and second groups.
+# * `.predicate`: Showing whether the clone is expanded/collapsed/emerged/vanished.
+# * `include_emerged`: Whether to include the emerged group for `expanded` (only works for `expanded`). Default is `FALSE`.
+# * `include_vanished`: Whether to include the vanished group for `collapsed` (only works for `collapsed`). Default is `FALSE`.
+#  You can also use `top()` to get the top clones (i.e. the clones with the largest size) in each group.
+# For example, you can use `{"Patient1_Top10_Clones": "top(subset = Patent == 'Patient1', uniq = FALSE)"}` to create a new column in metadata named `Patient1_Top10_Clones`.
+# The values in this columns for other clones will be `NA`.
+# This function takes following arguments:
+# * `df`: The metadata data frame. You can use the `.` to refer to it.
+# * `id`: The column name in metadata for the group ids (i.e. `CDR3.aa`).
+# * `n`: The number of top clones to return. Default is `10`.
+# If n < 1, it will be treated as the percentage of the size of the group.
+# Specify `0` to get all clones.
+# * `compare`: Either a (numeric) column name (i.e. `Clones`) in metadata to compare between groups, or `.n` to compare the number of cells in each group.
+# If numeric column is given, the values should be the same for all cells in the same group.
+# This will not be checked (only the first value is used).
+# It is helpful to use `Clones` to use the raw clone size from TCR data, in case the cells are not completely mapped to RNA data.
+# Also if you have `subset` set or `NA`s in `group.by` column, you should use `.n` to compare the number of cells in each group.
+# * `subset`: An expression to subset the cells, will be passed to `dplyr::filter()`. Default is `TRUE` (no filtering).
+# * `each`: A column name (without quotes) in metadata to split the cells.
+# Each comparison will be done for each value in this column (typically each patient or subject).
+# * `uniq`: Whether to return unique ids or not. Default is `TRUE`. If `FALSE`, you can mutate the meta data frame with the returned ids. For example, `df |> mutate(expanded = expanded(...))`.
+# * `debug`: Return the data frame with intermediate columns instead of the ids. Default is `FALSE`.
+# * `with_ties`: Whether to include ties (i.e. clones with the same size as the last clone) or not. Default is `FALSE`.
+[IntegratingTCR.envs.mutaters]
+TCR_Presence = "if_else(is.na(CDR3.aa), \"TCR_absent\", \"TCR_present\")"
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: SeuratClusterStats                                  |
+# +----------------------------------------------------------------------------+
+[SeuratClusterStats]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[SeuratClusterStats.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+report = "file://../reports/scrna/SeuratClusterStats.svelte"
+
+# (process level) The default scheduler options. Will update to the default one
+[SeuratClusterStats.scheduler_opts]
+
+# Environment variables for the process
+[SeuratClusterStats.envs]
+# The mutaters to mutate the metadata to subset the cells.
+# The mutaters will be applied in the order specified.
+[SeuratClusterStats.envs.mutaters]
+
+# The cases for clustree plots.
+# Keys are the names of the plots and values are the dicts inherited from `env.clustrees_defaults` except `prefix`.
+# There is no default case for `clustrees`.
+[SeuratClusterStats.envs.clustrees]
+
+# The cases for histograms.
+# Keys are the names of the plots and values are the dicts inherited from `env.hists_defaults`.
+# There is no default case.
+[SeuratClusterStats.envs.hists]
+
+# The number/fraction of cells to plot.
+# Keys are the names of the plots and values are the dicts inherited from `env.stats_defaults`.
+# Here are some examples -
+# >>> {
+# >>>     "nCells_All": {},
+# >>>     "nCells_Sample": {"group-by": "Sample"},
+# >>>     "fracCells_Sample": {"frac": True, "group-by": "Sample"},
+# >>> }
+[SeuratClusterStats.envs.stats."Number of cells in each cluster"]
+pie = true
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Sample"]
+group-by = "Sample"
+table = true
+frac = "group"
+
+# The number of genes expressed in each cell.
+# Keys are the names of the plots and values are the dicts inherited from `env.ngenes_defaults`.
+[SeuratClusterStats.envs.ngenes."Number of genes expressed in each cluster"]
+
+# The plots for features, include gene expressions, and columns from metadata.
+# Keys are the titles of the cases and values are the dicts inherited from `env.features_defaults`. It can also have other parameters from each Seurat function used by `kind`. Note that for argument name with `.`, you should use `-` instead.
+[SeuratClusterStats.envs.features]
+
+# The dimensional reduction plots.
+# Keys are the titles of the plots and values are the dicts inherited from `env.dimplots_defaults`. It can also have other parameters from [`Seurat::DimPlot`](https://satijalab.org/seurat/reference/dimplot).
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot"]
+label = true
+label-box = true
+repel = true
+
+[SeuratClusterStats.envs.dimplots."TCR presence"]
+ident = "TCR_Presence"
+order = "TCR_absent"
+cols = ["#FF000066", "gray"]
+
+# The parameters for the clustree plots.
+[SeuratClusterStats.envs.clustrees_defaults]
+# string indicating columns containing clustering information.
+# The trailing dot is not necessary and will be added automatically.
+# When `_auto`, clustrees will be plotted when there is `FindClusters` or `FindClusters.*` in the `obj@commands`.
+# The latter is generated by `SeuratSubClustering`.
+# This will be ignored when `envs.clustrees` is specified.
+prefix = "_auto"
+
+# The device parameters for the clustree plot.
+[SeuratClusterStats.envs.clustrees_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 1000
+
+# The width of the plots.
+width = 800
+
+# The default parameters for histograms.
+# This will plot histograms for the number of cells along `x`.
+# For example, you can plot the number of cells along cell activity score.
+[SeuratClusterStats.envs.hists_defaults]
+# The column name in metadata to plot as the x-axis.
+# The NA values will be removed.
+# It could be either numeric or factor/character.
+## x = None
+
+# The order of the x-axis, only works for factor/character `x`.
+# You can also use it to subset `x` (showing only a subset values of `x`).
+x_order = []
+
+# A column name in metadata to group the cells.
+# The NA values will be removed. It should be a factor/character.
+# if not specified, all cells will be used.
+## cells_by = None
+
+# The order of the cell groups for the plots.
+# It should be a list of strings. You can also use `cells_orderby` and `cells_n` to determine the order.
+cells_order = []
+
+# An expression passed to `dplyr::arrange()` to order the cell groups.
+## cells_orderby = None
+
+# The number of cell groups to show.
+# Ignored if `cells_order` is specified.
+cells_n = 10
+
+# An expression to subset the cells, will be passed to `dplyr::filter()`.
+## subset = None
+
+# The number of columns for the plots, split by `cells_by`.
+ncol = 2
+
+# Whether to plot each group separately.
+## each = None
+
+# The number of bins to use, only works for numeric `x`.
+bins = 30
+
+# The extra elements to add to the `ggplot` object.
+plus = []
+
+# The device parameters for the plots.
+[SeuratClusterStats.envs.hists_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+## height = None
+
+# The width of the plots.
+## width = None
+
+# The default parameters for `stats`.
+# This is to do some basic statistics on the clusters. For more comprehensive analysis, see `RadarPlots` and `CellsDistribution`.
+# The parameters from the cases can overwrite the default parameters.
+[SeuratClusterStats.envs.stats_defaults]
+# How to calculate the fraction of cells.
+frac = "none"
+
+# Also output a pie chart?
+pie = false
+
+# Also output a circos plot?
+circos = false
+
+# Whether to output a table (in tab-delimited format) and in the report.
+table = false
+
+# The position of the bars. Does not work for pie and circos plots.
+position = "auto"
+
+# Whether to transpose the cluster and group, that is, using group as the x-axis and cluster to fill the plot.
+# For circos plot, when transposed, the arrows will be drawn from the idents (by `ident`) to the the groups (by `group-by`).
+# Only works when `group-by` is specified.
+transpose = false
+
+# The column name in metadata to use as the identity.
+ident = "seurat_clusters"
+
+# The column name in metadata to group the cells.
+# Does NOT support for pie charts.
+## group-by = None
+
+# The column name in metadata to split the cells into different plots.
+# Does NOT support for circos plots.
+## split-by = None
+
+# An expression to subset the cells, will be passed to `dplyr::filter()` on metadata.
+## subset = None
+
+# Whether to rotate the labels in the circos plot.
+# In case the labels are too long.
+circos_labels_rot = false
+
+# The device parameters for the plots.
+[SeuratClusterStats.envs.stats_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 600
+
+# The width of the plots.
+width = 800
+
+# The device parameters for the pie charts.
+[SeuratClusterStats.envs.stats_defaults.pie_devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 600
+
+# The width of the plots.
+width = 800
+
+# The device parameters for the circos plots.
+[SeuratClusterStats.envs.stats_defaults.circos_devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 600
+
+# The width of the plots.
+width = 600
+
+# The default parameters for `ngenes`.
+# The default parameters to plot the number of genes expressed in each cell.
+[SeuratClusterStats.envs.ngenes_defaults]
+# The column name in metadata to use as the identity.
+ident = "seurat_clusters"
+
+# The column name in metadata to group the cells.
+# Dodge position will be used to separate the groups.
+## group-by = None
+
+# The column name in metadata to split the cells into different plots.
+## split-by = None
+
+# An expression to subset the cells, will be passed to `tidyrseurat::filter()`.
+## subset = None
+
+# The device parameters for the plots.
+[SeuratClusterStats.envs.ngenes_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 800
+
+# The width of the plots.
+width = 1000
+
+# The default parameters for `features`.
+[SeuratClusterStats.envs.features_defaults]
+# The features to plot.
+# It can be either a string with comma separated features, a list of features, a file path with `file://` prefix with features (one per line), or an integer to use the top N features from `VariantFeatures(srtobj)`.
+## features = None
+
+# The column name in metadata to use as the identity.
+# If it is from subclustering (reduction `sub_umap_<ident>` exists), the reduction will be used.
+ident = "seurat_clusters"
+
+# The order of the clusters to show on the plot.
+# An expression passed to `dplyr::summarise()` on the grouped data frame (by `seurat_clusters`).
+# The summary stat will be passed to `dplyr::arrange()` to order the clusters. It's applied on the whole meta.data before grouping and subsetting.
+# For example, you can order the clusters by the activation score of the cluster: `desc(mean(ActivationScore, na.rm = TRUE))`, suppose you have a column `ActivationScore` in the metadata.
+# You may also specify the literal order of the clusters by a list of strings.
+## cluster_orderby = None
+
+# An expression to subset the cells, will be passed to `tidyrseurat::filter()`.
+## subset = None
+
+# The extra elements to add to the `ggplot` object. Does not work for `table`.
+## plus = None
+
+# Group cells in different ways (for example, orig.ident). Works for `ridge`, `vln`, and `dot`.
+# It also works for `feature` as `shape.by` being passed to [`Seurat::FeaturePlot`](https://satijalab.org/seurat/reference/featureplot).
+## group-by = None
+
+# The column name in metadata to split the cells into different plots.
+# It works for `vln`, `feature`, and `dot`.
+## split-by = None
+
+# The assay to use.
+## assay = None
+
+# The section to put the plot in the report.
+# If not specified, the case title will be used.
+## section = None
+
+# The layer to use.
+## layer = None
+
+# The reduction to use. Only works for `feature`.
+## reduction = None
+
+# The kind of the plot or table.
+## kind = None
+
+# The number of columns for the plots.
+ncol = 2
+
+# The device parameters for the plots. Does not work for `table`.
+[SeuratClusterStats.envs.features_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The default parameters for `dimplots`.
+[SeuratClusterStats.envs.dimplots_defaults]
+# The identity to use.
+# If it is from subclustering (reduction `sub_umap_<ident>` exists), this reduction will be used if `reduction` is set to `dim` or `auto`.
+ident = "seurat_clusters"
+
+# Same as `ident` if not specified, to define how the points are colored.
+## group-by = None
+
+# The group name for NA values, use `None` to ignore NA values.
+## na_group = None
+
+# The column name in metadata to split the cells into different plots.
+## split-by = None
+
+# The column name in metadata to use as the shape.
+## shape-by = None
+
+# An expression to subset the cells, will be passed to `tidyrseurat::filter()`.
+## subset = None
+
+# Which dimensionality reduction to use.
+reduction = "dim"
+
+# The device parameters for the plots.
+[SeuratClusterStats.envs.dimplots_defaults.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 800
+
+# The width of the plots.
+width = 1000
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: Immunarch                                           |
+# +----------------------------------------------------------------------------+
+[Immunarch]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[Immunarch.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+report = "file://../reports/tcr/Immunarch.svelte"
+report_paging = 3
+poplog_max = 999
+
+# (process level) The default scheduler options. Will update to the default one
+[Immunarch.scheduler_opts]
+
+# Environment variables for the process
+[Immunarch.envs]
+# The prefix to the barcodes. You can use placeholder like `{Sample}_` The prefixed barcodes will be used to match the barcodes in `in.metafile`.
+# Not used if `in.metafile` is not specified.
+# If `None` (default), `immdata$prefix` will be used.
+## prefix = None
+
+# The mutaters passed to `dplyr::mutate()` on expanded cell-level data to add new columns.
+# The keys will be the names of the columns, and the values will be the expressions.
+# The new names can be used in `volumes`, `lens`, `counts`, `top_clones`, `rare_clones`, `hom_clones`, `gene_usages`, `divs`, etc.
+[Immunarch.envs.mutaters]
+
+# Explore clonotype volume (sizes).
+[Immunarch.envs.volumes]
+# Groupings when visualize clonotype volumes, passed to the `.by` argument of `vis(imm_vol, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.volumes` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.volume.by`, `envs.volume.devpars`.
+[Immunarch.envs.volumes.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.volumes.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore clonotype CDR3 lengths.
+[Immunarch.envs.lens]
+# Groupings when visualize clonotype lengths, passed to the `.by` argument of `vis(imm_len, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.lens` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.lens.by`, `envs.lens.devpars`.
+[Immunarch.envs.lens.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.lens.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore clonotype counts.
+[Immunarch.envs.counts]
+# Groupings when visualize clonotype counts, passed to the `.by` argument of `vis(imm_count, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.counts` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.counts.by`, `envs.counts.devpars`.
+[Immunarch.envs.counts.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.counts.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore top clonotypes.
+[Immunarch.envs.top_clones]
+# Groupings when visualize top clones, passed to the `.by` argument of `vis(imm_top, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# A numerical vector with ranges of the top clonotypes. Passed to the `.head` argument of `repClonoality()`.
+marks = [10, 100, 1000, 3000, 10000, 30000, 100000.0]
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.top_clones` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.top_clones.by`, `envs.top_clones.marks` and `envs.top_clones.devpars`.
+[Immunarch.envs.top_clones.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.top_clones.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore rare clonotypes.
+[Immunarch.envs.rare_clones]
+# Groupings when visualize rare clones, passed to the `.by` argument of `vis(imm_rare, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# A numerical vector with ranges of abundance for the rare clonotypes in the dataset.
+# Passed to the `.bound` argument of `repClonoality()`.
+marks = [1, 3, 10, 30, 100]
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.rare_clones` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.rare_clones.by`, `envs.rare_clones.marks` and `envs.rare_clones.devpars`.
+[Immunarch.envs.rare_clones.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.rare_clones.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore homeo clonotypes.
+[Immunarch.envs.hom_clones]
+# Groupings when visualize homeo clones, passed to the `.by` argument of `vis(imm_hom, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.hom_clones` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.hom_clones.by`, `envs.hom_clones.marks` and `envs.hom_clones.devpars`.
+[Immunarch.envs.hom_clones.cases]
+
+# A dict with the threshold of the half-closed intervals that mark off clonal groups.
+# Passed to the `.clone.types` arguments of `repClonoality()`.
+# The keys could be:
+[Immunarch.envs.hom_clones.marks]
+# the rare clonotypes
+Rare = 0.00001
+
+# the small clonotypes
+Small = 0.0001
+
+# the medium clonotypes
+Medium = 0.001
+
+# the large clonotypes
+Large = 0.01
+
+# the hyperexpanded clonotypes
+Hyperexpanded = 1.0
+
+# The parameters for the plotting device.
+[Immunarch.envs.hom_clones.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore clonotype overlaps.
+[Immunarch.envs.overlaps]
+# The method to calculate overlaps.
+method = "public"
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# Other arguments for the plotting functions `vis(imm_ov, ...)`.
+[Immunarch.envs.overlaps.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.overlaps` will be used.
+# If NO cases are specified, the default case will be added, with the key the default method and the values of `envs.overlaps.method`, `envs.overlaps.vis_args`, `envs.overlaps.devpars` and `envs.overlaps.analyses`.
+[Immunarch.envs.overlaps.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.overlaps.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Perform overlap analyses.
+[Immunarch.envs.overlaps.analyses]
+# Plot the samples with these dimension reduction methods.
+# The methods could be `hclust`, `tsne`, `mds` or combination of them, such as `mds+hclust`.
+# You can also set to `none` to skip the analyses.
+# They could also be combined, for example, `mds+hclust`.
+# See <https://immunarch.com/reference/repOverlapAnalysis.html>.
+method = "none"
+
+# Other arguments for the plotting functions.
+[Immunarch.envs.overlaps.analyses.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.overlaps.analyses` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.overlaps.analyses.method`, `envs.overlaps.analyses.vis_args` and `envs.overlaps.analyses.devpars`.
+[Immunarch.envs.overlaps.analyses.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.overlaps.analyses.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Explore gene usages.
+[Immunarch.envs.gene_usages]
+# How many top (ranked by total usage across samples) genes to show in the plots.
+# Use `0` to use all genes.
+top = 30
+
+# If True then use proportions of genes, else use counts of genes.
+norm = false
+
+# Groupings to show gene usages, passed to the `.by` argument of `vis(imm_gu_top, .by = <values>)`.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# Other arguments for the plotting functions.
+[Immunarch.envs.gene_usages.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be used as the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.gene_usages` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.gene_usages.top`, `envs.gene_usages.norm`, `envs.gene_usages.by`, `envs.gene_usages.vis_args`, `envs.gene_usages.devpars` and `envs.gene_usages.analyses`.
+[Immunarch.envs.gene_usages.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.gene_usages.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Perform gene usage analyses.
+[Immunarch.envs.gene_usages.analyses]
+# The method to control how the data is going to be preprocessed and analysed.
+# One of `js`, `cor`, `cosine`, `pca`, `mds` and `tsne`. Can also be combined with following methods for the actual analyses: `hclust`, `kmeans`, `dbscan`, and `kruskal`. For example: `cosine+hclust`.
+# You can also set to `none` to skip the analyses.
+# See <https://immunarch.com/articles/web_only/v5_gene_usage.html>.
+method = "none"
+
+# Other arguments for the plotting functions.
+[Immunarch.envs.gene_usages.analyses.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.gene_usages.analyses` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.gene_usages.analyses.method`, `envs.gene_usages.analyses.vis_args` and `envs.gene_usages.analyses.devpars`.
+[Immunarch.envs.gene_usages.analyses.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.gene_usages.analyses.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Spectratyping analysis.
+[Immunarch.envs.spects]
+# Select the column with clonal counts to evaluate.
+# Set to `id` to count every clonotype once.
+# Set to `count` to take into the account number of clones per clonotype.
+# Multiple columns should be separated by `,`.
+## quant = None
+
+# A string that specifies the column(s) to be processed.
+# The output is one of the following strings, separated by the plus sign: "nt" for nucleotide sequences, "aa" for amino acid sequences, "v" for V gene segments, "j" for J gene segments.
+# E.g., pass "aa+v" for spectratyping on CDR3 amino acid sequences paired with V gene segments, i.e., in this case a unique clonotype is a pair of CDR3 amino acid and V gene segment.
+# Clonal counts of equal clonotypes will be summed up.
+## col = None
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.spects` will be used.
+# By default, a `By_Clonotype` case will be added, with the values of `quant = "id"` and `col = "nt"`, and a `By_Num_Clones` case will be added, with the values of `quant = "count"` and `col = "aa+v"`.
+[Immunarch.envs.spects.cases.By_Clonotype]
+quant = "id"
+col = "nt"
+
+[Immunarch.envs.spects.cases.By_Num_Clones]
+quant = "count"
+col = "aa+v"
+
+# The parameters for the plotting device.
+[Immunarch.envs.spects.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Parameters to control the diversity analysis.
+[Immunarch.envs.divs]
+# The method to calculate diversity.
+method = "gini"
+
+# The variables (column names) to group samples.
+# Multiple columns should be separated by `,`.
+## by = None
+
+# The type of the plot, works when `by` is specified.
+# Not working for `raref`.
+plot_type = "bar"
+
+# The order of the values in `by` on the x-axis of the plots.
+# If not specified, the values will be used as-is.
+order = []
+
+# A column name used to separate the samples into different plots.
+## separate_by = None
+
+# A column name used to split the samples into different subplots.
+# Like `separate_by`, but the plots will be put in the same figure.
+# y-axis will be shared, even if `align_y` is `False` or `ymin`/`ymax` are not specified.
+# `ncol` will be ignored.
+## split_by = None
+
+# The order of the values in `split_by` on the x-axis of the plots.
+# It can also be used for `separate_by` to control the order of the plots.
+# Values can be separated by `,`.
+## split_order = None
+
+# Align the x-axis of multiple plots. Only works for `raref`.
+align_x = false
+
+# Align the y-axis of multiple plots.
+align_y = false
+
+# Indicate whether we should plot with log-transformed x-axis using `vis(.log = TRUE)`. Only works for `raref`.
+log = false
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# The number of columns of the plots.
+ncol = 2
+
+# The minimum value of the y-axis.
+# The minimum value of the y-axis for plots splitting by `separate_by`.
+# `align_y` is forced `True` when both `ymin` and `ymax` are specified.
+## ymin = None
+
+# The maximum value of the y-axis.
+# The maximum value of the y-axis for plots splitting by `separate_by`.
+# `align_y` is forced `True` when both `ymin` and `ymax` are specified.
+# Works when both `ymin` and `ymax` are specified.
+## ymax = None
+
+# Other arguments for `repDiversity()`.
+# Do not include the preceding `.` and use `-` instead of `.` in the argument names.
+# For example, `do-norm` will be compiled to `.do.norm`.
+# See all arguments at <https://immunarch.com/reference/repDiversity.html>.
+[Immunarch.envs.divs.args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be used as the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If NO cases are specified, the default case will be added, with the name of `envs.div.method`.
+# The values specified in `envs.div` will be used as the defaults for the cases here.
+[Immunarch.envs.divs.cases]
+
+# Perform statistical tests between each pair of groups.
+# Does NOT work for `raref`.
+[Immunarch.envs.divs.test]
+# The method to perform the test
+method = "none"
+
+# The method to adjust p-values.
+# Defaults to `none`.
+padjust = "none"
+
+# The parameters for the plotting device.
+[Immunarch.envs.divs.devpars]
+# The width of the device
+width = 800
+
+# The height of the device
+height = 800
+
+# The resolution of the device
+res = 100
+
+# Parameters to control the clonotype tracking analysis.
+[Immunarch.envs.trackings]
+# Either a set of CDR3AA seq of clonotypes to track (separated by `,`), or simply an integer to track the top N clonotypes.
+## targets = None
+
+# The column name in meta data that contains the subjects/samples on the x-axis of the alluvial plot.
+# If the values in this column are not unique, the values will be merged with the values in `subject_col` to form the x-axis.
+# This defaults to `Sample`.
+subject_col = "Sample"
+
+# A list of values from `subject_col` to show in the alluvial plot on the x-axis.
+# If not specified, all values in `subject_col` will be used.
+# This also specifies the order of the x-axis.
+subjects = []
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be used as the names of the cases.
+# The values will be passed to the corresponding arguments (`target`, `subject_col`, and `subjects`).
+# If any of these arguments are not specified, the values in `envs.trackings` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.trackings.target`, `envs.trackings.subject_col`, and `envs.trackings.subjects`.
+[Immunarch.envs.trackings.cases]
+
+# Arguments for kmer analysis.
+[Immunarch.envs.kmers]
+# The length of kmer.
+k = 5
+
+# The number of top kmers to show.
+head = 10
+
+# Subset the data before calculating the clonotype volumes.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data.
+## subset = None
+
+# Other arguments for the plotting functions.
+[Immunarch.envs.kmers.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be used as the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the default case will be added, with the name `DEFAULT` and the values of `envs.kmers.k`, `envs.kmers.head`, `envs.kmers.vis_args` and `envs.kmers.devpars`.
+[Immunarch.envs.kmers.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.kmers.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Arguments for sequence profilings.
+[Immunarch.envs.kmers.profiles]
+# The method for the position matrix.
+# For more information see <https://en.wikipedia.org/wiki/Position_weight_matrix>.
+method = "self"
+
+# Other arguments for the plotting functions.
+[Immunarch.envs.kmers.profiles.vis_args]
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be the names of the cases.
+# The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.kmers.profiles` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.kmers.profiles.method`, `envs.kmers.profiles.vis_args` and `envs.kmers.profiles.devpars`.
+[Immunarch.envs.kmers.profiles.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.kmers.profiles.devpars]
+# The width of the plot.
+width = 1000
+
+# The height of the plot.
+height = 1000
+
+# The resolution of the plot.
+res = 100
+
+# Arguments for VJ junction circos plots.
+# This analysis is not included in `immunarch`. It is a separate implementation using [`circlize`](https://github.com/jokergoo/circlize).
+[Immunarch.envs.vj_junc]
+# Groupings to show VJ usages. Typically, this is the `Sample` column, so that the VJ usages are shown for each sample.
+# But you can also use other columns, such as `Subject` to show the VJ usages for each subject.
+# Multiple columns should be separated by `,`.
+by = "Sample"
+
+# If True, the VJ usages will be calculated based on the distinct clonotypes, instead of the individual cells.
+by_clones = true
+
+# Subset the data before plotting VJ usages.
+# The whole data will be expanded to cell level, and then subsetted.
+# Clone sizes will be re-calculated based on the subsetted data, which will affect the VJ usages at cell level (by_clones=False).
+## subset = None
+
+# If you have multiple cases, you can use this argument to specify them.
+# The keys will be used as the names of the cases. The values will be passed to the corresponding arguments above.
+# If any of these arguments are not specified, the values in `envs.vj_junc` will be used.
+# If NO cases are specified, the default case will be added, with the name `DEFAULT` and the values of `envs.vj_junc.by`, `envs.vj_junc.by_clones` `envs.vj_junc.subset` and `envs.vj_junc.devpars`.
+[Immunarch.envs.vj_junc.cases]
+
+# The parameters for the plotting device.
+[Immunarch.envs.vj_junc.devpars]
+# The width of the plot.
+width = 800
+
+# The height of the plot.
+height = 800
+
+# The resolution of the plot.
+res = 100
+
+# +----------------------------------------------------------------------------+
+# | Arguments for process: ClusterMarkers                                      |
+# +----------------------------------------------------------------------------+
+[ClusterMarkers]
+# (process level) Whether enable caching for processes [default: True]
+## cache = None
+
+# (process level) How we should deal with job errors.
+## error_strategy = None
+
+# (process level) How many times to retry the job when failed
+## num_retries = None
+
+# (process level) The scheduler to run the jobs
+## scheduler = None
+
+# (process level) How many jobs to run simultaneously by the scheduler
+## forks = None
+
+# (process level) Plugin options. Will update to the default.
+[ClusterMarkers.plugin_opts]
+poplog_pattern = "^(?P<level>INFO|WARN|WARNING|CRITICAL|ERROR|DEBUG?)\\s*\\[\\d+-\\d+-\\d+ \\d+:\\d+:\\d+\\] (?P<message>.*)$"
+report = "file://../reports/scrna/MarkersFinder.svelte"
+report_paging = 8
+
+# (process level) The default scheduler options. Will update to the default one
+[ClusterMarkers.scheduler_opts]
+
+# Environment variables for the process
+[ClusterMarkers.envs]
+# Number of cores to use for parallel computing for some `Seurat` procedures.
+# * Used in `future::plan(strategy = "multicore", workers = <ncores>)` to parallelize some Seurat procedures.
+# * See also: <https://satijalab.org/seurat/articles/future_vignette.html>
+ncores = 1
+
+# The first group of cells to compare.
+## ident-1 = None
+
+# The second group of cells to compare If not provided, the rest of the cells are used for `ident-2`..
+## ident-2 = None
+
+# The column name in metadata to group the cells.
+# If only `group-by` is specified, and `ident-1` and `ident-2` are not specified, markers will be found for all groups in this column in the manner of "group vs rest" comparison.
+# `NA` group will be ignored..
+group-by = "seurat_clusters"
+
+# The column name in metadata to separate the cells into different cases..
+## each = None
+
+# Whether to prefix the `each` column name to the value as the case/section name..
+prefix_each = true
+
+# When neither `ident-1` nor `ident-2` is specified, should we prefix the group name to the section name?
+prefix_group = true
+
+# The section name for the report. It must not contain colon (`:`).
+# Ignored when `each` is not specified and `ident-1` is specified.
+# When neither `each` nor `ident-1` is specified, case name will be used as section name.
+# If `each` is specified, the section name will be constructed from `each` and case name.
+# The `section` is used to collect cases and put the results under the same directory and the same section in report.
+# When `each` for a case is specified, the `section` will be ignored and case name will be used as `section`.
+# The cases will be the expanded values in `each` column. When `prefix_each` is True, the column name specified by `each` will be prefixed to each value as directory name and expanded case name.
+section = "DEFAULT"
+
+# The assay to use.
+## assay = None
+
+# An expression to subset the cells for each case.
+## subset = None
+
+# The dbs to do enrichment analysis for significant markers See below for all libraries.
+# <https://maayanlab.cloud/Enrichr/#libraries>
+dbs = ["KEGG_2021_Human", "MSigDB_Hallmark_2020"]
+
+# An expression passed to `dplyr::filter()` to filter the significant markers for enrichment analysis.
+# Available variables are `p_val`, `avg_log2FC`, `pct.1`, `pct.2` and `p_val_adj`. For example, `"p_val_adj < 0.05 & abs(avg_log2FC) > 1"` to select markers with adjusted p-value < 0.05 and absolute log2 fold change > 1.
+sigmarkers = "p_val_adj < 0.05 & avg_log2FC > 0"
+
+# The genes to label in the volcano plot if they are significant markers.
+# If `True`, all significant markers will be labeled. If `False`, no genes will be labeled. Otherwise, specify the genes to label.
+# It could be either a string with comma separated genes, or a list of genes.
+volcano_genes = true
+
+# Where to cache to `FindAllMarkers` results.
+# If `True`, cache to `outdir` of the job. If `False`, don't cache.
+# Otherwise, specify the directory to cache to.
+# Only works when `use_presto` is `False` (presto works fast enough).
+cache = "/tmp"
+
+# The mutaters to mutate the metadata There are also also 4 helper functions, `expanded`, `collapsed`, `emerged` and `vanished`, which can be used to identify the expanded/collpased/emerged/vanished groups (i.e. TCR clones).
+# See also <https://pwwang.github.io/immunopipe/configurations/#mutater-helpers>.
+# For example, you can use `{"Patient1_Tumor_Collapsed_Clones": "expanded(., Source, 'Tumor', subset = Patent == 'Patient1', uniq = FALSE)"}` to create a new column in metadata named `Patient1_Tumor_Collapsed_Clones` with the collapsed clones in the tumor sample (compared to the normal sample) of patient 1.
+# The values in this columns for other clones will be `NA`.
+# Those functions take following arguments:
+# * `df`: The metadata data frame. You can use the `.` to refer to it.
+# * `group.by`: The column name in metadata to group the cells.
+# * `idents`: The first group or both groups of cells to compare (value in `group.by` column). If only the first group is given, the rest of the cells (with non-NA in `group.by` column) will be used as the second group.
+# * `subset`: An expression to subset the cells, will be passed to `dplyr::filter()`. Default is `TRUE` (no filtering).
+# * `each`: A column name (without quotes) in metadata to split the cells.
+# Each comparison will be done for each value in this column (typically each patient or subject).
+# * `id`: The column name in metadata for the group ids (i.e. `CDR3.aa`).
+# * `compare`: Either a (numeric) column name (i.e. `Clones`) in metadata to compare between groups, or `.n` to compare the number of cells in each group.
+# If numeric column is given, the values should be the same for all cells in the same group.
+# This will not be checked (only the first value is used).
+# It is helpful to use `Clones` to use the raw clone size from TCR data, in case the cells are not completely mapped to RNA data.
+# Also if you have `subset` set or `NA`s in `group.by` column, you should use `.n` to compare the number of cells in each group.
+# * `uniq`: Whether to return unique ids or not. Default is `TRUE`. If `FALSE`, you can mutate the meta data frame with the returned ids. For example, `df |> mutate(expanded = expanded(...))`.
+# * `debug`: Return the data frame with intermediate columns instead of the ids. Default is `FALSE`.
+# * `order`: The expression passed to `dplyr::arrange()` to order intermediate dataframe and get the ids in order accordingly.
+# The intermediate dataframe includes the following columns:
+# * `<id>`: The ids of clones (i.e. `CDR3.aa`).
+# * `<each>`: The values in `each` column.
+# * `ident_1`: The size of clones in the first group.
+# * `ident_2`: The size of clones in the second group.
+# * `.diff`: The difference between the sizes of clones in the first and second groups.
+# * `.sum`: The sum of the sizes of clones in the first and second groups.
+# * `.predicate`: Showing whether the clone is expanded/collapsed/emerged/vanished.
+# * `include_emerged`: Whether to include the emerged group for `expanded` (only works for `expanded`). Default is `FALSE`.
+# * `include_vanished`: Whether to include the vanished group for `collapsed` (only works for `collapsed`). Default is `FALSE`.
+# You can also use `top()` to get the top clones (i.e. the clones with the largest size) in each group.
+# For example, you can use `{"Patient1_Top10_Clones": "top(subset = Patent == 'Patient1', uniq = FALSE)"}` to create a new column in metadata named `Patient1_Top10_Clones`.
+# The values in this columns for other clones will be `NA`.
+# This function takes following arguments:
+# * `df`: The metadata data frame. You can use the `.` to refer to it.
+# * `id`: The column name in metadata for the group ids (i.e. `CDR3.aa`).
+# * `n`: The number of top clones to return. Default is `10`.
+# If n < 1, it will be treated as the percentage of the size of the group.
+# Specify `0` to get all clones.
+# * `compare`: Either a (numeric) column name (i.e. `Clones`) in metadata to compare between groups, or `.n` to compare the number of cells in each group.
+# If numeric column is given, the values should be the same for all cells in the same group.
+# This will not be checked (only the first value is used).
+# It is helpful to use `Clones` to use the raw clone size from TCR data, in case the cells are not completely mapped to RNA data.
+# Also if you have `subset` set or `NA`s in `group.by` column, you should use `.n` to compare the number of cells in each group.
+# * `subset`: An expression to subset the cells, will be passed to `dplyr::filter()`. Default is `TRUE` (no filtering).
+# * `each`: A column name (without quotes) in metadata to split the cells.
+# Each comparison will be done for each value in this column (typically each patient or subject).
+# * `uniq`: Whether to return unique ids or not. Default is `TRUE`. If `FALSE`, you can mutate the meta data frame with the returned ids. For example, `df |> mutate(expanded = expanded(...))`.
+# * `debug`: Return the data frame with intermediate columns instead of the ids. Default is `FALSE`.
+# * `with_ties`: Whether to include ties (i.e. clones with the same size as the last clone) or not. Default is `FALSE`..
+[ClusterMarkers.envs.mutaters]
+
+# If you have multiple cases, you can specify them here. The keys are the names of the cases and the values are the above options except `ncores` and `mutaters`. If some options are not specified, the default values specified above will be used.
+# If no cases are specified, the default case will be added with the default values under `envs` with the name `DEFAULT`..
+[ClusterMarkers.envs.cases.Cluster]
+prefix_group = false
+
+# The sections to do overlaping analysis, including Venn diagram and UpSet plot. The Venn diagram and UpSet plot will be plotted for the overlapping of significant markers between different cases.
+# The keys of this option are the names of the sections. The values are a dict of options with keys `venn` and `upset`, values will be inherited from `envs.overlap_defaults`, recursively.
+# You can set `envs.overlap.<section>.venn` to `False`/`None` to disable the Venn diagram for the section.
+# It works when `each` is specified. In such a case, the sections will be the case names.
+# This does not work for the cases where `ident-1` is not specified. In case you want to do such analysis for those cases, you should enumerate the idents in different cases and specify them here.
+[ClusterMarkers.envs.overlap]
+
+# Rest arguments for `Seurat::FindMarkers()`.
+# Use `-` to replace `.` in the argument name. For example, use `min-pct` instead of `min.pct`.
+# This only works when `use_presto` is `False`.
+[ClusterMarkers.envs.rest]
+# Arguments for `Seurat::DotPlot()`.
+# Use `-` to replace `.` in the argument name. For example, use `group-bar` instead of `group.bar`.
+# Note that `object`, `features`, and `group-by` are already specified by this process. So you don't need to specify them here.
+[ClusterMarkers.envs.dotplot]
+# The maximum number of genes to plot.
+maxgenes = 20
+
+# The default options for overlapping analysis.
+[ClusterMarkers.envs.overlap_defaults]
+# The options for the Venn diagram.
+# Venn diagram can only be plotted for sections with no more than 4 cases.
+[ClusterMarkers.envs.overlap_defaults.venn]
+# The device parameters for the plots.
+[ClusterMarkers.envs.overlap_defaults.venn.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 600
+
+# The width of the plots.
+width = 1000
+
+# The options for the UpSet plot.
+[ClusterMarkers.envs.overlap_defaults.upset]
+# The device parameters for the plots.
+[ClusterMarkers.envs.overlap_defaults.upset.devpars]
+# The resolution of the plots.
+res = 100
+
+# The height of the plots.
+height = 600
+
+# The width of the plots.
+width = 800
+
