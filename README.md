@@ -33,9 +33,9 @@ You may also check other files in the `data/` directory, especially the `samples
 
 ## Prepare the configuration file
 
-To run the pipeline, we need to prepare a configuration file (recommended) or pass the arguments directly via command line. Here we will use the configuration file. See also [Configurations](https://pwwang.github.io/immunopipe/configurations/) for more details.
+To run the pipeline, we need to prepare a configuration file (recommended) or pass the arguments directly via command line. Here we will use the configuration file. See also [Configurations](https://pwwang.github.io/immunopipe/latest/configurations/) for more details.
 
-As explained in the [Configurations](https://pwwang.github.io/immunopipe/configurations/) page, we can provide a configuration file with [a minimal set of configuration items](https://pwwang.github.io/immunopipe/configurations/#minimal-configurations) to get the pipeline running. The only required configuration item is the input file for the [`SampleInfo`](https://pwwang.github.io/immunopipe/processes/SampleInfo/) process. However, here we want to give the pipeline a different name and output directory to distinguish it from other runs with a different set of configurations.
+As explained in the [Configurations](https://pwwang.github.io/immunopipe/latest/configurations/) page, we can provide a configuration file with [a minimal set of configuration items](https://pwwang.github.io/immunopipe/latest/configurations/#minimal-configurations) to get the pipeline running. The only required configuration item is the input file for the [`SampleInfo`](https://pwwang.github.io/immunopipe/latest/processes/SampleInfo/) process. However, here we want to give the pipeline a different name and output directory to distinguish it from other runs with a different set of configurations.
 
 The configuration file shall be in the [TOML](https://toml.io/en/) format. We can create a file named `ImmunopipeMinimal.config.toml` with the following content:
 
@@ -77,17 +77,17 @@ apptainer run \
 ```
 
 > [!TIP]
-> `docker`, `singularity` and `apptainer` commands map the current directory (`.`) to the `/workdir` directory in the container. To get the detailed directory structure in the container, please refer to the [The directory structure in the container](https://pwwang.github.io/immunopipe/installation/#the-directory-structure-in-the-container).
+> `docker`, `singularity` and `apptainer` commands map the current directory (`.`) to the `/workdir` directory in the container. To get the detailed directory structure in the container, please refer to the [The directory structure in the container](https://pwwang.github.io/immunopipe/latest/installation/#the-directory-structure-in-the-container).
 
 > [!TIP]
-> If you want to install and run the pipeline without docker, please refer to the [Installation](https://pwwang.github.io/immunopipe/installation/) and [Running the pipeline](https://pwwang.github.io/immunopipe/running/) pages for more details.
+> If you want to install and run the pipeline without docker, please refer to the [Installation](https://pwwang.github.io/immunopipe/latest/installation/) and [Running the pipeline](https://pwwang.github.io/immunopipe/latest/running/) pages for more details.
 
 > [!NOTE]
 > You need at least 16G memory to run the example with minimal configuration.
 
 ## Check the results
 
-With that "minimal" configuration file, only a subset of the processes will be run. See also [Enabling/Disabling processes](https://pwwang.github.io/immunopipe/configurations/#enablingdisabling-processes). The results will be saved in the `minimal` directory. You can also check the reports at `minimal/REPORTS/index.html` with a web browser.
+With that "minimal" configuration file, only a subset of the processes will be run. See also [Enabling/Disabling processes](https://pwwang.github.io/immunopipe/latest/configurations/#enablingdisabling-processes). The results will be saved in the `minimal` directory. You can also check the reports at `minimal/REPORTS/index.html` with a web browser.
 
 You can also visit the following link to see the reports of the pipeline we just ran:
 
@@ -114,4 +114,4 @@ Also check out the [gallery][3] for more real-world examples.
 
 [1]: https://www.cell.com/cell/fulltext/S0092-8674(20)30688-7
 [2]: https://github.com/pwwang/immunopipe-example/blob/master/Immunopipe.config.toml
-[3]: https://pwwang.github.io/immunopipe/gallery/
+[3]: https://pwwang.github.io/immunopipe/latest/gallery/
