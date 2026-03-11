@@ -1,0 +1,65 @@
+{
+  "Diagnosis: Colitis": {
+    "seurat_clusters": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Heterogeneity",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Heterogeneity"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayHeterogeneity/samples.scRep.tcr_clustered.tessa.pathwayhetero/Diagnosis/Diagnosis_Colitis/Pathway-Heterogeneity.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Diagnosis: NoColitis": {
+    "seurat_clusters": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Heterogeneity",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Heterogeneity"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayHeterogeneity/samples.scRep.tcr_clustered.tessa.pathwayhetero/Diagnosis/Diagnosis_NoColitis/Pathway-Heterogeneity.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Diagnosis: Control": {
+    "seurat_clusters": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Heterogeneity",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Heterogeneity"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayHeterogeneity/samples.scRep.tcr_clustered.tessa.pathwayhetero/Diagnosis/Diagnosis_Control/Pathway-Heterogeneity.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

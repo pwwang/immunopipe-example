@@ -1,0 +1,62 @@
+{
+  "Clonal Volume": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/minimal/ClonalStats/samples.scRep.clonalstats/Clonal-Volume.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of unique clones across Sample(s). The x-axis represents the different Sample(s), while the y-axis denotes the number of unique clones. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Volume"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Abundance": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/minimal/ClonalStats/samples.scRep.clonalstats/Clonal-Abundance.png",
+            "download": [],
+            "descr": "The abundance plot illustrates the number of clones at different abundance levels. The x-axis represents the abundance levels (different sizes of clones), while the y-axis denotes the number of clones at each level. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Abundance"
+          }
+        ]
+      }
+    }
+  },
+  "CDR3 Length": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/minimal/ClonalStats/samples.scRep.clonalstats/CDR3-Length.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the length of the CDR3 sequences. The x-axis represents the different lengths of the CDR3 sequences, while the y-axis denotes the number of corresponding sequences. both chain(s) was/were counted.",
+            "name": "CDR3 Length"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Diversity": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/minimal/ClonalStats/samples.scRep.clonalstats/Clonal-Diversity.png",
+            "download": [],
+            "descr": "This bar graph illustrates the diversity of the clones across different groups. The x-axis represents the groups, while the y-axis denotes the diversity of the clones.  The diversity is calculated using the Shannon index, a statistic that estimates the diversity of a biological community by considering both species richness and evenness. The index is calculated as the negative sum of the product of the proportion of each species and the logarithm of that proportion. If practically all abundance is concentrated to one type, and the other types are very rare (even if there are many of them), Shannon entropy approaches zero. When there is only one type in the dataset, Shannon entropy exactly equals zero. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Diversity"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "Diagnosis": {
+    "Diagnosis: Colitis": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Activity (violin plot)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (violin plot) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_Colitis.Pathway-Activity-violin-plot-.png"
+              }
+            ]
+          },
+          {
+            "name": "Pathway Activity (heatmap)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (heatmap) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_Colitis.Pathway-Activity-heatmap-.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: NoColitis": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Activity (violin plot)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (violin plot) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_NoColitis.Pathway-Activity-violin-plot-.png"
+              }
+            ]
+          },
+          {
+            "name": "Pathway Activity (heatmap)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (heatmap) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_NoColitis.Pathway-Activity-heatmap-.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: Control": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Activity (violin plot)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (violin plot) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_Control.Pathway-Activity-violin-plot-.png"
+              }
+            ]
+          },
+          {
+            "name": "Pathway Activity (heatmap)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Pathway Activity (heatmap) a  plot of pathway activity for seurat_clusters. "
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Diagnosis_Control.Pathway-Activity-heatmap-.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Merged Heatmaps": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Pathway Activity (merged heatmap)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Merged Heatmaps for Pathway Activity of all subsets."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicPathwayActivity/samples.scRep.tcr_clustered.tessa.pathwayactivity/Diagnosis/Pathway-Activity-merged-heatmap-.merged_heatmap.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

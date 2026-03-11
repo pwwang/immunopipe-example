@@ -1,0 +1,21 @@
+c1	c2	c3	c4	c5	c6	c7	c8	c9	c10	c11
+Glycolysis / Gluconeogenesis	0	0	0	0	0	0	0	0	0.486	0	0
+Citrate cycle (TCA cycle)	0	0	0	0	0	0	0	0	0	0	0
+Pentose phosphate pathway	0	0	0	0	0	0	0	0	4e-04	0	0
+Pentose and glucuronate interconversions	0	0	0	0	0	0	0	0	0	0	0
+Fructose and mannose metabolism	0	0	0	0	0	0	0	0	0	0	0
+Galactose metabolism	0	0	0	0	0	0	0	0	0.3624	0	0
+Ascorbate and aldarate metabolism	0	0	0	0	0	0	0	0	0.0382	0	0
+Starch and sucrose metabolism	0	0	0	0	0	0	0	0.0074	0	0	0
+Amino sugar and nucleotide sugar metabolism	0	0	0	0	0	0	0	0	0.4528	0	0
+Pyruvate metabolism	0	0	0	0	0	0	0	0	0.0874	0	0
+Glyoxylate and dicarboxylate metabolism	0	0	0	0	0	0	0	0	0	0	0
+Propanoate metabolism	0	0	0	0	0	0	0	0	0	0	0
+Butanoate metabolism	0	0	0	0	0	0	0	0	0.1016	0	0
+Inositol phosphate metabolism	0	0	0.239	0	0	0	0	0	0.0022	0	0
+Oxidative phosphorylation	0	0	0	0	0	0	0	0	0	0	0
+Nitrogen metabolism	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sulfur metabolism	0	0	0.0658	0	0	0	0	0	0	0	0
+Fatty acid biosynthesis	0	0	0	0	0	0	0	0	0.1012	0	0
+Fatty acid elongation	0	0	0	0	0	0	0	0	0	0	0
+Fatty acid degradation	0	0	0	0	0	0	0	0	0	0	0

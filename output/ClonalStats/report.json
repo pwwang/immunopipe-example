@@ -1,0 +1,273 @@
+{
+  "Number of Clones": {
+    "Clonal Volume": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Number-of-Clones/Clonal-Volume.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of unique clones across 45(s). The x-axis represents the different 45(s), while the y-axis denotes the number of unique clones. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Volume"
+          }
+        ]
+      }
+    },
+    "Clonal Volume by Diagnosis": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Number-of-Clones/Clonal-Volume-by-Diagnosis.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of unique clones across seurat_clusters(s). The x-axis represents the different seurat_clusters(s), while the y-axis denotes the number of unique clones. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Volume by Diagnosis"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Abundance": {
+    "Clonal Abundance": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Abundance/Clonal-Abundance.png",
+            "download": [],
+            "descr": "The abundance plot illustrates the number of clones at different abundance levels. The x-axis represents the abundance levels (different sizes of clones), while the y-axis denotes the number of clones at each level. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Abundance"
+          }
+        ]
+      }
+    },
+    "Clonal Abundance Density": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Abundance/Clonal-Abundance-Density.png",
+            "download": [],
+            "descr": "The abundance plot illustrates the distribution of clones at different abundance levels. The x-axis represents the abundance levels (different sizes of clones), while the y-axis denotes the density of clones at each level. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Abundance Density"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Sequence Length": {
+    "CDR3 Length": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Sequence-Length/CDR3-Length.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the length of the CDR3 sequences. The x-axis represents the different lengths of the CDR3 sequences, while the y-axis denotes the number of corresponding sequences. both chain(s) was/were counted.",
+            "name": "CDR3 Length"
+          }
+        ]
+      }
+    },
+    "CDR3 Length (Beta Chain)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Sequence-Length/CDR3-Length-Beta-Chain-.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the length of the CDR3 sequences. The x-axis represents the different lengths of the CDR3 sequences, while the y-axis denotes the number of corresponding sequences. TRB chain(s) was/were counted.",
+            "name": "CDR3 Length (Beta Chain)"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Diversity": {
+    "Clonal Diversity": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Diversity/Clonal-Diversity.png",
+            "download": [],
+            "descr": "This bar graph illustrates the diversity of the clones across different groups. The x-axis represents the groups, while the y-axis denotes the diversity of the clones.  The diversity is calculated using the Shannon index, a statistic that estimates the diversity of a biological community by considering both species richness and evenness. The index is calculated as the negative sum of the product of the proportion of each species and the logarithm of that proportion. If practically all abundance is concentrated to one type, and the other types are very rare (even if there are many of them), Shannon entropy approaches zero. When there is only one type in the dataset, Shannon entropy exactly equals zero. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Diversity"
+          }
+        ]
+      }
+    },
+    "Clonal Diversity (gini.coeff, by Diagnosis)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Diversity/Clonal-Diversity-gini-coeff-by-Diagnosis-.png",
+            "download": [],
+            "descr": "This box plot compares the diversity of the clones across different groups. The x-axis represents the groups, while the y-axis denotes the diversity of the clones. For each group on the x-axis, the values are calculated from each sample.  The p-values of the comparisons are performed using wilcox.test. The diversity is calculated using the Gini coefficient. The Gini coefficient is a measure of statistical dispersion intended to represent the income or wealth distribution of a nation&#039;s residents. The Gini coefficient ranges from 0 to 1, where 0 represents perfect equality and 1 represents perfect inequality. A Gini coefficient of 0 means that all individuals have the same income, while a Gini coefficient of 1 means that one individual has all the income and the rest have none. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Diversity (gini.coeff, by Diagnosis)"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Residency": {
+    "Clonal Residency": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Residency/Clonal-Residency.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by gene and TRB chain(s) was/were used.",
+            "name": "Clonal Residency"
+          }
+        ]
+      }
+    },
+    "Clonal Residency (UpSet Plot)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Residency/Clonal-Residency-UpSet-Plot-.png",
+            "download": [],
+            "descr": "This upset plot illustrates the residency of clones across different groups. The categories of the clones are shown as rows in the bottom table of the plot. The intersections of the categories are shown as the connected lines in the table and the size of the intersections are shown as the bars on the top of the plot. The color of the bars represents the size of the intersections. The clones are identified by gene and TRB chain(s) was/were used.",
+            "name": "Clonal Residency (UpSet Plot)"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Statistics": {
+    "Clonal Statistics with Expanded Clones": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Statistics/Clonal-Statistics-with-Expanded-Clones.png",
+            "download": [],
+            "descr": "This trend plot illustrates the statistics of clones across different groups. The x-axis represents the groups, while the y-axis denotes the number/fraction of clones. The links between the groups are showing the transitions of the clones.  The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Statistics with Expanded Clones"
+          }
+        ]
+      }
+    },
+    "Hyperexpanded Clonal Dynamics": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Statistics/Hyperexpanded-Clonal-Dynamics.png",
+            "download": [],
+            "descr": "This sankey plot illustrates the statistics of clones across different groups. The bars are showing the groups and the flow/links are showing the transitions of the clones.  The clones are identified by aa and TRB chain(s) was/were used.",
+            "name": "Hyperexpanded Clonal Dynamics"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Composition": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Composition.png",
+            "download": [],
+            "descr": "This bar graph illustrates the composition of the categories of the clones. The clone categories are defined based on the relative abundance of the clones in the samples. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Composition"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Overlapping": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Clonal-Overlapping.png",
+            "download": [],
+            "descr": "This heatmaps illustrates the overlap of clones across different groups, using &quot;raw&quot; as the metric.  The &#039;raw&#039; metric is the raw size of the intersection of the clones.  The clones are identified by gene and TRB chain(s) was/were used.",
+            "name": "Clonal Overlapping"
+          }
+        ]
+      }
+    }
+  },
+  "Gene Usage Frequency": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Gene-Usage-Frequency.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the gene usage of the clones. The x-axis represents the different genes, while the y-axis denotes the fraction of the genes. ",
+            "name": "Gene Usage Frequency"
+          }
+        ]
+      }
+    }
+  },
+  "Positional Properties": {
+    "Positional amino acid frequency": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Positional-Properties/Positional-amino-acid-frequency.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the positional properties of the amino acids in the CDR3 sequences.  The positional properties are calculated based on amino acid frequency at each position. The properties are calculated based on the both chain(s).",
+            "name": "Positional amino acid frequency"
+          }
+        ]
+      }
+    },
+    "Positional shannon entropy": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Positional-Properties/Positional-shannon-entropy.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the positional properties of the amino acids in the CDR3 sequences.  The positional properties are calculated based on the Shannon entropy of the amino acids at each position. The Shannon entropy is a statistic that estimates the diversity of a biological community by considering both species richness and evenness. The index is calculated as the negative sum of the product of the proportion of each species and the logarithm of that proportion. If practically all abundance is concentrated to one type, and the other types are very rare (even if there are many of them), Shannon entropy approaches zero. The properties are calculated based on the both chain(s).",
+            "name": "Positional shannon entropy"
+          }
+        ]
+      }
+    }
+  },
+  "3.Mer Frequency": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/3-Mer-Frequency.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the kmers of the CDR3 sequences.  The kmers are calculated based on the 3-mers of the CDR3 sequences, and both chain(s) was/were used.",
+            "name": "3.Mer Frequency"
+          }
+        ]
+      }
+    }
+  },
+  "Rarefaction Curve": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/ClonalStats/samples.scRep.tcr_clustered.tessa.clonalstats/Rarefaction-Curve.png",
+            "download": [],
+            "descr": "This rarefaction curve illustrates the number of unique clones as a function of the number of cells. The x-axis represents the number of cells, while the y-axis denotes the number of unique clones. The solid line represents the observed number of unique clones, while the dashed line represents the expected number of unique clones. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Rarefaction Curve"
+          }
+        ]
+      }
+    }
+  }
+}

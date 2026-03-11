@@ -1,0 +1,453 @@
+# print some extra information while running
+loglevel = "debug"
+# specify the output directory for the pipeline
+outdir = "./output"
+
+[plugin_opts]
+# use the fancy theme for the diagrams
+diagram_theme = "fancy"
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SampleInfo.envs.stats.Sample_Diagnosis]
+# plot # samples by Diagnosis
+x = "Diagnosis"
+
+[SampleInfo.envs.stats.Sample_Sex_Diagnosis]
+# plot # samples by Diagnosis for each Sex
+x = "Diagnosis"
+group_by = "Sex"
+
+[SampleInfo.envs.stats.Age_Distribution]
+# plot the distribution of Age
+x = "Age"
+plot_type = "histogram"
+
+[SampleInfo.envs.stats.Age_By_Diagnosis]
+# plot Age by Diagnosis
+x = "Age"
+group_by = "Diagnosis"
+
+[SeuratPreparing.envs]
+ncores = 4
+cell_qc = "nFeature_RNA > 200 & percent.mt < 5"
+# use the scDblFinder doublet detector
+doublet_detector = "scDblFinder"
+
+[SeuratClusteringOfAllCells.envs]
+ncores = 8
+
+  [SeuratClusteringOfAllCells.envs.FindClusters]
+  resolution = 1.6
+
+[ClusterMarkersOfAllCells.envs]
+ncores = 4
+
+[TopExpressingGenesOfAllCells]
+forks = 2
+
+[TOrBCellSelection.envs]
+indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]
+
+[ModuleScoreCalculator.envs.modules.Activation]
+features = "IFNG"
+
+[ModuleScoreCalculator.envs.modules.Proliferation]
+features = "STMN1,TUBB"
+
+[SeuratClustering.envs]
+ncores = 8
+
+[CellTypeAnnotation.envs]
+tool = "celltypist"
+newcol = "celltype_annotation"
+merge = true
+
+  [CellTypeAnnotation.envs.celltypist_args]
+  model = "data/Immune_All_Low.pkl"
+
+[SeuratMap2Ref.envs]
+ncores = 8
+ref = "prepared-data/pbmc_multimodal_2023.rds"
+use = "celltype.l2"
+# Use a different column to store the mapped cell types
+# So seurat_clusters from clustering/annotation will not be overwritten
+ident = "seurat_ref_annotations"
+
+[SeuratMap2Ref.envs.MapQuery]
+reduction-model = "wnn.umap"
+
+[ClusterMarkers.envs]
+ncores = 8
+dbs = ["MSigDB_Hallmark_2020"]
+
+[ClusterMarkers.envs.marker_plots."Volcano Plot (diff_pct)"]
+# See https://pwwang.github.io/scplotter/reference/MarkersPlot.html
+plot_type = "volcano_pct"
+
+[ClusterMarkers.envs.marker_plots."Volcano Plot (log2FC)"]
+plot_type = "volcano_log2fc"
+
+[ClusterMarkers.envs.marker_plots."Dot Plot"]
+plot_type = "dot"
+order_by = "desc(avg_log2FC)"
+
+# We can also visualize expressions
+[ClusterMarkers.envs.marker_plots."Heatmap of Expressions of Top Markers"]
+plot_type = "heatmap"
+order_by = "desc(avg_log2FC)"
+
+[ClusterMarkers.envs.marker_plots."Violin Plots for Top Markers"]
+plot_type = "violin"
+devpars = {width = 640}
+
+# Visualize enrichment of markers
+[ClusterMarkers.envs.enrich_plots."Bar Plot"]  # Default
+# https://pwwang.github.io/scplotter/reference/EnrichmentPlot.html
+plot_type = "bar"
+
+[ClusterMarkers.envs.enrich_plots."Network"]
+plot_type = "network"
+
+[ClusterMarkers.envs.enrich_plots."Enrichmap"]
+plot_type = "enrichmap"
+
+[ClusterMarkers.envs.enrich_plots."Word Cloud"]
+plot_type = "wordcloud"
+
+# Visualize all markers together of all clusters together
+[ClusterMarkers.envs.allmarker_plots."Top 10 markers of all clusters"]
+# See https://pwwang.github.io/scplotter/reference/MarkersPlot.html
+plot_type = "heatmap"
+
+[ClusterMarkers.envs.allmarker_plots."Log2FC of all clusters"]
+plot_type = "heatmap_log2fc"
+subset_by = "seurat_ref_annotations"
+values_fill = 0
+
+[ClusterMarkers.envs.allmarker_plots."Jitter Plots for all clusters"]
+plot_type = "jitter"
+subset_by = "seurat_ref_annotations"
+devpars = {width = 640, height = 480}
+
+# Visualize all enrichments together of all clusters together
+[ClusterMarkers.envs.allenrich_plots."Heatmap of enriched terms of all clusters"]
+plot_type = "heatmap"
+
+[TopExpressingGenes.envs]
+dbs = [ "KEGG_2021_Human" ]
+
+[CDR3Clustering]
+forks = 1  # just to enable CDR3Clustering
+
+[TESSA.envs]
+predefined_b = true
+max_iter = 10
+
+[SeuratClusterStats.envs.clustrees."Clustree Plot"]
+prefix = "seurat_clusters"
+devpars = {height = 500}
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster (Bar Chart)"]
+plot_type = "bar"
+x_text_angle = 90
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Sample (Bar Chart)"]
+plot_type = "bar"
+group_by = "Sample"
+x_text_angle = 90
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Diagnosis"]
+plot_type = "bar"
+group_by = "Diagnosis"
+frac = "group"
+x_text_angle = 90
+swap = true
+position = "stack"
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Diagnosis (Circos Plot)"]
+plot_type = "circos"
+group_by = "Diagnosis"
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Diagnosis (Sankey Plot)"]
+plot_type = "sankey"
+group_by = ["seurat_clusters", "Diagnosis"]
+links_alpha = 0.6
+devpars = {width = 800}
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster by Sample (Spider Plot)"]
+plot_type = "spider"
+group_by = "Diagnosis"
+palette = "Set1"
+
+[SeuratClusterStats.envs.ngenes."Number of genes detected in each cluster"]
+plot_type = "violin"
+add_box = true
+add_point = true
+
+[SeuratClusterStats.envs.features_defaults]
+features = ["CD3D", "CD4", "CD8A", "MS4A1", "CD14", "LYZ", "FCGR3A", "NCAM1", "KLRD1"]
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters (Violin Plots)"]
+plot_type = "violin"
+ident = "seurat_clusters"
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters (Ridge Plots)"]
+plot_type = "ridge"
+ident = "seurat_clusters"
+flip = true
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters by Diagnosis"]
+plot_type = "violin"
+group_by = "Diagnosis"
+ident = "seurat_clusters"
+comparisons = true
+sig_label = "p.signif"
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters (stacked)"]
+plot_type = "violin"
+ident = "seurat_clusters"
+add_bg = true
+stack = true
+add_box = true
+
+[SeuratClusterStats.envs.features."CD4 Expression on UMAP"]
+plot_type = "dim"
+feature = "CD4"
+highlight = "seurat_clusters == 'c1'"
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters by Diagnosis (Heatmap)"]
+# Grouped features
+features = {"T cell markers" = ["CD3D", "CD4", "CD8A"], "B cell markers" = ["MS4A1"], "Monocyte markers" = ["CD14", "LYZ", "FCGR3A"], "NK cell markers" = ["NCAM1", "KLRD1"]}
+plot_type = "heatmap"
+ident = "Diagnosis"
+columns_split_by = "seurat_clusters"
+name = "Expression"
+devpars = {height = 560}
+
+[SeuratClusterStats.envs.features."Feature Expression in Clusters by Diagnosis (Heatmap with annotations)"]
+ident = "seurat_clusters"
+cell_type = "dot"
+plot_type = "heatmap"
+name = "Expression Level"
+dot_size = "nanmean"
+dot_size_name = "Percent Expressed"
+add_bg = true
+rows_split_by = "Diagnosis"
+cluster_rows = false
+flip = true
+palette = "YlOrRd"
+column_annotation = ["percent.mt", "VDJ_Presence"]
+column_annotation_type = {"percent.mt" = "violin", VDJ_Presence = "pie"}
+column_annotation_params = {"percent.mt" = {show_legend = false}}
+devpars = {width = 1400, height = 900}
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot"]
+label = true
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot (map-to-ref annotations)"]
+label = true
+group_by = "seurat_ref_annotations"
+reduction = "ref.umap"
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot (with marks)"]
+add_mark = true
+mark_linetype = 2
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot (with hex bins)"]
+hex = true
+hex_bins = 50
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot (with Diagnosis stats)"]
+stat_by = "Diagnosis"
+stat_plot_type = "ring"
+stat_plot_size = 0.15
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot by Diagnosis"]
+facet_by = "Diagnosis"
+highlight = true
+theme = "theme_blank"
+
+[ClonalStats.envs.cases."Clonal Volume"]
+viz_type = "volume"
+x_text_angle = 45
+
+[ClonalStats.envs.cases."Clonal Volume by Diagnosis"]
+viz_type = "volume"
+x = "seurat_clusters"
+group_by = "Diagnosis"
+comparisons = true
+
+[ClonalStats.envs.cases."Clonal Abundance"]
+viz_type = "abundance"
+
+[ClonalStats.envs.cases."Clonal Abundance Density"]
+viz_type = "abundance"
+plot_type = "density"
+
+[ClonalStats.envs.cases."CDR3 Length"]
+viz_type = "length"
+
+[ClonalStats.envs.cases."CDR3 Length (Beta Chain)"]
+viz_type = "length"
+chain = "TRB"
+
+[ClonalStats.envs.cases."Clonal Residency"]
+viz_type = "residency"
+group_by = "Diagnosis"
+chain = "TRB"
+clone_call = "gene"
+groups = ["Colitis", "NoColitis"]
+
+[ClonalStats.envs.cases."Clonal Residency (UpSet Plot)"]
+viz_type = "residency"
+plot_type = "upset"
+group_by = "Diagnosis"
+chain = "TRB"
+clone_call = "gene"
+groups = ["Colitis", "NoColitis"]
+devpars = {width = 800}
+
+[ClonalStats.envs.cases."Clonal Statistics with Expanded Clones"]
+viz_type = "stat"
+plot_type = "pies"
+group_by = "Diagnosis"
+groups = ["Colitis", "NoColitis"]
+clones = {"Expanded Clones In Colitis" = "sel(Colitis > 2, group_by = 'Diagnosis')", "Expanded Clones In NoColitis" = "sel(NoColitis > 2, group_by = 'Diagnosis')"}
+values_fill = 0
+subgroup_by = "seurat_clusters"
+pie_size = "sqrt"
+show_row_names = true
+show_column_names = true
+devpars = {width = 720}
+
+[ClonalStats.envs.cases."Hyperexpanded Clonal Dynamics"]
+viz_type = "stat"
+plot_type = "sankey"
+group_by = "Diagnosis"
+chain = "TRB"
+groups = ["Colitis", "NoColitis"]
+clones = {"Hyper-Expanded Clones In Colitis" = "sel(Colitis > 5, group_by = 'Diagnosis')", "Hyper-Expanded Clones In NoColitis" = "sel(NoColitis > 5, group_by = 'Diagnosis')"}
+devpars = {width = 800}
+
+[ClonalStats.envs.cases."Clonal Composition"]
+viz_type = "composition"
+x_text_angle = 45
+
+[ClonalStats.envs.cases."Clonal Overlapping"]
+viz_type = "overlap"
+chain = "TRB"
+clone_call = "gene"
+
+[ClonalStats.envs.cases."Clonal Diversity"]
+# method = "shannon"  # default
+viz_type = "diversity"
+x_text_angle = 45
+
+[ClonalStats.envs.cases."Clonal Diversity (gini.coeff, by Diagnosis)"]
+method = "gini.coeff"
+viz_type = "diversity"
+plot_type = "box"
+group_by = "Diagnosis"
+comparisons = true
+devpars = {height = 600, width = 600}
+
+[ClonalStats.envs.cases."Gene Usage Frequency"]
+viz_type = "geneusage"
+devpars = {width = 1200}
+
+[ClonalStats.envs.cases."Positional amino acid frequency"]
+viz_type = "positional"
+# method = "AA"  # default
+devpars = {width = 1600}
+
+[ClonalStats.envs.cases."Positional shannon entropy"]
+viz_type = "positional"
+method = "shannon"
+devpars = {width = 1200}
+
+[ClonalStats.envs.cases."3-Mer Frequency"]
+viz_type = "kmer"
+k = 3  # default is 3
+devpars = {width = 800}
+
+[ClonalStats.envs.cases."Rarefaction Curve"]
+viz_type = "rarefaction"
+
+[ScFGSEA.envs]
+group_by = "Diagnosis"
+ident_1 = "Colitis"
+ident_2 = "Control"
+each = "seurat_clusters"
+
+[ScFGSEA.envs.alleach_plots.Heatmap]
+plot_type = "heatmap"
+group_by = "Diagnosis"
+
+[ScFGSEA.envs.alleach_plots.DotPlot]
+plot_type = "dot"
+group_by = "Diagnosis"
+
+[MarkersFinder.envs]
+# No ident_1 specified, will do one-vs-rest for all Diagnosis
+group_by = "Diagnosis"
+dbs = [ "KEGG_2021_Human" ]
+
+[MarkersFinder.envs.cases.c1]
+subset = 'seurat_clusters == "c1"'
+
+[MarkersFinder.envs.cases.c2]
+subset = 'seurat_clusters == "c2"'
+
+[MarkersFinder.envs.overlaps."Overlapping Markers between c1 and c2"]
+plot_type = "venn"
+
+[CellCellCommunicationPlots.envs.cases."Cell-Cell Communication Network"]
+plot_type = "network"
+legend-position = "none"
+theme = "theme_blank"
+theme_args = {add_coord = false}
+
+[CellCellCommunicationPlots.envs.cases."Cell-Cell Communication Circos Plot"]
+plot_type = "circos"
+
+[CellCellCommunicationPlots.envs.cases."Cell-Cell Communication Heatmap"]
+plot_type = "heatmap"
+
+[CellCellCommunicationPlots.envs.cases."Cell-Cell Communication Interaction (Box Plot)"]
+plot_type = "box"
+x_text_angle = 90
+method = "interaction"
+
+[CDR3AAPhyschem.envs]
+group = "celltype_annotation"
+target = "Treg"
+
+  [CDR3AAPhyschem.envs.comparison]
+  Tconv = [
+    "Trm cytotoxic T cells",
+    "Tem/Trm cytotoxic T cells",
+  ]
+  Treg = [
+    "Regulatory T cells",
+  ]
+
+[ScrnaMetabolicLandscape]
+gmtfile = "data/KEGG_metabolism.short.gmt"
+group_by = "seurat_clusters"
+subset_by = "Diagnosis"
+
+[MetabolicPathwayActivity.envs.plots."Pathway Activity (merged heatmap)"]
+plot_type = "merged_heatmap"
+cluster_columns = false
+
+[MetabolicFeatures.envs.plots."Summary Plots of all clusters"]
+level = "case"
+
+[MetabolicFeatures.envs.plots."Summary Plots of all comparisons"]
+level = "subset"
+
+[MetabolicFeaturesIntraSubset.plugin_opts]
+report_paging = 5

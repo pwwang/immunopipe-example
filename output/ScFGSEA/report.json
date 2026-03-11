@@ -1,0 +1,562 @@
+{
+  "seurat_clusters": {
+    "c1": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c1/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c1/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c1/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c2": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c2/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c2/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c2/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c3": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c3/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c3/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c3/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c4": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c4/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c4/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c4/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c5": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c5/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c5/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c5/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c6": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c6/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c6/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c6/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c7": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c7/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c7/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c7/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c8": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c8/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c8/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c8/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c9": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c9/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c9/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c9/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c10": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c10/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c10/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c10/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "c11": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Table (Colitis vs Control)",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 50 pathways by padj in descending order. Use 'Download the entire data' button to download all pathways."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c11/fgsea.tsv",
+                "data": {
+                  "nrows": 50
+                }
+              }
+            ]
+          },
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c11/summary.png"
+              }
+            ]
+          },
+          {
+            "name": "GSEA Plots",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 20 pathways."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/seurat_clusters/c11/pathways.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "GSEA (all seurat_clusters)": {
+    "Heatmap": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Pathways for all seurat_clusters."
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/GSEA-all-seurat_clusters-/all.Heatmap.png"
+          }
+        ]
+      }
+    },
+    "DotPlot": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Pathways for all seurat_clusters."
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/ScFGSEA/samples.fgsea/GSEA-all-seurat_clusters-/all.DotPlot.png"
+          }
+        ]
+      }
+    }
+  }
+}

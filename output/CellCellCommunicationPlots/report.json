@@ -1,0 +1,62 @@
+{
+  "Cell-Cell Communication Network": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/CellCellCommunicationPlots/samples.scRep.tcr_clustered.tessa-ccc_plots/Cell-Cell-Communication-Network.png",
+            "download": [],
+            "descr": "Cell-cell communication plot",
+            "name": "Cell-Cell Communication Network"
+          }
+        ]
+      }
+    }
+  },
+  "Cell-Cell Communication Circos Plot": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/CellCellCommunicationPlots/samples.scRep.tcr_clustered.tessa-ccc_plots/Cell-Cell-Communication-Circos-Plot.png",
+            "download": [],
+            "descr": "Cell-cell communication plot",
+            "name": "Cell-Cell Communication Circos Plot"
+          }
+        ]
+      }
+    }
+  },
+  "Cell-Cell Communication Heatmap": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/CellCellCommunicationPlots/samples.scRep.tcr_clustered.tessa-ccc_plots/Cell-Cell-Communication-Heatmap.png",
+            "download": [],
+            "descr": "Cell-cell communication plot",
+            "name": "Cell-Cell Communication Heatmap"
+          }
+        ]
+      }
+    }
+  },
+  "Cell-Cell Communication Interaction (Box Plot)": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/CellCellCommunicationPlots/samples.scRep.tcr_clustered.tessa-ccc_plots/Cell-Cell-Communication-Interaction-Box-Plot-.png",
+            "download": [],
+            "descr": "Cell-cell communication plot",
+            "name": "Cell-Cell Communication Interaction (Box Plot)"
+          }
+        ]
+      }
+    }
+  }
+}

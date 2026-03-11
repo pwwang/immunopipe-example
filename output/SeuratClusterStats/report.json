@@ -1,0 +1,394 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VDJ Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for VDJ_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/VDJ-Presence.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/VDJ-Presence.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot (map-to-ref annotations)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-map-to-ref-annotations-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-map-to-ref-annotations-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot (with marks)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-marks-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-marks-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot (with hex bins)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-hex-bins-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-hex-bins-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot (with Diagnosis stats)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-Diagnosis-stats-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-with-Diagnosis-stats-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot by Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_ref_annotations"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-by-Diagnosis.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/dimplots/Dimensional-reduction-plot-by-Diagnosis.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Clustree plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The clustree plots displays clustering results from the Seurat object across different\n                resolutions of the clustering algorithm\n                (<a target=\"_blank\" href=\"https://satijalab.org/seurat/reference/findclusters\">Seurat::FindClusters<\/a>).\n                Each node represents a cluster, with the resolution levels labeled along the vertical (y) axis.\n                The size of each node reflects the number of cells in that cluster. Edges connect clusters between\n                adjacent resolutions and indicate how cells transition between clusters as resolution increases.\n                The thickness of the edges corresponds to the proportion of shared cells (in_prop) between clusters,\n                where darker lines signify a higher overlap (up to 100%). The color of the edges indicates the actual\n                number of cells that transitioned between clusters."
+          }
+        ],
+        "table_of_images": [
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/clustrees/seurat_clusters.clustree.png",
+            "descr": "Resolutions: 0.8; resolution used: 0.8"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_ref_annotations'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Diagnosis.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Diagnosis (Circos Plot)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The circos plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by Diagnosis. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Diagnosis-Circos-Plot-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Diagnosis (Sankey Plot)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The sankey plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by seurat_clusters. The values represent the number of cells. ", "The sankey plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by Diagnosis. The values represent the number of cells. "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Diagnosis-Sankey-Plot-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Spider Plot)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The spider plot shows the distribution of cells across categories defined by 'seurat_ref_annotations', grouped by Diagnosis. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Spider-Plot-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes detected in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes detected in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/ngenes/Number-of-genes-detected-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters (Violin Plots)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells, identified by \"seurat_clusters\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-Violin-Plots-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters (Ridge Plots)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells, identified by \"seurat_clusters\". The plot type is 'ridge', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-Ridge-Plots-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters by Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells, identified by \"seurat_clusters\", grouped by \"Diagnosis\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. Statistical comparisons were performed between groups using \"wilcox.test\" method."
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-by-Diagnosis.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters (stacked)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells, identified by \"seurat_clusters\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-stacked-.png"
+          }
+        ]
+      }
+    }
+  },
+  "CD4 Expression on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells. The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"ref.umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/CD4-Expression-on-UMAP.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters by Diagnosis (Heatmap)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (c(\"CD3D\", \"CD4\", \"CD8A\"), MS4A1, c(\"CD14\", \"LYZ\", \"FCGR3A\"), c(\"NCAM1\", \"KLRD1\")) across cells, identified by \"Diagnosis\". The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-by-Diagnosis-Heatmap-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Feature Expression in Clusters by Diagnosis (Heatmap with annotations)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD3D, CD4, CD8A, MS4A1, CD14, LYZ, FCGR3A, NCAM1, KLRD1) across cells, identified by \"seurat_clusters\". The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/SeuratClusterStats/samples.scRep.tcr_clustered.tessa.cluster_stats/features/Feature-Expression-in-Clusters-by-Diagnosis-Heatmap-with-annotations-.png"
+          }
+        ]
+      }
+    }
+  }
+}

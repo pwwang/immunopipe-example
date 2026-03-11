@@ -1,0 +1,88 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VDJ Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for VDJ_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/minimal/SeuratClusterStats/samples.scRep.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  }
+}
