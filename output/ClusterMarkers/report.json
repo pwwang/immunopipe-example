@@ -1,0 +1,1564 @@
+{
+  "Cluster": {
+    "seurat_ref_annotations: CD4 TCM": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TCM/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: gdT": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-gdT/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: CD4 TEM": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-TEM/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: Plasmablast": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Plasmablast/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: NK_CD56bright": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK_CD56bright/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: CD8 TCM": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD8-TCM/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: Platelet": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Platelet/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: ILC": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-ILC/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: B intermediate": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-intermediate/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: B naive": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-B-naive/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: CD4 Proliferating": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Proliferating/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: NK": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-NK/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: Doublet": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-Doublet/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations: CD4 Naive": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/markers.Dot-Plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmap of Expressions of Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/markers.Heatmap-of-Expressions-of-Top-Markers.png"
+              }
+            ]
+          },
+          {
+            "name": "Violin Plots for Top Markers",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/markers.Violin-Plots-for-Top-Markers.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'MSigDB_Hallmark_2020', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/enrich.MSigDB_Hallmark_2020.Bar-Plot.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/enrich.MSigDB_Hallmark_2020.Network.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/enrich.MSigDB_Hallmark_2020.Enrichmap.png"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-CD4-Naive/enrich.MSigDB_Hallmark_2020.Word-Cloud.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations (All Markers)": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Top 10 markers of all clusters",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-All-Markers/Top-10-markers-of-all-clusters.png"
+              }
+            ]
+          },
+          {
+            "name": "Log2FC of all clusters",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-All-Markers/Log2FC-of-all-clusters.png"
+              }
+            ]
+          },
+          {
+            "name": "Jitter Plots for all clusters",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-All-Markers/Jitter-Plots-for-all-clusters.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_ref_annotations (All Enrichments)": {
+      "Heatmap of enriched terms of all clusters": {
+        "tabs": [
+          {
+            "name": "MSigDB_Hallmark_2020",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/ClusterMarkers/samples.markers/Cluster/seurat_ref_annotations-All-Enrichments/allenrich.MSigDB_Hallmark_2020.Heatmap-of-enriched-terms-of-all-clusters.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

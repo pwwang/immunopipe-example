@@ -1,0 +1,16 @@
+# With T-cell selection, but no TCR data
+name = "ImmunopipeWSNoTCR"
+outdir = "./output-ws-notcr"
+
+[plugin_opts]
+diagram_theme = "fancy"
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples-notcr.txt" ]
+
+[SeuratPreparing.envs]
+cell_qc = "nFeature_RNA > 200 & percent.mt < 5"
+
+[TOrBCellSelection.envs]
+indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]

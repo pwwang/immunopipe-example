@@ -1,0 +1,4 @@
+.Group	TotalCells	CellsPerGroup	AvailCellsPerGroup	AvailCellsPct
+Tconv	11309	3396	NA	NA%
+Treg	11309	1921	NA	NA%
+NA	11309	5992	NA	NA%

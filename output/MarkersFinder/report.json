@@ -1,0 +1,504 @@
+{
+  "c1": {
+    "Diagnosis: Colitis": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Colitis/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: Control": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Control/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: NoColitis": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-NoColitis/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis (Overlaps)": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Overlapping Markers between c1 and c2",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c1/Diagnosis-Overlaps/Overlapping-Markers-between-c1-and-c2.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "c2": {
+    "Diagnosis: Colitis": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Colitis/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: Control": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Control/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis: NoColitis": {
+      "Markers": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top 100 markers ordered by p_val_adj ascendingly, then abs(avg_log2FC) descendingly. Use 'Download the entire data' button to download all significant markers by 'p_val_adj &lt; 0.05'."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/sigmarkers.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (diff_pct)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/markers.Volcano-Plot-diff_pct.png"
+              }
+            ]
+          },
+          {
+            "name": "Volcano Plot (log2FC)",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/markers.Volcano-Plot-log2FC.png"
+              }
+            ]
+          },
+          {
+            "name": "Dot Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/markers.Dot-Plot.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The bar plot shows the top enriched terms in database 'KEGG_2021_Human', the x-axis shows the -log10 of the adjusted p-values, and the y-axis shows the term names. The number next to each bar indicates the overlap gene count."
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-NoColitis/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Diagnosis (Overlaps)": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Overlapping Markers between c1 and c2",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MarkersFinder/samples.markers/c2/Diagnosis-Overlaps/Overlapping-Markers-between-c1-and-c2.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

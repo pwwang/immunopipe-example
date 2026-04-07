@@ -1,0 +1,65 @@
+{
+  "Sample Information": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The samples used in the analysis. Each row is a sample, and columns are the meta information about the sample. This is literally the input sample information file, but the paths to the scRNA-seq and scTCR-seq data are hidden.",
+            "once": true
+          },
+          {
+            "kind": "table",
+            "pageSize": 50,
+            "data": {
+              "file": "/mnt/disks/.cwd/output/SampleInfo/samples.txt",
+              "sep": "\t",
+              "excluded": ["TCRData", "BCRData", "RNAData"]
+            },
+            "src": false
+          }
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/SampleInfo/Sample_Diagnosis.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SampleInfo/Sample_Diagnosis.png",
+              "/mnt/disks/.cwd/output/SampleInfo/Sample_Diagnosis.png"
+            ]
+          },
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/SampleInfo/Sample_Sex_Diagnosis.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SampleInfo/Sample_Sex_Diagnosis.png",
+              "/mnt/disks/.cwd/output/SampleInfo/Sample_Sex_Diagnosis.png"
+            ]
+          },
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/SampleInfo/Age_Distribution.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SampleInfo/Age_Distribution.png",
+              "/mnt/disks/.cwd/output/SampleInfo/Age_Distribution.png"
+            ]
+          },
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/output/SampleInfo/Age_By_Diagnosis.png",
+            "download": [
+              "/mnt/disks/.cwd/output/SampleInfo/Age_By_Diagnosis.png",
+              "/mnt/disks/.cwd/output/SampleInfo/Age_By_Diagnosis.png"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

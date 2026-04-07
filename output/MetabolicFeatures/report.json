@@ -1,0 +1,2652 @@
+{
+  "Diagnosis: Colitis": {
+    "seurat_clusters: c8 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c11 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c6 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c1 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c3 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c7 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c5 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c9 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c4 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c2 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c10 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Summary plots for all comparisons": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Summary Plots of all comparisons"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/Summary-Plots-of-all-comparisons.png",
+            "download": [
+              "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Colitis/Summary-Plots-of-all-comparisons.png"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Diagnosis: NoColitis": {
+    "seurat_clusters: c3 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c3_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c2 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c2_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c6 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c6_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c8 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c8_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c5 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c5_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c7 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Inositol-phosphate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c7_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c4 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c4_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c1 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c1_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c11 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c11_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c10 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c10_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c9 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/seurat_clusters_c9_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Summary plots for all comparisons": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Summary Plots of all comparisons"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/Summary-Plots-of-all-comparisons.png",
+            "download": [
+              "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_NoColitis/Summary-Plots-of-all-comparisons.png"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Diagnosis: Control": {
+    "seurat_clusters: c8 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c8_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c3 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c3_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c2 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c2_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c1 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c1_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c4 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Fatty-acid-degradation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c4_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c5 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c5_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c6 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Starch-and-sucrose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c6_vs_REST/Enrichment-Plots.Amino-sugar-and-nucleotide-sugar-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c10 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Sulfur-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Nitrogen-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c10_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c7 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Fructose-and-mannose-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c7_vs_REST/Enrichment-Plots.Galactose-metabolism.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c11 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Ascorbate-and-aldarate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fatty-acid-biosynthesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c11_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seurat_clusters: c9 vs REST": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "A summary table of the GSEA results"
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/fgsea_results.txt"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Summary Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Summary Plot"
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Summary-Plot.png",
+                "download": [
+                  "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Summary-Plot.png"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enrichment Plots",
+            "ui": "table_of_images:2",
+            "contents": [
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Oxidative-phosphorylation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glycolysis-Gluconeogenesis.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-and-glucuronate-interconversions.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Citrate-cycle-TCA-cycle.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Glyoxylate-and-dicarboxylate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pyruvate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Fatty-acid-elongation.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Propanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Butanoate-metabolism.png"
+              },
+              {
+                "kind": "table_image",
+                "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/seurat_clusters_c9_vs_REST/Enrichment-Plots.Pentose-phosphate-pathway.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Summary plots for all comparisons": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Summary Plots of all comparisons"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/Summary-Plots-of-all-comparisons.png",
+            "download": [
+              "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Diagnosis_Control/Summary-Plots-of-all-comparisons.png"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Summary plots for all subsets": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Summary Plots of all clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Summary-Plots-of-all-clusters.png",
+            "download": [
+              "/mnt/disks/.cwd/output/MetabolicFeatures/samples.scRep.tcr_clustered.tessa.pathwayfeatures/Diagnosis/Summary-Plots-of-all-clusters.png"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

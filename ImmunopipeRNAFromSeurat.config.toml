@@ -1,0 +1,16 @@
+name = "ImmunopipeRNAFromSeurat"
+outdir = "./rna-from-seurat"
+
+[LoadingRNAFromSeurat.in]
+infile = "prepared-data/pbmc_multimodal_2023.rds"
+
+[LoadingRNAFromSeurat.envs]
+clustered = true
+sample = "orig.ident"
+
+[SeuratClusterStats.envs.dimplots."Dimensional reduction plot"]
+# Not the default seurat_clusters anymore
+group_by = "celltype.l1"
+
+[ClusterMarkers.envs]
+group_by = "celltype.l1"

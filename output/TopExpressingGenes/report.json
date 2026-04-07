@@ -1,0 +1,803 @@
+{
+  "Cluster": {
+    "CD4 TCM": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TCM/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TCM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TCM/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "gdT": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/gdT/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/gdT/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/gdT/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "CD4 TEM": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TEM/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TEM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-TEM/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Plasmablast": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Plasmablast/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Plasmablast/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Plasmablast/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "NK_CD56bright": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK_CD56bright/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK_CD56bright/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK_CD56bright/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "CD8 TCM": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-TCM/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-TCM/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-TCM/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Platelet": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Platelet/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Platelet/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Platelet/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ILC": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/ILC/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/ILC/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/ILC/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "B intermediate": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-intermediate/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-intermediate/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-intermediate/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "B naive": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-naive/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-naive/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/B-naive/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "CD4 Proliferating": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Proliferating/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Proliferating/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Proliferating/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "NK": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/NK/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Doublet": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Doublet/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Doublet/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/Doublet/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dnT": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/dnT/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/dnT/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/dnT/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "MAIT": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/MAIT/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/MAIT/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/MAIT/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "CD4 Naive": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Naive/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Naive/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD4-Naive/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "CD8 Naive": {
+      "Top Genes": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Showing top expressing genes ordered by their expression descendingly."
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-Naive/top_genes.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "Enrichment Analysis": {
+        "tabs": [
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-Naive/enrich.tsv",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          },
+          {
+            "name": "KEGG_2021_Human",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/output/TopExpressingGenes/samples.seurat.annotated.top_expressing_genes/Cluster/CD8-Naive/enrich.KEGG_2021_Human.Bar-Plot.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
